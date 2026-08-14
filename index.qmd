@@ -17,6 +17,23 @@ listing:
   image-height: "172px"
 ---
 
+::: {layout-ncol=4 .mosaico}
+![](fotos/sdd-2026-plateia.jpg){alt="SDD 2026 — plateia"}
+
+![](fotos/sdd-2026-palestra-ia-na-docencia.jpg){alt="SDD 2026 — palestra IA na docência"}
+
+![](fotos/projeto-move-encontro-na-afya.jpg){alt="Projeto MOVE — encontro na Afya"}
+
+![](fotos/projeto-move-dinamica-em-grupo.jpg){alt="Projeto MOVE — dinâmica em grupo"}
+:::
+
+::: {.numero-grid}
+<div class='numero'><b>81h</b><span>de formação docente</span></div>
+<div class='numero'><b>113</b><span>docentes na SDD</span></div>
+<div class='numero'><b>57</b><span>em capacitação contínua</span></div>
+<div class='numero'><b>10</b><span>cursos alcançados</span></div>
+:::
+
 Cada cartão abaixo é uma ação registrada. Use a busca ou os filtros ao lado
 para encontrar por mês, por eixo de atuação ou por palavra do título.
 

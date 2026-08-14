@@ -288,3 +288,24 @@ video {
   figure.figure > img,
   .quarto-layout-cell figure img { height: 190px; }
 }
+
+// --- mosaico da capa ------------------------------------------------------
+// Reproduz o .mosaic do index.html antigo: fotos quadradas, borda branca.
+.mosaico figure { border: none; box-shadow: none; background: none; }
+.mosaico figure:hover { transform: none; box-shadow: none; }
+.mosaico img {
+  width: 100%;
+  aspect-ratio: 1;
+  height: auto !important;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 3px solid #fff;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .12);
+}
+
+// --- descrição duplicada no cabeçalho -------------------------------------
+// Nas ações, `description:` e `subtitle:` carregam a mesma frase de propósito:
+// o subtítulo aparece na página, a descrição alimenta o cartão da vitrine e as
+// prévias de link. No topo da página, porém, as duas juntas ficam repetidas —
+// então quando há subtítulo, a descrição não se mostra ali.
+.quarto-title-block:has(.subtitle) .description { display: none; }
