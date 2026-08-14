@@ -3,9 +3,10 @@ title: "Encontro com Professores Médicos para Alinhamento Semestral"
 subtitle: "Integração Docente"
 description: "Integração Docente"
 date: 2026-02-01
+ordem: 1
 categories: ["Fevereiro", "Gestão e Planejamento"]
 cursos: ["Medicina"]
-image: ../fotos/professor-celso-lasmar.jpg
+image: /fotos/professor-celso-lasmar.jpg
 image-alt: "Encontro com Professores Médicos para Alinhamento Semestral"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -27,13 +28,13 @@ Professores médicos, alinhamento do semestre, integração institucional.
 ## Evidências
 
 ::: {layout-ncol=3}
-![Professor Celso Lasmar](../fotos/professor-celso-lasmar.jpg)
+![Professor Celso Lasmar](/fotos/professor-celso-lasmar.jpg)
 
-![Professora Ana Luiza](../fotos/professora-ana-luiza.jpg)
+![Professora Ana Luiza](/fotos/professora-ana-luiza.jpg)
 
-![Médicas Laís e Ana Clara](../fotos/medicas-lais-e-ana-clara.jpg)
+![Médicas Laís e Ana Clara](/fotos/medicas-lais-e-ana-clara.jpg)
 
-![Médica Tauana](../fotos/medica-tauana.jpg)
+![Médica Tauana](/fotos/medica-tauana.jpg)
 
-![Professor Celso Lasmar](../fotos/professor-celso-lasmar-2.jpg)
+![Professor Celso Lasmar](/fotos/professor-celso-lasmar-2.jpg)
 :::

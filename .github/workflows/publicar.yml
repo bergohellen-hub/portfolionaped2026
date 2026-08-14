@@ -58,6 +58,20 @@ jobs:
       - name: Gerar o site
         run: quarto render
 
+      # A versão em PDF do manual sai da PRÓPRIA página, usando o CSS de
+      # impressão do site. Assim ela nunca fica diferente do que está no ar.
+      # Se falhar, não derruba a publicação — o site é o que importa.
+      - name: Gerar o manual em PDF
+        continue-on-error: true
+        run: |
+          python3 -m http.server 8899 --directory _site &
+          sleep 3
+          google-chrome --headless --disable-gpu --no-sandbox \
+            --no-pdf-header-footer \
+            --print-to-pdf="_site/manual.pdf" \
+            "http://localhost:8899/manual.html"
+          ls -la _site/manual.pdf
+
       - name: Preparar para o Pages
         uses: actions/configure-pages@v5
 

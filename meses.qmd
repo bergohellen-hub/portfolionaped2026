@@ -1,0 +1,51 @@
+---
+title: "Ações por mês"
+description: "O portfólio mês a mês."
+toc: false
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| output: asis
+# ---------------------------------------------------------------------------
+# Esta página não tem lista de meses escrita à mão, nem ano fixo no código.
+# Ela olha o prefixo ano-mês do nome dos arquivos em acoes/ e monta a grade,
+# agrupada por ano. Quando 2027 chegar, o ano novo aparece sozinho.
+# ---------------------------------------------------------------------------
+MESES <- c("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
+           "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
+
+arquivos <- list.files("acoes", pattern = "^[0-9]{4}-[0-9]{2}-.*\\.qmd$")
+prefixos <- substr(arquivos, 1, 7)
+contagem <- table(prefixos)
+
+anos <- sort(unique(substr(names(contagem), 1, 4)), decreasing = TRUE)
+
+for (ano in anos) {
+  se_ano <- names(contagem)[substr(names(contagem), 1, 4) == ano]
+  se_ano <- se_ano[order(as.integer(substr(se_ano, 6, 7)))]
+
+  if (length(anos) > 1) cat(sprintf("\n## %s\n\n", ano))
+
+  cat("```{=html}\n<div class=\"mes-grid\">")
+  for (ym in se_ano) {
+    n <- as.integer(contagem[[ym]])
+    m <- MESES[as.integer(substr(ym, 6, 7))]
+    cat(sprintf(
+      "<a class=\"mes-card\" href=\"meses/%s.html\"><span class=\"mes-nome\">%s</span><span class=\"mes-conta\">%d %s</span><span class=\"mes-seta\">&rarr;</span></a>",
+      ym, m, n, ifelse(n == 1, "ação", "ações")))
+  }
+  cat("</div>\n```\n\n")
+}
+```
+
+Cada mês reúne as ações daquele mês **daquele ano** — o filtro é o começo do
+nome do arquivo (`2026-05-…`), então meses de anos diferentes nunca se
+misturam.
+
+A mesma ação também aparece nos filtros por tema, na
+[página inicial](index.qmd) e no [Painel](dashboard.qmd) — sempre a partir
+de um único arquivo.

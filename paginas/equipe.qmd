@@ -14,15 +14,15 @@ O NAPED reúne a equipe responsável pelo apoio pedagógico e pela experiência 
  professores dos cursos de Medicina e das áreas de Saúde, Humanas e Exatas (SHE).
 
 ::: {layout-ncol=3}
-![**Hellen Bergo** Coordenadora do NAPED](../fotos/hellen-bergo.jpg)
+![**Hellen Bergo** Coordenadora do NAPED](/fotos/hellen-bergo.jpg)
 
-![**Alessandra de Carvalho** Pedagoga · Focal Preceptores e ENAMED](../fotos/alessandra-de-carvalho.jpg)
+![**Alessandra de Carvalho** Pedagoga · Focal Preceptores e ENAMED](/fotos/alessandra-de-carvalho.jpg)
 
-![**Dr. Daniel Riani** Médico e Docente · HAM e IESC](../fotos/dr-daniel-riani.jpg)
+![**Dr. Daniel Riani** Médico e Docente · HAM e IESC](/fotos/dr-daniel-riani.jpg)
 
-![**Dra. Cássia Castro** Docente (SOI) · Coordenadora Adjunta do Internato](../fotos/dra-cassia-castro.jpg)
+![**Dra. Cássia Castro** Docente (SOI) · Coordenadora Adjunta do Internato](/fotos/dra-cassia-castro.jpg)
 
-![**Pedro Delabrida** Médico e Docente · Especialista do eixo IESC](../fotos/pedro-delabrida.jpg)
+![**Pedro Delabrida** Médico e Docente · Especialista do eixo IESC](/fotos/pedro-delabrida.jpg)
 
-![**Rodrigo Lima** Docente SHE · Direito](../fotos/rodrigo-lima.jpg)
+![**Rodrigo Lima** Docente SHE · Direito](/fotos/rodrigo-lima.jpg)
 :::

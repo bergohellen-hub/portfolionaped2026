@@ -12,13 +12,13 @@ Iniciativa da Afya Nacional que estrutura o acompanhamento individualizado dos e
  escuta ativa, acolhimento e acompanhamento das trajetórias acadêmicas e emocionais dos estudantes.
 
 ::: {layout-ncol=3}
-![Mapa da Jornada — 4 Blocos da Mentoria](../fotos/mapa-da-jornada-4-blocos-da-mentoria.jpg)
+![Mapa da Jornada — 4 Blocos da Mentoria](/fotos/mapa-da-jornada-4-blocos-da-mentoria.jpg)
 
-![Treinamento dos mentores — encontro online](../fotos/treinamento-dos-mentores-encontro-online.jpg)
+![Treinamento dos mentores — encontro online](/fotos/treinamento-dos-mentores-encontro-online.jpg)
 
-![Dinâmica dos Encontros — estratégias e princípios](../fotos/dinamica-dos-encontros-estrategias-e-principios-2.jpg)
+![Dinâmica dos Encontros — estratégias e princípios](/fotos/dinamica-dos-encontros-estrategias-e-principios-2.jpg)
 
-![Metodologia de Sucesso](../fotos/metodologia-de-sucesso.jpg)
+![Metodologia de Sucesso](/fotos/metodologia-de-sucesso.jpg)
 :::
 
 ::: {.numero-grid}
@@ -51,9 +51,9 @@ A equipe de mentores mantém comunicação contínua para alinhamento metodológ
  materiais e apoio recíproco na condução dos encontros.
 
 ::: {layout-ncol=3}
-![Comunicação entre mentores — metodologia](../fotos/comunicacao-entre-mentores-metodologia.jpg)
+![Comunicação entre mentores — metodologia](/fotos/comunicacao-entre-mentores-metodologia.jpg)
 
-![Comunicação entre mentores — orientações](../fotos/comunicacao-entre-mentores-orientacoes.jpg)
+![Comunicação entre mentores — orientações](/fotos/comunicacao-entre-mentores-orientacoes.jpg)
 :::
 
 *Material Didático*
@@ -68,11 +68,11 @@ para explicar aos alunos os impactos
  da Medida Provisória 1.370/2026 sobre o ENAMED, o CRM e o acesso à Residência Médica.
 
 ::: {layout-ncol=3}
-![Slide — Mentoria Enamed, capa](../fotos/slide-mentoria-enamed-capa.jpg)
+![Slide — Mentoria Enamed, capa](/fotos/slide-mentoria-enamed-capa.jpg)
 
-![Slide — o dia em que as regras mudaram](../fotos/slide-o-dia-em-que-as-regras-mudaram.jpg)
+![Slide — o dia em que as regras mudaram](/fotos/slide-o-dia-em-que-as-regras-mudaram.jpg)
 
-![Slide — Matriz de Paradigma](../fotos/slide-matriz-de-paradigma.jpg)
+![Slide — Matriz de Paradigma](/fotos/slide-matriz-de-paradigma.jpg)
 :::
 
 Apresentação completa (9 slides) disponível na página de

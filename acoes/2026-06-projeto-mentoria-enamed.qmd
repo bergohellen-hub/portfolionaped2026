@@ -3,8 +3,9 @@ title: "Projeto Mentoria ENAMED"
 subtitle: "Formação de Mentores e Acompanhamento dos Estudantes"
 description: "Formação de Mentores e Acompanhamento dos Estudantes"
 date: 2026-06-01
+ordem: 2
 categories: ["Junho", "Mentoria", "ENAMED"]
-image: ../fotos/a-metodologia-de-sucesso.jpg
+image: /fotos/a-metodologia-de-sucesso.jpg
 image-alt: "Projeto Mentoria ENAMED"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -22,21 +23,21 @@ Mentoria, ENAMED, grupos reduzidos, escuta ativa, acompanhamento docente, NAPED/
 ## Evidências
 
 ::: {layout-ncol=3}
-![A Metodologia de Sucesso](../fotos/a-metodologia-de-sucesso.jpg)
+![A Metodologia de Sucesso](/fotos/a-metodologia-de-sucesso.jpg)
 
-![Dinâmica dos Encontros: Estratégias e Princípios](../fotos/dinamica-dos-encontros-estrategias-e-principios.jpg)
+![Dinâmica dos Encontros: Estratégias e Princípios](/fotos/dinamica-dos-encontros-estrategias-e-principios.jpg)
 
-![Encontro com Mentores](../fotos/encontro-com-mentores.jpg)
+![Encontro com Mentores](/fotos/encontro-com-mentores.jpg)
 
-![Encontro com Mentores](../fotos/encontro-com-mentores-2.jpg)
+![Encontro com Mentores](/fotos/encontro-com-mentores-2.jpg)
 
-![Reunião de Alinhamento](../fotos/reuniao-de-alinhamento.jpg)
+![Reunião de Alinhamento](/fotos/reuniao-de-alinhamento.jpg)
 
-![Relatório de Presença](../fotos/relatorio-de-presenca.jpg)
+![Relatório de Presença](/fotos/relatorio-de-presenca.jpg)
 
-![Grupo Mentores Medicina 2026](../fotos/grupo-mentores-medicina-2026.jpg)
+![Grupo Mentores Medicina 2026](/fotos/grupo-mentores-medicina-2026.jpg)
 
-![Grupo Mentores Medicina 2026](../fotos/grupo-mentores-medicina-2026-2.jpg)
+![Grupo Mentores Medicina 2026](/fotos/grupo-mentores-medicina-2026-2.jpg)
 
-![Grupo Mentores Medicina 2026](../fotos/grupo-mentores-medicina-2026-3.jpg)
+![Grupo Mentores Medicina 2026](/fotos/grupo-mentores-medicina-2026-3.jpg)
 :::

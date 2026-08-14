@@ -3,8 +3,9 @@ title: "Visita ao Internato Fora de Sede — Conselheiro Lafaiete"
 subtitle: "Acompanhamento de Campos de Prática"
 description: "Acompanhamento de Campos de Prática"
 date: 2026-03-01
+ordem: 2
 categories: ["Março", "Preceptoria", "Gestão e Planejamento"]
-image: ../fotos/upa-24h-dr-luiz-de-souza-dias.jpg
+image: /fotos/upa-24h-dr-luiz-de-souza-dias.jpg
 image-alt: "Visita ao Internato Fora de Sede — Conselheiro Lafaiete"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -22,7 +23,7 @@ Acompanhamento institucional, internato fora de sede, qualidade do campo de prá
 ## Evidências
 
 ::: {layout-ncol=2}
-![UPA 24h Dr. Luiz de Souza Dias](../fotos/upa-24h-dr-luiz-de-souza-dias.jpg)
+![UPA 24h Dr. Luiz de Souza Dias](/fotos/upa-24h-dr-luiz-de-souza-dias.jpg)
 
-![Hospital Queluz](../fotos/hospital-queluz.jpg)
+![Hospital Queluz](/fotos/hospital-queluz.jpg)
 :::

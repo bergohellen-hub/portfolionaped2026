@@ -3,8 +3,9 @@ title: "Projeto ENAMED"
 subtitle: "Avaliação Institucional & Edital nº 49/2026"
 description: "Avaliação Institucional & Edital nº 49/2026"
 date: 2026-04-01
+ordem: 3
 categories: ["Abril", "ENAMED"]
-image: ../fotos/reuniao-online-de-alinhamento-enade-2026-cursos-avaliados-ed.jpg
+image: /fotos/reuniao-online-de-alinhamento-enade-2026-cursos-avaliados-ed.jpg
 image-alt: "Projeto ENAMED"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -24,7 +25,7 @@ Reunião de alinhamento sobre o **Edital nº 49, de 24 de abril de 2026**, que d
 ## Evidências
 
 ::: {layout-ncol=2}
-![](../fotos/reuniao-online-de-alinhamento-enade-2026-cursos-avaliados-ed.jpg)
+![](/fotos/reuniao-online-de-alinhamento-enade-2026-cursos-avaliados-ed.jpg)
 
-![](../fotos/conversas-individuais-do-reitor-com-professores-da-medicina.jpg)
+![](/fotos/conversas-individuais-do-reitor-com-professores-da-medicina.jpg)
 :::
