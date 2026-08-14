@@ -1,0 +1,28 @@
+---
+title: "Encontro com Médicos e Reitoria"
+subtitle: "Integração Institucional & Escuta Ativa"
+description: "Integração Institucional & Escuta Ativa"
+date: 2026-04-01
+categories: ["Abril", "Gestão e Planejamento"]
+image: ../fotos/encontro-na-sala-do-naped-equipe-naped-reitoria-e-professore.jpg
+image-alt: "Encontro com Médicos e Reitoria"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+Encontro de alinhamento e integração institucional realizado na sala do NAPED, reunindo o Reitor,
+ a equipe do NAPED e professores médicos da instituição. Em um ambiente acolhedor, com café e conversa
+ próxima, o momento fortaleceu os vínculos entre gestão e docência, promovendo escuta ativa,
+ troca de percepções sobre o cotidiano acadêmico e o alinhamento de perspectivas para o
+ desenvolvimento do curso de Medicina.
+
+## Evidências
+
+::: {layout-ncol=2}
+![](../fotos/encontro-na-sala-do-naped-equipe-naped-reitoria-e-professore.jpg)
+
+![](../fotos/momento-de-escuta-e-proximidade-entre-reitoria-e-docentes.jpg)
+:::

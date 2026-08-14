@@ -1,0 +1,28 @@
+---
+title: "Visita ao Internato Fora de Sede — Conselheiro Lafaiete"
+subtitle: "Acompanhamento de Campos de Prática"
+description: "Acompanhamento de Campos de Prática"
+date: 2026-03-01
+categories: ["Março", "Preceptoria", "Gestão e Planejamento"]
+image: ../fotos/upa-24h-dr-luiz-de-souza-dias.jpg
+image-alt: "Visita ao Internato Fora de Sede — Conselheiro Lafaiete"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+Visita de acompanhamento institucional às unidades de campo de prática do internato médico em Conselheiro Lafaiete, incluindo a UPA 24h Dr. Luiz de Souza Dias e o Hospital Queluz, com o objetivo de verificar a infraestrutura disponível e o acolhimento dos internos nesses cenários de aprendizagem.
+
+::: {.destaque}
+Acompanhamento institucional, internato fora de sede, qualidade do campo de prática.
+:::
+
+## Evidências
+
+::: {layout-ncol=2}
+![UPA 24h Dr. Luiz de Souza Dias](../fotos/upa-24h-dr-luiz-de-souza-dias.jpg)
+
+![Hospital Queluz](../fotos/hospital-queluz.jpg)
+:::

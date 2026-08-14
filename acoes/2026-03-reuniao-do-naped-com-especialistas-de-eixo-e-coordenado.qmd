@@ -1,0 +1,24 @@
+---
+title: "Reunião do NAPED com Especialistas de Eixo e Coordenadora do NED"
+subtitle: "Construção do Memorial Docente"
+description: "Construção do Memorial Docente"
+date: 2026-03-01
+categories: ["Março", "Gestão e Planejamento"]
+image: ../fotos/reuniao-naped-especialistas-de-eixo-e-ned.jpg
+image-alt: "Reunião do NAPED com Especialistas de Eixo e Coordenadora do NED"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+Reunião de alinhamento entre o NAPED, os especialistas de eixo e a coordenadora do NED, com foco na construção e padronização do memorial docente, fortalecendo a integração entre os setores e a qualidade da documentação pedagógica institucional.
+
+::: {.destaque}
+Memorial docente, alinhamento institucional, especialistas de eixo.
+:::
+
+## Evidências
+
+![Reunião NAPED, especialistas de eixo e NED](../fotos/reuniao-naped-especialistas-de-eixo-e-ned.jpg)

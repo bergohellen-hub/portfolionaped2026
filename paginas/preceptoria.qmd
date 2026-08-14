@@ -1,0 +1,66 @@
+---
+title: "Preceptoria"
+subtitle: "2026"
+description: "Acompanhamento e formação dos preceptores dos campos de prática."
+toc: true
+aliases:
+  - /Portfolio_NAPED_Preceptoria.html
+---
+
+Programa de formação continuada voltado aos preceptores da Afya São João del-Rei, com módulos temáticos
+ sobre supervisão, ética, saúde mental e bem-estar na prática da preceptoria. O NAPED acompanha o
+ engajamento dos preceptores no Canvas e promove encontros periódicos de alinhamento e incentivo à
+ participação.
+
+::: {.numero-grid}
+<div class='numero'><b>63</b><span>preceptores participando da Pós-Graduação</span></div>
+<div class='numero'><b>7+</b><span>módulos temáticos em andamento</span></div>
+<div class='numero'><b>2026.2</b><span>semestre de referência do internato</span></div>
+:::
+
+## Acompanhamento no Canvas
+
+*Disciplinas da Pós-Graduação — engajamento e desempenho dos preceptores*
+
+O NAPED acompanha de perto as disciplinas da Pós-Graduação em Preceptoria, monitorando avisos,
+ prazos e o desempenho dos preceptores em cada módulo — como em "Habilidades de Supervisão" e
+ "Ética e Deontologia na Preceptoria".
+
+::: {layout-ncol=3}
+![Painel do Canvas — avisos recentes](../fotos/painel-do-canvas-avisos-recentes.jpg)
+
+![Boletim — Habilidades de Supervisão](../fotos/boletim-habilidades-de-supervisao.jpg)
+
+![Boletim — Ética e Deontologia na Preceptoria](../fotos/boletim-etica-e-deontologia-na-preceptoria.jpg)
+:::
+
+::: {.destaque}
+Nomes individuais desfocados para preservar a privacidade dos preceptores avaliados.
+:::
+
+## Reunião com Preceptores
+
+*16 de julho de 2026 · Alinhamento do Internato 2026.2*
+
+Encontro on-line reunindo a equipe do NAPED, coordenação e preceptores para alinhar as diretrizes
+ do Internato 2026.2 — reforçando que "o internato não é apenas um aprendizado clínico, é o momento
+ de aprender a ser médico".
+
+::: {layout-ncol=2}
+![Reunião com preceptores — 16/07/2026](../fotos/reuniao-com-preceptores-16-07-2026.jpg)
+
+![Apresentação Internato 2026.2](../fotos/apresentacao-internato-2026-2.jpg)
+:::
+
+## Comunicação e Engajamento
+
+*Grupo "Informativo — Internato Afya SJDR"*
+
+Comunicados periódicos mantêm os preceptores informados sobre aulas de abertura de módulos, prazos
+ de atividades avaliativas e prazos da Pós-Graduação, reforçando o engajamento contínuo com a formação.
+
+::: {layout-ncol=2}
+![Convite — Módulo VII, Saúde mental e bem-estar](../fotos/convite-modulo-vii-saude-mental-e-bem-estar.jpg)
+
+![Lembrete de prazo — Ética e Deontologia](../fotos/lembrete-de-prazo-etica-e-deontologia.jpg)
+:::

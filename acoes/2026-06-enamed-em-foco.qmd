@@ -1,0 +1,28 @@
+---
+title: "ENAMED em Foco"
+subtitle: "Encontros Diários e Alinhamento com Professores"
+description: "Encontros Diários e Alinhamento com Professores"
+date: 2026-06-01
+categories: ["Junho", "ENAMED"]
+image: ../fotos/encontros-diarios-enamed-em-foco.jpg
+image-alt: "ENAMED em Foco"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+O projeto ENAMED em Foco promoveu encontros diários às 19h para discussão de questões de ENAMED, Simulado e Revalida. No mês de maio, as temáticas abordadas foram Saúde Coletiva, Cirurgia, GO, Saúde Mental e Pediatria. Paralelamente, em 14/05, foi realizado alinhamento de orientações para organização das aulas teóricas do Internato, reunindo professores e coordenação de forma online.
+
+::: {.destaque}
+Encontros diários 19h, ENAMED, Simulado, Revalida, aulas teóricas do Internato.
+:::
+
+## Evidências
+
+::: {layout-ncol=2}
+![Encontros Diários — ENAMED em Foco](../fotos/encontros-diarios-enamed-em-foco.jpg)
+
+![Alinhamento — Aulas Teóricas do Internato](../fotos/alinhamento-aulas-teoricas-do-internato.jpg)
+:::

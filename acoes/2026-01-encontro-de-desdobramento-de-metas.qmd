@@ -1,0 +1,30 @@
+---
+title: "Encontro de Desdobramento de Metas"
+subtitle: "Planejamento Estratégico 2026"
+description: "Planejamento Estratégico 2026"
+date: 2026-01-01
+categories: ["Janeiro", "Gestão e Planejamento"]
+image: ../fotos/desdobramento-de-metas.jpg
+image-alt: "Encontro de Desdobramento de Metas"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+Momento dedicado a planejar e desdobrar as metas a serem alcançadas ao longo de 2026, reunindo a Reitoria, colaboradores administrativos e coordenadores de curso para a construção coletiva dos objetivos institucionais do ano.
+
+::: {.destaque}
+Metas traçadas em conjunto com a Reitoria, colaboradores administrativos e coordenadores de curso.
+:::
+
+## Evidências
+
+::: {layout-ncol=3}
+![Desdobramento de Metas](../fotos/desdobramento-de-metas.jpg)
+
+![Desdobramento de Metas](../fotos/desdobramento-de-metas-2.jpg)
+
+![Desdobramento de Metas](../fotos/desdobramento-de-metas-3.jpg)
+:::

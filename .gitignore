@@ -1,0 +1,14 @@
+# site gerado — é construído pelo GitHub Actions a cada push, não se versiona
+/_site/
+/.quarto/
+*_files/
+
+# cache do Quarto para páginas que rodam código (o Painel)
+/_freeze/
+
+# sistema
+.DS_Store
+.Rproj.user/
+.Rhistory
+
+**/*.quarto_ipynb

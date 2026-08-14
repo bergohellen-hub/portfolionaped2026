@@ -1,0 +1,255 @@
+---
+title: "Painel de Ações"
+subtitle: "O portfólio em números, calculado a partir dos próprios arquivos"
+description: "Volume por mês e por eixo, alcance, cursos e campi, e a tabela completa das ações."
+toc: true
+page-layout: full
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| label: leitura
+# ---------------------------------------------------------------------------
+# Este painel NÃO tem dados digitados à mão. Ele lê o cabeçalho de cada
+# arquivo em acoes/ e calcula tudo na hora de gerar o site. Criar uma ação
+# nova faz o painel se atualizar sozinho — nenhuma linha aqui precisa mudar.
+# ---------------------------------------------------------------------------
+library(dplyr)
+library(ggplot2)
+
+arquivos <- list.files("acoes", pattern = "\\.qmd$", full.names = TRUE)
+
+campo <- function(fm, nome, padrao = NA) {
+  v <- fm[[nome]]
+  if (is.null(v) || length(v) == 0) return(padrao)
+  v
+}
+
+acoes <- lapply(arquivos, function(f) {
+  fm <- rmarkdown::yaml_front_matter(f)
+  cats <- as.character(campo(fm, "categories", character(0)))
+  tibble::tibble(
+    arquivo      = basename(f),
+    titulo       = as.character(campo(fm, "title", "")),
+    subtitulo    = as.character(campo(fm, "subtitle", "")),
+    data         = as.Date(as.character(campo(fm, "date", NA))),
+    categorias   = list(cats),
+    participantes = suppressWarnings(as.numeric(campo(fm, "participantes"))),
+    horas        = suppressWarnings(as.numeric(campo(fm, "horas"))),
+    publico      = as.character(campo(fm, "publico", NA)),
+    campus       = as.character(campo(fm, "campus", NA)),
+    cursos       = list(as.character(campo(fm, "cursos", character(0))))
+  )
+}) |> bind_rows()
+
+# A lista fechada de etiquetas (a mesma do CONVENCOES.md) separa mês de eixo.
+MESES <- c("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
+           "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
+EIXOS <- c("Formação Docente", "ENAMED", "Projeto MOVE", "Mentoria",
+           "Preceptoria", "Produção Científica", "Gestão e Planejamento",
+           "Acolhimento")
+
+acoes <- acoes |>
+  mutate(
+    mes   = purrr::map_chr(categorias, \(x) { m <- x[x %in% MESES]; if (length(m)) m[1] else NA_character_ }),
+    eixos = purrr::map(categorias, \(x) x[x %in% EIXOS])
+  )
+
+rosa <- "#E5007E"; rosa_claro <- "#fce4f0"; cinza <- "#888888"
+
+tema_naped <- theme_minimal(base_size = 12) +
+  theme(
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor   = element_blank(),
+    panel.grid.major.x = element_line(colour = "#eeeeee"),
+    axis.title         = element_blank(),
+    plot.title         = element_text(face = "bold", colour = "#1a1a1a", size = 13),
+    plot.margin        = margin(6, 12, 6, 6)
+  )
+```
+
+```{r}
+#| label: cartoes
+#| output: asis
+n_acoes  <- nrow(acoes)
+n_meses  <- dplyr::n_distinct(stats::na.omit(acoes$mes))
+n_eixos  <- length(unique(unlist(acoes$eixos)))
+n_fotos  <- length(list.files("fotos", pattern = "\\.(jpg|jpeg|png|gif|webp)$"))
+
+cartao <- function(valor, rotulo) {
+  sprintf("<div class='numero'><b>%s</b><span>%s</span></div>", valor, rotulo)
+}
+cat("::: {.numero-grid}\n")
+cat(cartao(n_acoes, "ações registradas"))
+cat(cartao(n_meses, "meses cobertos"))
+cat(cartao(n_eixos, "eixos de atuação"))
+cat(cartao(n_fotos, "fotos no acervo"))
+cat("\n:::\n")
+```
+
+## Volume por mês e por eixo
+
+```{r}
+#| label: por-mes
+#| fig-height: 3.2
+#| fig-width: 9
+por_mes <- acoes |>
+  filter(!is.na(mes)) |>
+  count(mes) |>
+  mutate(mes = factor(mes, levels = MESES)) |>
+  arrange(mes)
+
+ggplot(por_mes, aes(x = mes, y = n)) +
+  geom_col(fill = rosa, width = .62) +
+  geom_text(aes(label = n), vjust = -.45, colour = rosa, fontface = "bold", size = 4) +
+  scale_y_continuous(expand = expansion(mult = c(0, .18))) +
+  labs(title = "Ações por mês") +
+  tema_naped +
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.major.y = element_line(colour = "#eeeeee"))
+```
+
+```{r}
+#| label: por-eixo
+#| fig-height: 3.4
+#| fig-width: 9
+por_eixo <- tibble::tibble(eixo = unlist(acoes$eixos)) |>
+  count(eixo) |>
+  arrange(n)
+
+ggplot(por_eixo, aes(x = n, y = reorder(eixo, n))) +
+  geom_col(fill = rosa, width = .62) +
+  geom_text(aes(label = n), hjust = -.4, colour = rosa, fontface = "bold", size = 4) +
+  scale_x_continuous(expand = expansion(mult = c(0, .12))) +
+  labs(title = "Ações por eixo de atuação") +
+  tema_naped
+```
+
+::: {.callout-note collapse="true"}
+## Por que a soma dos eixos passa do total de ações
+
+Uma ação pode carregar mais de um eixo — o Projeto Mentoria ENAMED, por
+exemplo, é ao mesmo tempo `Mentoria` e `ENAMED`. Ela aparece nos dois
+recortes, mas continua sendo **um único arquivo**.
+:::
+
+## Alcance: pessoas e horas
+
+```{r}
+#| label: alcance
+#| output: asis
+com_dados <- acoes |> filter(!is.na(participantes) | !is.na(horas))
+tot_pessoas <- sum(acoes$participantes, na.rm = TRUE)
+tot_horas   <- sum(acoes$horas, na.rm = TRUE)
+
+cat("::: {.numero-grid}\n")
+cat(cartao(ifelse(tot_pessoas > 0, tot_pessoas, "—"), "pessoas alcançadas"))
+cat(cartao(ifelse(tot_horas > 0, paste0(tot_horas, "h"), "—"), "horas de formação"))
+cat(cartao(sprintf("%d de %d", nrow(com_dados), n_acoes), "ações com números informados"))
+cat("\n:::\n")
+```
+
+```{r}
+#| label: alcance-detalhe
+#| output: asis
+if (nrow(com_dados) == 0) {
+  cat(
+    "::: {.callout-important}\n",
+    "## Estes números ainda estão por preencher\n\n",
+    "As páginas HTML antigas não registravam participantes e carga horária ",
+    "**por ação** — só totais do semestre, que estão em ",
+    "[O Semestre em Números](paginas/em-numeros.qmd). Preencher aqui a partir ",
+    "daqueles totais seria inventar uma atribuição que o registro original não faz.\n\n",
+    "Para o painel começar a somar, abra qualquer arquivo em `acoes/` e ",
+    "preencha os campos `participantes:` e `horas:` do cabeçalho. ",
+    "Cada ação preenchida entra no cálculo na publicação seguinte, ",
+    "sem mexer em nenhum outro arquivo.\n",
+    ":::\n", sep = ""
+  )
+} else {
+  por_mes_alc <- acoes |>
+    filter(!is.na(mes)) |>
+    group_by(mes) |>
+    summarise(pessoas = sum(participantes, na.rm = TRUE),
+              horas   = sum(horas, na.rm = TRUE), .groups = "drop") |>
+    mutate(mes = factor(mes, levels = MESES)) |>
+    arrange(mes)
+  print(knitr::kable(por_mes_alc,
+                     col.names = c("Mês", "Pessoas alcançadas", "Horas de formação")))
+}
+```
+
+## Cursos e campi atingidos
+
+```{r}
+#| label: cursos-campi
+#| output: asis
+cursos <- unlist(acoes$cursos)
+campi  <- stats::na.omit(acoes$campus)
+
+if (length(cursos) == 0 && length(campi) == 0) {
+  cat("::: {.callout-note}\n",
+      "Nenhuma ação declara `cursos:` ou `campus:` ainda. ",
+      "Esses campos são opcionais e ficam no cabeçalho de cada ação; ",
+      "conforme forem preenchidos, este recorte se monta sozinho.\n",
+      ":::\n", sep = "")
+} else {
+  if (length(cursos) > 0) {
+    cat("### Cursos\n\n")
+    print(knitr::kable(as.data.frame(table(Curso = cursos)),
+                       col.names = c("Curso", "Ações")))
+    cat("\n\n")
+  }
+  if (length(campi) > 0) {
+    cat("### Campi e unidades\n\n")
+    print(knitr::kable(as.data.frame(table(Campus = campi)),
+                       col.names = c("Campus / unidade", "Ações")))
+  }
+}
+```
+
+## Todas as ações
+
+```{r}
+#| label: tabela
+tabela <- acoes |>
+  transmute(
+    Mês    = mes,
+    Ação   = titulo,
+    Eixos  = purrr::map_chr(eixos, \(x) paste(x, collapse = ", ")),
+    Cursos = purrr::map_chr(cursos, \(x) if (length(x)) paste(x, collapse = ", ") else ""),
+    Pessoas = participantes,
+    Horas   = horas
+  ) |>
+  arrange(match(Mês, MESES), Ação)
+
+DT::datatable(
+  tabela,
+  rownames = FALSE,
+  filter   = "top",
+  options  = list(
+    pageLength = 15,
+    dom = "ftip",
+    language = list(
+      search      = "Buscar:",
+      lengthMenu  = "Mostrar _MENU_ ações",
+      info        = "Mostrando _START_ a _END_ de _TOTAL_ ações",
+      infoEmpty   = "Nenhuma ação",
+      paginate    = list(previous = "Anterior", `next` = "Próxima"),
+      zeroRecords = "Nenhuma ação encontrada"
+    )
+  )
+)
+```
+
+::: {.callout-tip}
+## Como este painel se mantém sozinho
+
+Não há nenhum número digitado nesta página. Cada gráfico e cada linha da
+tabela vem do cabeçalho dos arquivos em `acoes/`. Publicar uma ação nova
+recalcula tudo — os totais, os gráficos, a tabela e os filtros — sem que
+este arquivo precise ser tocado.
+:::

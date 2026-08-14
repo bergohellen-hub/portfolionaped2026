@@ -1,0 +1,79 @@
+# ---------------------------------------------------------------------------
+# Publicação automática do portfólio.
+#
+# A cada push na main, este fluxo gera o site com o Quarto e publica no
+# GitHub Pages. Não é preciso "subir o site" à mão nunca mais.
+#
+# ATENÇÃO — configuração que só a dona do repositório pode fazer, uma vez:
+#   Settings > Pages > Source: mudar de "Deploy from a branch" para
+#   "GitHub Actions". Sem isso este fluxo roda, mas não publica.
+# ---------------------------------------------------------------------------
+name: Publicar o portfólio
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:      # permite publicar manualmente pelo botão "Run workflow"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  gerar:
+    name: Gerar o site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Instalar o Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      # O Painel (dashboard.qmd) é a única página que roda código: ele lê o
+      # cabeçalho das ações e calcula os gráficos. Por isso precisa do R.
+      - name: Instalar o R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: release
+          use-public-rspm: true
+
+      - name: Instalar os pacotes do R
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::rmarkdown
+            any::knitr
+            any::dplyr
+            any::ggplot2
+            any::purrr
+            any::tibble
+            any::DT
+
+      - name: Gerar o site
+        run: quarto render
+
+      - name: Preparar para o Pages
+        uses: actions/configure-pages@v5
+
+      - name: Enviar o site gerado
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  publicar:
+    name: Publicar no GitHub Pages
+    needs: gerar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4

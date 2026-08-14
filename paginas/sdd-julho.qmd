@@ -1,0 +1,261 @@
+---
+title: "Semana de Desenvolvimento Docente 2026.2"
+subtitle: "Julho de 2026 · Afya São João del-Rei"
+description: "Registro da Semana de Desenvolvimento Docente do segundo semestre."
+toc: true
+aliases:
+  - /portfolio-sdd-2026-2.html
+---
+
+*NAPED · Afya São João del-Rei*
+
+Julho de 2026 · Edição 2026.2
+
+## Semana de Desenvolvimento Docente
+
+Uma semana dedicada à docência sustentável e ao uso da Inteligência Artificial na formação docente, reunindo a trilha de Medicina e os cursos SHE.
+
+06 a 09 de julho de 2026
+
+Afya São João del-Rei
+
+Relato da edição
+
+*Sobre a semana*
+
+## Formar quem forma
+
+A Semana de Desenvolvimento Docente reuniu o corpo docente da Afya São João del-Rei em torno de uma docência mais sustentável e do uso consciente da Inteligência Artificial no ensino.
+
+Foram quatro dias em duas trilhas paralelas — a de Medicina e a dos cursos SHE — com alinhamentos por área, oficinas práticas, uma sessão demonstrativa de IA e um encerramento que celebrou o que a equipe construiu junto.
+
+*Tema da edição*
+
+### Docência sustentável & IA
+
+Como aliar sustentabilidade e tecnologia para transformar a experiência de ensinar e aprender na educação superior.
+
+::: {.numero-grid}
+<div class='numero'><b>113</b><span>Docentes participantes</span></div>
+<div class='numero'><b>25</b><span>Atividades realizadas</span></div>
+<div class='numero'><b>7</b><span>Oficinas práticas</span></div>
+<div class='numero'><b>50h</b><span>Horas de formação</span></div>
+<div class='numero'><b>28</b><span>Medicina</span></div>
+<div class='numero'><b>83</b><span>Cursos SHE</span></div>
+<div class='numero'><b>79</b><span>Frequência ≥ 50%</span></div>
+<div class='numero'><b>79</b><span>Seg · 06/07</span></div>
+<div class='numero'><b>75</b><span>Ter · 07/07</span></div>
+<div class='numero'><b>75</b><span>Qua · 08/07</span></div>
+:::
+
+*Programação*
+
+## Como foi cada dia
+
+Quatro dias em duas trilhas paralelas: a de Medicina e a dos cursos SHE. Alguns momentos foram comuns a todos; outros, específicos de cada área.
+
+Trilha Medicina
+
+Cursos SHE
+
+### Alinhamento e planejamento do semestre  
+*Seg · 06/07*
+
+A semana abriu com os professores reunidos por área para alinhar o semestre 2026/2, revisar os resultados de 2026/1 e registrar boas práticas.
+
+**Registros do dia**
+
+::: {layout-ncol=3}
+![Encontro por curso — Direito](../fotos/encontro-por-curso-direito.jpg)
+
+![Encontro por curso — Direito](../fotos/encontro-por-curso-direito-2.jpg)
+
+![Encontro por curso — Psicologia](../fotos/encontro-por-curso-psicologia.jpg)
+
+![Encontro por curso — Psicologia](../fotos/encontro-por-curso-psicologia-2.jpg)
+
+![Encontro por curso — Biomedicina](../fotos/encontro-por-curso-biomedicina.jpg)
+
+![Encontro por curso — Enfermagem](../fotos/encontro-por-curso-enfermagem.jpg)
+
+![Encontro por curso — Medicina Veterinária](../fotos/encontro-por-curso-medicina-veterinaria.jpg)
+
+![Encontro por curso — Nutrição](../fotos/encontro-por-curso-nutricao.jpg)
+
+![Encontro por curso — Psicologia](../fotos/encontro-por-curso-psicologia-3.jpg)
+
+![Alinhamento SOI — Medicina](../fotos/alinhamento-soi-medicina.jpg)
+:::
+
+<video controls preload="metadata" src="../fotos/sdd-julho-12.mp4"></video>
+
+Vídeo · Alinhamento SOI
+
+### IA na docência e planos de ensino  
+*Ter · 07/07*
+
+Ponto alto da semana: a sessão demonstrativa **"Agentes de IA na docência"**, com o Prof. Dr. Henrique Alvarenga, no Auditório — aberta a todos os professores.
+
+**Registros do dia**
+
+::: {layout-ncol=3}
+![Abertura da sessão 'Agentes de IA na docência'](../fotos/abertura-da-sessao-agentes-de-ia-na-docencia.jpg)
+
+![Abertura da sessão 'Agentes de IA na docência'](../fotos/abertura-da-sessao-agentes-de-ia-na-docencia-2.jpg)
+
+![Palestra 'Agentes de IA na docência' — Prof. Henrique Alvarenga](../fotos/palestra-agentes-de-ia-na-docencia-prof-henrique-alvarenga.jpg)
+
+![Palestra — Do Chat ao Cowork e ao Code](../fotos/palestra-do-chat-ao-cowork-e-ao-code.jpg)
+
+![Palestra 'Agentes de IA na docência' — Prof. Henrique Alvarenga](../fotos/palestra-agentes-de-ia-na-docencia-prof-henrique-alvarenga-2.jpg)
+
+![Demonstração do Claude durante a palestra](../fotos/demonstracao-do-claude-durante-a-palestra.jpg)
+
+![Professores acompanhando a palestra](../fotos/professores-acompanhando-a-palestra.jpg)
+
+![Palestra 'Agentes de IA na docência'](../fotos/palestra-agentes-de-ia-na-docencia.jpg)
+
+![Equipe na sessão 'Agentes de IA na docência'](../fotos/equipe-na-sessao-agentes-de-ia-na-docencia.jpg)
+
+![Confraternização — jantar da terça-feira](../fotos/confraternizacao-jantar-da-terca-feira.jpg)
+:::
+
+### Oficinas por eixo e por curso  
+*Qua · 08/07*
+
+Dia dedicado às oficinas práticas, cada área aprofundando os temas mais relevantes para o seu contexto.
+
+**Registros do dia**
+
+::: {layout-ncol=3}
+![Oficina de feedback](../fotos/oficina-de-feedback.jpg)
+
+![Oficina de feedback](../fotos/oficina-de-feedback-2.jpg)
+
+![Oficina de prompt reverso — Direito](../fotos/oficina-de-prompt-reverso-direito.jpg)
+
+![Oficina de prompt reverso — Direito](../fotos/oficina-de-prompt-reverso-direito-2.jpg)
+
+![Alinhamento do eixo HAM — Medicina](../fotos/alinhamento-do-eixo-ham-medicina.jpg)
+
+![Alinhamento do eixo HAM — Medicina](../fotos/alinhamento-do-eixo-ham-medicina-2.jpg)
+
+![Oficina NotebookLM](../fotos/oficina-notebooklm.jpg)
+
+![Oficina de feedback — eixo SOI · Medicina](../fotos/oficina-de-feedback-eixo-soi-medicina.jpg)
+
+![Oficina de feedback — eixo SOI · Medicina](../fotos/oficina-de-feedback-eixo-soi-medicina-2.jpg)
+
+![Alinhamento IESC — Medicina](../fotos/alinhamento-iesc-medicina.jpg)
+
+![Alinhamento IESC — Medicina](../fotos/alinhamento-iesc-medicina-2.jpg)
+
+![Alinhamento IESC — Medicina](../fotos/alinhamento-iesc-medicina-3.jpg)
+
+![Treinamento ENADE](../fotos/treinamento-enade.jpg)
+
+![Treinamento ENADE](../fotos/treinamento-enade-2.jpg)
+
+![Alinhamento C.I. — Medicina](../fotos/alinhamento-c-i-medicina.jpg)
+
+![Alinhamento C.I. — Medicina](../fotos/alinhamento-c-i-medicina-2.jpg)
+
+![Oficina de feedback — Cursos SHE](../fotos/oficina-de-feedback-cursos-she.jpg)
+
+![Oficina de feedback — Cursos SHE](../fotos/oficina-de-feedback-cursos-she-2.jpg)
+:::
+
+### Confraternização e celebração  
+*Qui · 09/07*
+
+Para encerrar, a **Noite de Confraternização** reuniu todos no Bar Real, num rodízio de pizzas (19h) — um momento de celebrar a semana e fortalecer os laços da equipe, com muito calor humano mesmo no frio de julho.
+
+**Registros do dia**
+
+::: {layout-ncol=3}
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real.jpg)
+
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-2.jpg)
+
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-3.jpg)
+
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-4.jpg)
+
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-5.jpg)
+
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-6.jpg)
+
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-7.jpg)
+
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-8.jpg)
+
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-9.jpg)
+
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-10.jpg)
+
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-11.jpg)
+
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-12.jpg)
+
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-13.jpg)
+
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-14.jpg)
+
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-15.jpg)
+
+![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-16.jpg)
+:::
+
+*Novidade desta edição*
+
+## Boa prática docente
+
+Uma estreia na SDD 2026.2: durante os encontros de alinhamento, cada coordenador registrou, junto com os seus professores, uma boa prática docente do semestre.
+
+### O começo de um acervo de boas práticas
+
+Mais do que um registro do semestre, a proposta é construir um acervo institucional de boas práticas docentes — ponto de partida para futuras publicações, projetos e reconhecimentos acadêmicos que valorizem a docência na Afya São João del-Rei.
+
+Para onde queremos levar
+
+Publicações
+
+Projetos
+
+Reconhecimentos acadêmicos
+
+*Vozes da semana*
+
+## O que disseram os participantes
+
+“
+
+Os momentos dedicados a cada curso proporcionaram o surgimento de muitas ideias e aprendizagens.
+
+Kelly Jackeline Oliveira Pereira Andrade
+
+Docente · Afya SJDR
+
+“
+
+Usar a SDD para fazermos a reunião interna dos cursos e resolver demandas específicas foi muito proveitoso e extremamente aplicável. Poderiam manter nesse formato.
+
+Douglas Roberto Guimarães Silva
+
+Docente · Afya SJDR
+
+“
+
+O encerramento, feito junto, foi muito legal. Minha sugestão é ter um momento de abertura com todos e, depois, cada curso seguindo a sua própria programação conforme a necessidade.
+
+Wagner Elias de Melo Moreira
+
+Docente · Afya SJDR
+
+NAPED
+
+Núcleo de Apoio Pedagógico e Experiência Docente · Afya São João del-Rei.
+
+Semana de Desenvolvimento Docente
+
+Edição 2026.2 — SHE

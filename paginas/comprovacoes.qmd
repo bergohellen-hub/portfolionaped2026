@@ -1,0 +1,47 @@
+---
+title: "Comprovações e Anexos"
+subtitle: "2026.1"
+description: "Documentos e registros que comprovam as ações do portfólio."
+toc: true
+aliases:
+  - /Portfolio_NAPED_Comprovacoes.html
+---
+
+As ações registradas neste portfólio têm respaldo nos documentos abaixo — planilhas de presença, listas assinadas e registros de acesso. **Por conterem dados pessoais (nomes e assinaturas), são de acesso restrito e disponibilizados mediante solicitação**, à coordenação e às instâncias avaliadoras.
+
+🔒 Solicitar acesso aos documentos
+
+Acesso restrito à rede institucional Afya · OneDrive
+
+## SDD 2026 · Julho
+
+- **Planilha geral de presença** 🔒 · `XLSX`  
+  Registro consolidado da semana
+- **Listas de presença assinadas** 🔒 · `PDF`  
+  Por curso · SDD
+
+## Projeto MOVE
+
+- **Lista de assinatura** 🔒 · `PDF`  
+  1º Encontro · Escola Caminho do Sol
+
+## Projeto Mentoria ENAMED
+
+- **Cronograma e presença por grupo** 🔒 · `XLSX`  
+  9 grupos de mentoria · 8 encontros
+- **Relatório de presença — reunião de mentores** 🔒 · `CSV`  
+  27/05/2026 · Equipe NAPED/NED
+- **Material didático — MP 1.370/2026** 🔒 · `PPTX`  
+  "Mentoria Enamed" · Pedro Delabrida
+
+## Treinamento NotebookLM
+
+- **Lista de presença** 🔒 · `PDF`  
+  Treinamento NotebookLM
+
+## Treinamentos Online · Canvas
+
+- **Registro de acessos (1)** 🔒 · `XLSX`  
+  Treinamento disponível no Canvas
+- **Registro de acessos (2)** 🔒 · `XLSX`  
+  Treinamento disponível no Canvas

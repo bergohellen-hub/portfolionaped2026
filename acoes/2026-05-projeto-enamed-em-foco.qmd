@@ -1,0 +1,38 @@
+---
+title: "Projeto ENAMED em Foco"
+subtitle: "Preparação Integrada para o ENAMED | Medicina"
+description: "Preparação Integrada para o ENAMED | Medicina"
+date: 2026-05-01
+categories: ["Maio", "ENAMED"]
+image: ../fotos/conversas-individuais-do-reitor-com-professores-da-medicina-2.jpg
+image-alt: "Projeto ENAMED em Foco"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+O NAPED coordenou um conjunto articulado de ações voltadas à preparação dos estudantes de Medicina para o ENAMED, previsto para setembro. A iniciativa envolveu múltiplas frentes: reunião de alinhamento com a Reitoria e professores médicos, encontros com líderes de turma para escuta e engajamento estudantil, treinamento dos monitores do internato e alinhamento com professores das disciplinas teóricas para organização das aulas. Em paralelo, foram desenvolvidas ações de recuperação de gaps de aprendizagem, com foco nas lacunas identificadas ao longo do semestre. Durante o mês de maio, os estudantes contaram ainda com **encontros diários às 19h** no formato "ENAMED em Foco", abertos a todos os alunos que realizarão o exame, abordando temáticas como Saúde Coletiva, Cirurgia, GO, Saúde Mental e Pediatria — além de sessões de **correção de questões de simulados** ao longo do mês.
+
+## Evidências
+
+### Alinhamento Institucional
+
+![](../fotos/conversas-individuais-do-reitor-com-professores-da-medicina-2.jpg)
+
+### Escuta e Engajamento Estudantil
+
+::: {layout-ncol=2}
+![](../fotos/25-05-reuniao-com-lideres-de-turma-escuta-e-estabelecimento.jpg)
+
+![](../fotos/26-05-reuniao-com-monitores-do-internato-escuta-e-engajament.jpg)
+:::
+
+### Alinhamento Docente e Ações de Recuperação
+
+::: {layout-ncol=2}
+![](../fotos/14-05-reuniao-com-professores-de-disciplinas-teoricas-organi.jpg)
+
+![](../fotos/encontros-diarios-as-19h-enamed-em-foco-correcao-de-simulado.jpg)
+:::

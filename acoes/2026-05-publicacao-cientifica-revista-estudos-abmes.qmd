@@ -1,0 +1,24 @@
+---
+title: "Publicação Científica | Revista Estudos ABMES"
+subtitle: "Produção de Conhecimento & Avaliação Institucional"
+description: "Produção de Conhecimento & Avaliação Institucional"
+date: 2026-05-01
+categories: ["Maio", "Produção Científica"]
+image: ../fotos/prof-dr-daniel-riani-gotardelo-docente-afya-sao-joao-del-rei.jpg
+image-alt: "Publicação Científica | Revista Estudos ABMES"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+O Prof. Dr. Daniel Riani Gotardelo, docente da Afya São João del Rei, publicou artigo na **Revista Estudos** (Ano 34, Nº 46 — Maio de 2026), publicação da Associação Brasileira de Mantenedoras de Ensino Superior (ABMES). A edição, dedicada ao tema *"Guia Completo ENADE & ENAMED 2025: Estratégias e Boas Práticas para a Excelência em Bacharelados, Licenciaturas e CSTs"*, reúne contribuições de especialistas nacionais sobre avaliação da educação superior. A participação do docente evidencia o compromisso do NAPED com a produção de conhecimento e a qualificação dos processos avaliativos institucionais.
+
+## Evidências
+
+::: {layout-ncol=2}
+![](../fotos/prof-dr-daniel-riani-gotardelo-docente-afya-sao-joao-del-rei.jpg)
+
+![](../fotos/revista-estudos-abmes-ano-34-no-46-maio-2026.jpg)
+:::

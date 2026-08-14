@@ -1,0 +1,29 @@
+---
+title: "Reunião Pró-Reitora Acadêmica, NAPED e NED"
+subtitle: "Alinhamento Institucional"
+description: "Alinhamento Institucional"
+date: 2026-01-01
+categories: ["Janeiro", "Gestão e Planejamento"]
+cursos: ["Medicina"]
+image: ../fotos/reuniao-ned-naped-e-pro-reitoria-academica.jpg
+image-alt: "Reunião Pró-Reitora Acadêmica, NAPED e NED"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+Para iniciar o semestre, foi realizada uma reunião com Elihege, coordenadora do NED, e com a Pró-Reitora Acadêmica, Kelly Torres, com o objetivo de alinhar o diálogo entre os setores ao longo do semestre.
+
+::: {.destaque}
+Reuniões quinzenais agendadas; ações entre NAPED e NED alinhadas conforme Diretrizes Nacionais.
+:::
+
+::: {.cursos}
+[Medicina]{.curso-tag}
+:::
+
+## Evidências
+
+![Reunião NED, NAPED e Pró-Reitoria Acadêmica](../fotos/reuniao-ned-naped-e-pro-reitoria-academica.jpg)

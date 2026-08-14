@@ -1,0 +1,46 @@
+---
+title: "NAPED Day 2026 — 7 Anos"
+subtitle: "Inteligência Artificial e Docência Sustentável"
+description: "Inteligência Artificial e Docência Sustentável"
+date: 2026-04-01
+categories: ["Abril", "Formação Docente"]
+image: ../fotos/convite-institucional-aos-docentes-naped-day-2026-18-de-maio.jpg
+image-alt: "NAPED Day 2026 — 7 Anos"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+O NAPED Day é um evento nacional da Afya que ocorre uma única vez ao ano, organizado a partir do
+ envolvimento de 30 instituições, e em 2026 celebrou seus **7 anos** com o tema
+ *"Inteligência Artificial e Docência Sustentável"*, realizado em 18 de maio. No dia do evento
+ não há aulas e todos os professores são convidados a participar de palestras, oficinas e cursos,
+ com certificação. A mobilização local — divulgação, convites e organização — teve início em abril,
+ culminando em uma programação que integrou o Dia D presencial e oficinas
+ formativas online.
+
+## Evidências
+
+::: {layout-ncol=2}
+![](../fotos/convite-institucional-aos-docentes-naped-day-2026-18-de-maio.jpg)
+
+![](../fotos/arte-de-divulgacao-e-hoje-tema-inteligencia-artificial-e-doc.jpg)
+
+![](../fotos/equipe-reunida-no-espaco-de-convivencia-celebracao-dos-7-ano.jpg)
+
+![](../fotos/registro-da-equipe-com-lembrancas-e-mimos-preparados-para-os.jpg)
+
+![](../fotos/momento-de-integracao-e-acolhida-dos-participantes.jpg)
+
+![](../fotos/confraternizacao-entre-docentes-e-equipe-naped.jpg)
+
+![](../fotos/cafe-tematico-do-naped-day-com-bandeirinhas-comemorativas.jpg)
+
+![](../fotos/troca-de-experiencias-entre-os-participantes-durante-o-dia-d.jpg)
+
+![](../fotos/oficina-online-o-aluno-como-protagonista-e-learning-e-mediac.jpg)
+
+![](../fotos/oficina-quando-nao-ha-paciente-estrategias-pedagogicas-com-p.jpg)
+:::

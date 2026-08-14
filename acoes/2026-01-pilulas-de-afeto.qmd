@@ -1,0 +1,28 @@
+---
+title: "Pílulas de Afeto"
+subtitle: "Cuidado e Humanização Institucional"
+description: "Cuidado e Humanização Institucional"
+date: 2026-01-01
+categories: ["Janeiro", "Acolhimento"]
+image: ../fotos/pilulas-com-mensagens-poeticas-e-espirituais.jpg
+image-alt: "Pílulas de Afeto"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+Ação que consistiu na preparação e distribuição de pílulas com mensagens poéticas e espirituais, voltadas ao acolhimento e à sensibilização da comunidade acadêmica ao longo do semestre.
+
+::: {.destaque}
+Ação simbólica de cuidado, escuta e humanização no ambiente institucional.
+:::
+
+## Evidências
+
+::: {layout-ncol=2}
+![Pílulas com mensagens poéticas e espirituais](../fotos/pilulas-com-mensagens-poeticas-e-espirituais.jpg)
+
+![Preparação das pílulas com mensagens — registro 1](../fotos/preparacao-das-pilulas-com-mensagens-registro-1.jpg)
+:::

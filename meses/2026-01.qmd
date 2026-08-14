@@ -1,0 +1,24 @@
+---
+title: "Janeiro de 2026"
+subtitle: "Ações do NAPED"
+description: "Mês de preparar o setor para receber nossos professores e iniciarmos o novo ano."
+toc: false
+aliases:
+  - /Portfolio_NAPED_Janeiro_2026.html
+listing:
+  id: mes
+  contents: ../acoes/*.qmd
+  include:
+    categories: "Janeiro"      # <- só o que estiver etiquetado assim
+  type: grid
+  grid-columns: 3
+  fields: [image, title, description, categories]
+  sort: "date asc"
+  page-size: 30
+  image-height: "172px"
+---
+
+Mês de preparar o setor para receber nossos professores e iniciarmos o novo ano.
+
+::: {#mes}
+:::

@@ -1,0 +1,13 @@
+# Configuração compartilhada por TODAS as ações desta pasta.
+#
+# Tudo que valeria igual no cabeçalho de cada ação mora aqui, uma vez só.
+# É por isso que o cabeçalho de uma ação nova cabe em 5 linhas.
+
+title-block-categories: true
+toc: true
+toc-depth: 2
+lightbox: auto
+fig-align: center
+
+# volta para a vitrine no rodapé de cada ação
+back-to-top-navigation: true
