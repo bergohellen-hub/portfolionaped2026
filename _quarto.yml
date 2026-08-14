@@ -52,6 +52,8 @@ website:
             text: Junho
           - href: paginas/sdd-julho.qmd
             text: "Julho — SDD 2026.2"
+          - href: meses/2026-08.qmd
+            text: Agosto
       - text: "Projetos"
         menu:
           - href: paginas/projeto-move.qmd
