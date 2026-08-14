@@ -3,8 +3,9 @@ title: "Visita do Gerente Pedagógico Nacional — Denny Almeida"
 subtitle: "Escuta, Alinhamentos e Planejamento"
 description: "Escuta, Alinhamentos e Planejamento"
 date: 2026-06-01
+ordem: 1
 categories: ["Junho", "Gestão e Planejamento"]
-image: ../fotos/visita-denny-almeida-naped.jpg
+image: /fotos/visita-denny-almeida-naped.jpg
 image-alt: "Visita do Gerente Pedagógico Nacional — Denny Almeida"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -22,9 +23,9 @@ Escuta ativa, alinhamento pedagógico, planejamento institucional, integração 
 ## Evidências
 
 ::: {layout-ncol=2}
-![Visita Denny Almeida — NAPED](../fotos/visita-denny-almeida-naped.jpg)
+![Visita Denny Almeida — NAPED](/fotos/visita-denny-almeida-naped.jpg)
 
-![Denny, Especialistas de Eixo e NAPED](../fotos/denny-especialistas-de-eixo-e-naped.jpg)
+![Denny, Especialistas de Eixo e NAPED](/fotos/denny-especialistas-de-eixo-e-naped.jpg)
 
-![Denny, Especialistas e NAPED](../fotos/denny-especialistas-e-naped.jpg)
+![Denny, Especialistas e NAPED](/fotos/denny-especialistas-e-naped.jpg)
 :::

@@ -45,17 +45,18 @@ acoes <- lapply(arquivos, function(f) {
   )
 }) |> bind_rows()
 
-# A lista fechada de etiquetas (a mesma do CONVENCOES.md) separa mês de eixo.
+# Os meses são a única lista fixa daqui — são doze e não mudam.
 MESES <- c("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
            "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
-EIXOS <- c("Formação Docente", "ENAMED", "Projeto MOVE", "Mentoria",
-           "Preceptoria", "Produção Científica", "Gestão e Planejamento",
-           "Acolhimento", "Podcast Ética Médica")
 
 acoes <- acoes |>
   mutate(
     mes   = purrr::map_chr(categorias, \(x) { m <- x[x %in% MESES]; if (length(m)) m[1] else NA_character_ }),
-    eixos = purrr::map(categorias, \(x) x[x %in% EIXOS])
+    # Eixo é "toda etiqueta que não é mês". Antes havia aqui uma lista de
+    # eixos conferida à mão, e um eixo novo não entrava neste gráfico até
+    # alguém lembrar de acrescentá-lo — foi o que aconteceu com o
+    # "Podcast Ética Médica". Agora não há lista para manter.
+    eixos = purrr::map(categorias, \(x) x[!x %in% MESES])
   )
 
 rosa <- "#E5007E"; rosa_claro <- "#fce4f0"; cinza <- "#888888"
@@ -135,6 +136,48 @@ Uma ação pode carregar mais de um eixo — o Projeto Mentoria ENAMED, por
 exemplo, é ao mesmo tempo `Mentoria` e `ENAMED`. Ela aparece nos dois
 recortes, mas continua sendo **um único arquivo**.
 :::
+
+```{r}
+#| label: alcance
+#| output: asis
+# ---------------------------------------------------------------------------
+# Esta seção só aparece quando ALGUMA ação tiver participantes ou horas
+# preenchidos. Enquanto nenhuma tiver, ela não se mostra — um painel com
+# "0 de 28" e traços não informa nada. Assim que a primeira for preenchida,
+# a seção surge sozinha, sem ninguém precisar mexer aqui.
+# ---------------------------------------------------------------------------
+com_dados   <- acoes |> filter(!is.na(participantes) | !is.na(horas))
+tot_pessoas <- sum(acoes$participantes, na.rm = TRUE)
+tot_horas   <- sum(acoes$horas, na.rm = TRUE)
+
+if (nrow(com_dados) > 0) {
+  cat("## Alcance: pessoas e horas\n\n")
+  cat("::: {.numero-grid}\n")
+  if (tot_pessoas > 0) cat(cartao(tot_pessoas, "pessoas alcançadas"))
+  if (tot_horas > 0)   cat(cartao(paste0(tot_horas, "h"), "horas de formação"))
+  cat(cartao(sprintf("%d de %d", nrow(com_dados), n_acoes),
+             "ações com números informados"))
+  cat("\n:::\n\n")
+
+  por_mes_alc <- acoes |>
+    filter(!is.na(mes), !is.na(participantes) | !is.na(horas)) |>
+    group_by(mes) |>
+    summarise(pessoas = sum(participantes, na.rm = TRUE),
+              horas   = sum(horas, na.rm = TRUE), .groups = "drop") |>
+    mutate(mes = factor(mes, levels = MESES)) |>
+    arrange(mes)
+
+  print(knitr::kable(por_mes_alc,
+                     col.names = c("Mês", "Pessoas alcançadas", "Horas de formação")))
+  cat("\n\n")
+
+  if (nrow(com_dados) < n_acoes) {
+    cat(sprintf(
+      "::: {.callout-note}\nEste recorte cobre %d das %d ações — as demais ainda não têm `participantes:` nem `horas:` preenchidos no cabeçalho. Cada ação preenchida entra na conta na publicação seguinte.\n:::\n\n",
+      nrow(com_dados), n_acoes))
+  }
+}
+```
 
 ## Cursos e campi atingidos
 

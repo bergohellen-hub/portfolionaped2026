@@ -3,8 +3,9 @@ title: "Treinamento NotebookLM — Medicina"
 subtitle: "Ferramentas Digitais de Apoio ao Estudo"
 description: "Ferramentas Digitais de Apoio ao Estudo"
 date: 2026-03-01
+ordem: 3
 categories: ["Março", "Formação Docente"]
-image: ../fotos/arte-de-divulgacao-treinamento-notebooklm.jpg
+image: /fotos/arte-de-divulgacao-treinamento-notebooklm.jpg
 image-alt: "Treinamento NotebookLM — Medicina"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -21,4 +22,4 @@ NotebookLM, Medicina, semana da N1, laboratório de informática.
 
 ## Evidências
 
-![Arte de divulgação — Treinamento NotebookLM](../fotos/arte-de-divulgacao-treinamento-notebooklm.jpg)
+![Arte de divulgação — Treinamento NotebookLM](/fotos/arte-de-divulgacao-treinamento-notebooklm.jpg)

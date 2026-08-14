@@ -3,8 +3,9 @@ title: "ENAMED"
 subtitle: "Alinhamento Institucional e Orientação aos Estudantes"
 description: "Alinhamento Institucional e Orientação aos Estudantes"
 date: 2026-02-01
+ordem: 3
 categories: ["Fevereiro", "ENAMED", "Gestão e Planejamento"]
-image: ../fotos/reuniao-de-alinhamento-para-as-acoes-enamed.jpg
+image: /fotos/reuniao-de-alinhamento-para-as-acoes-enamed.jpg
 image-alt: "ENAMED"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -22,7 +23,7 @@ ENAMED, alinhamento institucional, orientação aos estudantes.
 ## Evidências
 
 ::: {layout-ncol=2}
-![Reunião de alinhamento para as ações ENAMED](../fotos/reuniao-de-alinhamento-para-as-acoes-enamed.jpg)
+![Reunião de alinhamento para as ações ENAMED](/fotos/reuniao-de-alinhamento-para-as-acoes-enamed.jpg)
 
-![Reunião de alinhamento para as ações ENAMED](../fotos/reuniao-de-alinhamento-para-as-acoes-enamed-2.jpg)
+![Reunião de alinhamento para as ações ENAMED](/fotos/reuniao-de-alinhamento-para-as-acoes-enamed-2.jpg)
 :::

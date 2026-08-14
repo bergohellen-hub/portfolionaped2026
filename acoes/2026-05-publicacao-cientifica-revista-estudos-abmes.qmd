@@ -3,8 +3,9 @@ title: "Publicação Científica | Revista Estudos ABMES"
 subtitle: "Produção de Conhecimento & Avaliação Institucional"
 description: "Produção de Conhecimento & Avaliação Institucional"
 date: 2026-05-01
+ordem: 1
 categories: ["Maio", "Produção Científica"]
-image: ../fotos/prof-dr-daniel-riani-gotardelo-docente-afya-sao-joao-del-rei.jpg
+image: /fotos/prof-dr-daniel-riani-gotardelo-docente-afya-sao-joao-del-rei.jpg
 image-alt: "Publicação Científica | Revista Estudos ABMES"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -18,7 +19,7 @@ O Prof. Dr. Daniel Riani Gotardelo, docente da Afya São João del Rei, publicou
 ## Evidências
 
 ::: {layout-ncol=2}
-![](../fotos/prof-dr-daniel-riani-gotardelo-docente-afya-sao-joao-del-rei.jpg)
+![](/fotos/prof-dr-daniel-riani-gotardelo-docente-afya-sao-joao-del-rei.jpg)
 
-![](../fotos/revista-estudos-abmes-ano-34-no-46-maio-2026.jpg)
+![](/fotos/revista-estudos-abmes-ano-34-no-46-maio-2026.jpg)
 :::
