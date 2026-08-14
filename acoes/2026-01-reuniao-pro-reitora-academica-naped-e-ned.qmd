@@ -3,9 +3,10 @@ title: "Reunião Pró-Reitora Acadêmica, NAPED e NED"
 subtitle: "Alinhamento Institucional"
 description: "Alinhamento Institucional"
 date: 2026-01-01
+ordem: 1
 categories: ["Janeiro", "Gestão e Planejamento"]
 cursos: ["Medicina"]
-image: ../fotos/reuniao-ned-naped-e-pro-reitoria-academica.jpg
+image: /fotos/reuniao-ned-naped-e-pro-reitoria-academica.jpg
 image-alt: "Reunião Pró-Reitora Acadêmica, NAPED e NED"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -26,4 +27,4 @@ Reuniões quinzenais agendadas; ações entre NAPED e NED alinhadas conforme Dir
 
 ## Evidências
 
-![Reunião NED, NAPED e Pró-Reitoria Acadêmica](../fotos/reuniao-ned-naped-e-pro-reitoria-academica.jpg)
+![Reunião NED, NAPED e Pró-Reitoria Acadêmica](/fotos/reuniao-ned-naped-e-pro-reitoria-academica.jpg)

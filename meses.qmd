@@ -1,0 +1,49 @@
+---
+title: "Ações por mês"
+subtitle: "2026"
+description: "O portfólio mês a mês."
+toc: false
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+#| output: asis
+# ---------------------------------------------------------------------------
+# Esta página não tem lista de meses escrita à mão. Ela olha quais meses
+# aparecem nas ações e monta os cartões. Um mês novo entra sozinho — a
+# página dele é criada pelo scripts/preparar.R antes de cada publicação.
+# ---------------------------------------------------------------------------
+MESES <- c("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
+           "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
+
+arquivos <- list.files("acoes", pattern = "\\.qmd$", full.names = TRUE)
+arquivos <- arquivos[!startsWith(basename(arquivos), "_")]
+
+achados <- unlist(lapply(arquivos, function(f) {
+  cats <- as.character(rmarkdown::yaml_front_matter(f)$categories)
+  cats[cats %in% MESES]
+}))
+
+contagem <- table(factor(achados, levels = MESES))
+contagem <- contagem[contagem > 0]
+
+# Sai como bloco de HTML puro (```{=html}). Deixar o pandoc processar isso
+# como markdown faria ele embrulhar cada cartão num <p>, e a grade
+# desmontaria numa coluna só.
+cat("```{=html}\n<div class=\"mes-grid\">")
+for (m in names(contagem)) {
+  n <- as.integer(contagem[[m]])
+  destino <- sprintf("meses/%d-%02d.html", 2026, which(MESES == m))
+  cat(sprintf(
+    "<a class=\"mes-card\" href=\"%s\"><span class=\"mes-nome\">%s</span><span class=\"mes-conta\">%d %s</span><span class=\"mes-seta\">&rarr;</span></a>",
+    destino, m, n, ifelse(n == 1, "ação", "ações")))
+}
+cat("</div>\n```\n")
+```
+
+Cada mês reúne as ações etiquetadas com aquele mês. A mesma ação pode
+aparecer também nos filtros por eixo, na [página inicial](index.qmd) e no
+[Painel](dashboard.qmd) — sempre a partir de um único arquivo.

@@ -9,7 +9,7 @@ listing:
   type: grid
   grid-columns: 3
   fields: [image, title, description, categories, date]
-  sort: "date desc"
+  sort: ["date desc", "ordem asc"]
   date-format: "MMMM [de] YYYY"
   filter-ui: true           # barra de busca
   categories: true          # botões de filtro por mês e por eixo

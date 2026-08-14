@@ -3,8 +3,9 @@ title: "IA na Educação Médica"
 subtitle: "Acolhimento aos Calouros 2026.1"
 description: "Acolhimento aos Calouros 2026.1"
 date: 2026-02-01
+ordem: 4
 categories: ["Fevereiro", "Acolhimento", "Formação Docente"]
-image: ../fotos/calouros-de-medicina-2026-1.jpg
+image: /fotos/calouros-de-medicina-2026-1.jpg
 image-alt: "IA na Educação Médica"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -21,4 +22,4 @@ Calouros Medicina, NotebookLM, acolhimento acadêmico.
 
 ## Evidências
 
-![Calouros de medicina 2026.1](../fotos/calouros-de-medicina-2026-1.jpg)
+![Calouros de medicina 2026.1](/fotos/calouros-de-medicina-2026-1.jpg)

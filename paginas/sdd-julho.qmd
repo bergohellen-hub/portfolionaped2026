@@ -66,28 +66,28 @@ A semana abriu com os professores reunidos por área para alinhar o semestre 202
 **Registros do dia**
 
 ::: {layout-ncol=3}
-![Encontro por curso — Direito](../fotos/encontro-por-curso-direito.jpg)
+![Encontro por curso — Direito](/fotos/encontro-por-curso-direito.jpg)
 
-![Encontro por curso — Direito](../fotos/encontro-por-curso-direito-2.jpg)
+![Encontro por curso — Direito](/fotos/encontro-por-curso-direito-2.jpg)
 
-![Encontro por curso — Psicologia](../fotos/encontro-por-curso-psicologia.jpg)
+![Encontro por curso — Psicologia](/fotos/encontro-por-curso-psicologia.jpg)
 
-![Encontro por curso — Psicologia](../fotos/encontro-por-curso-psicologia-2.jpg)
+![Encontro por curso — Psicologia](/fotos/encontro-por-curso-psicologia-2.jpg)
 
-![Encontro por curso — Biomedicina](../fotos/encontro-por-curso-biomedicina.jpg)
+![Encontro por curso — Biomedicina](/fotos/encontro-por-curso-biomedicina.jpg)
 
-![Encontro por curso — Enfermagem](../fotos/encontro-por-curso-enfermagem.jpg)
+![Encontro por curso — Enfermagem](/fotos/encontro-por-curso-enfermagem.jpg)
 
-![Encontro por curso — Medicina Veterinária](../fotos/encontro-por-curso-medicina-veterinaria.jpg)
+![Encontro por curso — Medicina Veterinária](/fotos/encontro-por-curso-medicina-veterinaria.jpg)
 
-![Encontro por curso — Nutrição](../fotos/encontro-por-curso-nutricao.jpg)
+![Encontro por curso — Nutrição](/fotos/encontro-por-curso-nutricao.jpg)
 
-![Encontro por curso — Psicologia](../fotos/encontro-por-curso-psicologia-3.jpg)
+![Encontro por curso — Psicologia](/fotos/encontro-por-curso-psicologia-3.jpg)
 
-![Alinhamento SOI — Medicina](../fotos/alinhamento-soi-medicina.jpg)
+![Alinhamento SOI — Medicina](/fotos/alinhamento-soi-medicina.jpg)
 :::
 
-<video controls preload="metadata" src="../fotos/sdd-julho-12.mp4"></video>
+<video controls preload="metadata" src="/fotos/sdd-julho-12.mp4"></video>
 
 Vídeo · Alinhamento SOI
 
@@ -99,25 +99,25 @@ Ponto alto da semana: a sessão demonstrativa **"Agentes de IA na docência"**, 
 **Registros do dia**
 
 ::: {layout-ncol=3}
-![Abertura da sessão 'Agentes de IA na docência'](../fotos/abertura-da-sessao-agentes-de-ia-na-docencia.jpg)
+![Abertura da sessão 'Agentes de IA na docência'](/fotos/abertura-da-sessao-agentes-de-ia-na-docencia.jpg)
 
-![Abertura da sessão 'Agentes de IA na docência'](../fotos/abertura-da-sessao-agentes-de-ia-na-docencia-2.jpg)
+![Abertura da sessão 'Agentes de IA na docência'](/fotos/abertura-da-sessao-agentes-de-ia-na-docencia-2.jpg)
 
-![Palestra 'Agentes de IA na docência' — Prof. Henrique Alvarenga](../fotos/palestra-agentes-de-ia-na-docencia-prof-henrique-alvarenga.jpg)
+![Palestra 'Agentes de IA na docência' — Prof. Henrique Alvarenga](/fotos/palestra-agentes-de-ia-na-docencia-prof-henrique-alvarenga.jpg)
 
-![Palestra — Do Chat ao Cowork e ao Code](../fotos/palestra-do-chat-ao-cowork-e-ao-code.jpg)
+![Palestra — Do Chat ao Cowork e ao Code](/fotos/palestra-do-chat-ao-cowork-e-ao-code.jpg)
 
-![Palestra 'Agentes de IA na docência' — Prof. Henrique Alvarenga](../fotos/palestra-agentes-de-ia-na-docencia-prof-henrique-alvarenga-2.jpg)
+![Palestra 'Agentes de IA na docência' — Prof. Henrique Alvarenga](/fotos/palestra-agentes-de-ia-na-docencia-prof-henrique-alvarenga-2.jpg)
 
-![Demonstração do Claude durante a palestra](../fotos/demonstracao-do-claude-durante-a-palestra.jpg)
+![Demonstração do Claude durante a palestra](/fotos/demonstracao-do-claude-durante-a-palestra.jpg)
 
-![Professores acompanhando a palestra](../fotos/professores-acompanhando-a-palestra.jpg)
+![Professores acompanhando a palestra](/fotos/professores-acompanhando-a-palestra.jpg)
 
-![Palestra 'Agentes de IA na docência'](../fotos/palestra-agentes-de-ia-na-docencia.jpg)
+![Palestra 'Agentes de IA na docência'](/fotos/palestra-agentes-de-ia-na-docencia.jpg)
 
-![Equipe na sessão 'Agentes de IA na docência'](../fotos/equipe-na-sessao-agentes-de-ia-na-docencia.jpg)
+![Equipe na sessão 'Agentes de IA na docência'](/fotos/equipe-na-sessao-agentes-de-ia-na-docencia.jpg)
 
-![Confraternização — jantar da terça-feira](../fotos/confraternizacao-jantar-da-terca-feira.jpg)
+![Confraternização — jantar da terça-feira](/fotos/confraternizacao-jantar-da-terca-feira.jpg)
 :::
 
 ### Oficinas por eixo e por curso  
@@ -128,41 +128,41 @@ Dia dedicado às oficinas práticas, cada área aprofundando os temas mais relev
 **Registros do dia**
 
 ::: {layout-ncol=3}
-![Oficina de feedback](../fotos/oficina-de-feedback.jpg)
+![Oficina de feedback](/fotos/oficina-de-feedback.jpg)
 
-![Oficina de feedback](../fotos/oficina-de-feedback-2.jpg)
+![Oficina de feedback](/fotos/oficina-de-feedback-2.jpg)
 
-![Oficina de prompt reverso — Direito](../fotos/oficina-de-prompt-reverso-direito.jpg)
+![Oficina de prompt reverso — Direito](/fotos/oficina-de-prompt-reverso-direito.jpg)
 
-![Oficina de prompt reverso — Direito](../fotos/oficina-de-prompt-reverso-direito-2.jpg)
+![Oficina de prompt reverso — Direito](/fotos/oficina-de-prompt-reverso-direito-2.jpg)
 
-![Alinhamento do eixo HAM — Medicina](../fotos/alinhamento-do-eixo-ham-medicina.jpg)
+![Alinhamento do eixo HAM — Medicina](/fotos/alinhamento-do-eixo-ham-medicina.jpg)
 
-![Alinhamento do eixo HAM — Medicina](../fotos/alinhamento-do-eixo-ham-medicina-2.jpg)
+![Alinhamento do eixo HAM — Medicina](/fotos/alinhamento-do-eixo-ham-medicina-2.jpg)
 
-![Oficina NotebookLM](../fotos/oficina-notebooklm.jpg)
+![Oficina NotebookLM](/fotos/oficina-notebooklm.jpg)
 
-![Oficina de feedback — eixo SOI · Medicina](../fotos/oficina-de-feedback-eixo-soi-medicina.jpg)
+![Oficina de feedback — eixo SOI · Medicina](/fotos/oficina-de-feedback-eixo-soi-medicina.jpg)
 
-![Oficina de feedback — eixo SOI · Medicina](../fotos/oficina-de-feedback-eixo-soi-medicina-2.jpg)
+![Oficina de feedback — eixo SOI · Medicina](/fotos/oficina-de-feedback-eixo-soi-medicina-2.jpg)
 
-![Alinhamento IESC — Medicina](../fotos/alinhamento-iesc-medicina.jpg)
+![Alinhamento IESC — Medicina](/fotos/alinhamento-iesc-medicina.jpg)
 
-![Alinhamento IESC — Medicina](../fotos/alinhamento-iesc-medicina-2.jpg)
+![Alinhamento IESC — Medicina](/fotos/alinhamento-iesc-medicina-2.jpg)
 
-![Alinhamento IESC — Medicina](../fotos/alinhamento-iesc-medicina-3.jpg)
+![Alinhamento IESC — Medicina](/fotos/alinhamento-iesc-medicina-3.jpg)
 
-![Treinamento ENADE](../fotos/treinamento-enade.jpg)
+![Treinamento ENADE](/fotos/treinamento-enade.jpg)
 
-![Treinamento ENADE](../fotos/treinamento-enade-2.jpg)
+![Treinamento ENADE](/fotos/treinamento-enade-2.jpg)
 
-![Alinhamento C.I. — Medicina](../fotos/alinhamento-c-i-medicina.jpg)
+![Alinhamento C.I. — Medicina](/fotos/alinhamento-c-i-medicina.jpg)
 
-![Alinhamento C.I. — Medicina](../fotos/alinhamento-c-i-medicina-2.jpg)
+![Alinhamento C.I. — Medicina](/fotos/alinhamento-c-i-medicina-2.jpg)
 
-![Oficina de feedback — Cursos SHE](../fotos/oficina-de-feedback-cursos-she.jpg)
+![Oficina de feedback — Cursos SHE](/fotos/oficina-de-feedback-cursos-she.jpg)
 
-![Oficina de feedback — Cursos SHE](../fotos/oficina-de-feedback-cursos-she-2.jpg)
+![Oficina de feedback — Cursos SHE](/fotos/oficina-de-feedback-cursos-she-2.jpg)
 :::
 
 ### Confraternização e celebração  
@@ -173,37 +173,37 @@ Para encerrar, a **Noite de Confraternização** reuniu todos no Bar Real, num r
 **Registros do dia**
 
 ::: {layout-ncol=3}
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real.jpg)
 
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-2.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real-2.jpg)
 
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-3.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real-3.jpg)
 
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-4.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real-4.jpg)
 
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-5.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real-5.jpg)
 
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-6.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real-6.jpg)
 
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-7.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real-7.jpg)
 
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-8.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real-8.jpg)
 
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-9.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real-9.jpg)
 
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-10.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real-10.jpg)
 
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-11.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real-11.jpg)
 
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-12.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real-12.jpg)
 
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-13.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real-13.jpg)
 
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-14.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real-14.jpg)
 
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-15.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real-15.jpg)
 
-![Confraternização de encerramento — Bar Real](../fotos/confraternizacao-de-encerramento-bar-real-16.jpg)
+![Confraternização de encerramento — Bar Real](/fotos/confraternizacao-de-encerramento-bar-real-16.jpg)
 :::
 
 *Novidade desta edição*

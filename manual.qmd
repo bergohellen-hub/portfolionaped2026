@@ -1,0 +1,486 @@
+---
+title: "Manual do Portfólio"
+subtitle: "Como publicar uma ação nova, do começo ao fim"
+description: "O passo a passo para manter o portfólio do NAPED, escrito para ser lido sem lembrar de nada."
+toc: true
+toc-depth: 3
+toc-title: "Neste manual"
+lightbox: auto
+---
+
+Este manual é para quem vai **alimentar** o portfólio — não para quem
+programa. Ele parte do princípio de que você não lembra de nada, e não
+precisa lembrar.
+
+[{{< fa file-pdf >}} Baixar em PDF](/manual.pdf){.btn .btn-outline-primary .btn-sm role="button"}
+
+A regra que vale para tudo:
+
+::: {.destaque}
+Publicar uma ação é criar **um arquivo**. Você não edita o menu, nem a
+página inicial, nem a página do mês, nem o Painel. Todos eles se atualizam
+sozinhos.
+:::
+
+---
+
+## 1. Antes de tudo: como o site funciona
+
+Vale um minuto para entender a ideia, porque ela explica todo o resto.
+
+Cada ação é um arquivo. Dentro dele, no topo, há um punhado de linhas que
+dizem **o que aquela ação é** — o título, a data, e principalmente as
+*etiquetas*. As páginas do site não guardam conteúdo: elas fazem uma
+pergunta ao acervo ("me dê tudo que está etiquetado como Agosto") e montam
+o resultado na hora.
+
+![](/fotos/manual/um-arquivo-varios-lugares.svg){fig-alt="Diagrama: um arquivo de ação, com as etiquetas Agosto e Formação Docente, alimentando a página inicial, a página de Agosto, o filtro por eixo e o Painel."}
+
+É por isso que você escreve num lugar só. E é por isso que **as etiquetas
+importam tanto** — elas são o endereço da ação dentro do site.
+
+---
+
+## 2. O caminho curto
+
+Quando você já tiver pegado o jeito, é isto:
+
+1. Suba as fotos para a pasta `fotos/`
+2. Crie um arquivo na pasta `acoes/`, copiando o modelo
+3. Preencha o cabeçalho e escreva o texto
+4. Salve (*commit*)
+5. Em uns 3 minutos o site está no ar
+
+O resto do manual detalha cada passo.
+
+---
+
+## 3. Publicar uma ação, passo a passo
+
+Este é o caminho **pelo site do GitHub**, sem instalar nada no computador.
+
+### Passo 1 — Suba as fotos primeiro
+
+Faça isso **antes** de criar a ação, para que as fotos já existam quando a
+ação apontar para elas.
+
+1. Abra o repositório no GitHub
+2. Entre na pasta **`fotos`**
+3. Botão **`Add file`** → **`Upload files`**
+4. Arraste as fotos
+5. Lá embaixo, escreva uma descrição curta (ex.: `fotos da roda de conversa`)
+   e clique em **`Commit changes`**
+
+::: {.callout-important}
+## O nome do arquivo da foto importa
+
+Renomeie as fotos **antes** de subir: minúsculas, sem acentos, sem espaços.
+
+| Assim sim | Assim não |
+|---|---|
+| `roda-de-conversa-agosto.jpg` | `IMG_4821.jpg` |
+| `oficina-metodologias-ativas.jpg` | `Foto Oficina (1).JPG` |
+
+Um nome descritivo é o que vai te permitir achar essa foto daqui a um ano.
+Espaço e acento no nome quebram o endereço da imagem.
+:::
+
+Fotos direto do celular servem. Só evite passar de uns 2 MB por foto.
+
+### Passo 2 — Crie o arquivo da ação
+
+1. Entre na pasta **`acoes`**
+2. Abra o arquivo **`_modelo.qmd`**
+3. Clique no botão de **copiar** (o ícone de duas folhinhas, no canto do arquivo)
+4. Volte para a pasta `acoes` → **`Add file`** → **`Create new file`**
+5. No campo do nome, escreva o nome do arquivo novo (formato explicado abaixo)
+6. **Cole** o modelo no corpo
+7. Preencha, apague as linhas de explicação, e **`Commit changes`**
+
+::: {.callout-tip}
+## Sempre comece do `_modelo.qmd`
+
+Ele já vem com todos os campos, na ordem certa, com as aspas e os colchetes
+no lugar — que é onde mais se erra. Nunca comece de um arquivo em branco.
+
+O `_` no começo do nome faz o site ignorar esse arquivo. Ele existe só para
+ser copiado.
+:::
+
+### O nome do arquivo
+
+```
+acoes/AAAA-MM-descricao-curta.qmd
+```
+
+Exemplos reais que já estão no site:
+
+```
+acoes/2026-03-treinamento-notebooklm-medicina.qmd
+acoes/2026-05-projeto-mentoria-enamed.qmd
+```
+
+Regras: começa pelo **ano e mês**, só minúsculas, sem acentos, sem espaços
+(use hífen), e termina em **`.qmd`**. O prefixo de data mantém a pasta em
+ordem cronológica sozinha.
+
+---
+
+## 4. O cabeçalho, campo a campo
+
+O cabeçalho é o bloco entre as duas linhas de `---`, no topo do arquivo.
+Ele não aparece como texto na página: é a *ficha* da ação, o que permite
+que o site a encontre.
+
+```yaml
+---
+title: "Roda de conversa sobre avaliação formativa"
+description: "Encontro com 22 docentes do Campus Central"
+date: 2026-08-18
+categories: ["Agosto", "Formação Docente"]
+image: /fotos/roda-de-conversa-agosto.jpg
+---
+```
+
+Cinco linhas. Só isso é obrigatório.
+
+### Onde cada campo vai parar
+
+| Campo | O que faz |
+|---|---|
+| `title:` | O título grande da página e o título do cartão na vitrine |
+| `description:` | A frase cinza embaixo do título, no cartão — e a prévia quando você cola o link no WhatsApp |
+| `date:` | A data em que a ação aconteceu. Ordena a vitrine, das mais novas para as mais antigas |
+| `categories:` | **As etiquetas.** É o campo que coloca a ação em vários lugares. Ver a seção 5 |
+| `image:` | A foto que aparece no cartão |
+
+Assim fica o cartão na página inicial:
+
+![O cartão da vitrine: a foto vem do `image:`, o título do `title:`, as etiquetas rosas do `categories:` e a frase cinza do `description:`.](/fotos/manual/vitrine-cartoes.png){fig-alt="Página inicial do portfólio, mostrando a grade de cartões das ações."}
+
+E assim fica a página da ação:
+
+![A página da ação. O texto que você escreve entra abaixo do título; a caixa rosa e a galeria de evidências são explicadas na seção 7.](/fotos/manual/acao-pagina.png){fig-alt="Página de uma ação, com título, etiquetas, texto, caixa de destaque e galeria de fotos."}
+
+### O caminho da foto começa com `/fotos/`
+
+```yaml
+image: /fotos/roda-de-conversa-agosto.jpg
+```
+
+Sempre com a **barra na frente**, sempre `/fotos/`. Vale igual no cabeçalho
+e no meio do texto, em qualquer arquivo. Você não precisa pensar em qual
+pasta está.
+
+### Campos opcionais
+
+```yaml
+subtitle: "Avaliação formativa no internato"
+ordem: 3
+```
+
+- **`subtitle:`** — um subtítulo, se a ação pedir.
+- **`ordem:`** — a posição da ação dentro do mês (1, 2, 3…). Serve para
+  você escolher em que ordem elas aparecem na página do mês. Se não puser,
+  a ordem é pela data.
+
+---
+
+## 5. As etiquetas {#etiquetas}
+
+::: {.callout-warning}
+## A comparação é por texto exato
+
+`Março` e `março` são etiquetas **diferentes**. `Formação Docente` e
+`Formacao Docente` também.
+
+Se você escrever o mês errado, a ação **não aparece** na página do mês.
+Por isso: **copie e cole daqui**, não digite de memória.
+:::
+
+### Etiqueta de mês — obrigatória, exatamente uma
+
+```
+Janeiro     Fevereiro   Março       Abril
+Maio        Junho       Julho       Agosto
+Setembro    Outubro     Novembro    Dezembro
+```
+
+Repare no **ç** de `Março`.
+
+### Etiquetas de eixo — opcionais, no máximo duas
+
+O eixo diz *que tipo de trabalho* a ação é. Alimenta os filtros e os
+gráficos do Painel.
+
+| Etiqueta | Quando usar |
+|---|---|
+| `Formação Docente` | Capacitações, treinamentos, oficinas, NAPED Day, SDD |
+| `ENAMED` | Tudo ligado ao ENAMED: preparação, alinhamentos, editais |
+| `Projeto MOVE` | Encontros com a educação básica |
+| `Mentoria` | Formação e acompanhamento de mentores |
+| `Preceptoria` | Preceptores, internato, campos de prática |
+| `Produção Científica` | Publicações, fóruns, congressos, premiações |
+| `Gestão e Planejamento` | Reuniões institucionais, metas, alinhamentos, visitas |
+| `Acolhimento` | Recepção de calouros e docentes, cerimônias, cuidado |
+
+**Por que no máximo duas:** o cartão fica ilegível com muitas etiquetas. Se
+uma ação parece pedir três eixos, quase sempre são duas ações diferentes.
+
+**Uma ação pode ter dois eixos** e aparece nos dois filtros — continua sendo
+um arquivo só:
+
+```yaml
+categories: ["Maio", "Mentoria", "ENAMED"]
+```
+
+### Precisa de um eixo novo?
+
+Pode criar: basta usar a etiqueta na ação. Ele aparece sozinho nos filtros
+e no Painel. O site vai apenas te **avisar** que é um eixo desconhecido —
+para o caso de ter sido erro de digitação. Se for intencional, ignore o
+aviso e acrescente a linha na tabela acima.
+
+Só evite criar um eixo para uma ação única: o valor da etiqueta está em
+juntar coisas parecidas.
+
+---
+
+## 6. Os números que alimentam o Painel
+
+::: {.callout-important}
+## Esta parte provavelmente é novidade
+
+O site tem um **Painel** que soma tudo sozinho: quantas ações por mês, por
+eixo, quantas pessoas foram alcançadas, quantas horas de formação.
+
+Ele não é preenchido em lugar nenhum. Ele lê o cabeçalho das ações.
+
+Hoje ele mostra **"0 de 27 ações com números informados"**, porque as
+páginas antigas não registravam esses dados por ação. Cada ação que você
+preencher entra na conta na publicação seguinte.
+:::
+
+São cinco campos, todos opcionais:
+
+```yaml
+participantes: 22          # quantas pessoas participaram — só o número
+horas: 4                   # carga horária — só o número
+publico: "Docentes"        # quem era o público
+campus: "Campus Central"   # onde aconteceu
+cursos: ["Medicina"]       # cursos alcançados
+```
+
+**Deixar em branco não quebra nada** — a ação só não entra naquela conta.
+Preencha o que souber, quando souber. Não precisa voltar e preencher tudo
+de uma vez.
+
+::: {.callout-tip}
+## Em `participantes:` e `horas:`, escreva só o número
+
+`participantes: 22` funciona. `participantes: "cerca de 20"` não — o site
+vai apontar isso e pedir para corrigir. Se o número for aproximado, ponha o
+número e explique no texto da ação.
+:::
+
+Para `publico:`, procure reaproveitar os mesmos termos — `Docentes`,
+`Preceptores`, `Estudantes`, `Coordenadores`, `Colaboradores
+administrativos` — pelo mesmo motivo das etiquetas: texto igual agrupa,
+texto variado dispersa.
+
+É assim que o Painel fica:
+
+![O Painel. Os quatro primeiros números e os dois gráficos já funcionam sem você preencher nada. A faixa "Alcance" é a que depende dos campos `participantes:` e `horas:`.](/fotos/manual/painel.png){fig-alt="Painel de ações, com cartões de números, gráfico de ações por mês e gráfico de ações por eixo."}
+
+---
+
+## 7. Escrever o texto da ação
+
+Depois do segundo `---`, escreva normalmente. **Uma linha em branco separa
+um parágrafo do outro** — é a única regra de formatação que importa.
+
+```markdown
+No dia 18 de agosto o NAPED reuniu 22 docentes do Campus Central para
+uma roda de conversa sobre avaliação formativa.
+
+O encontro discutiu instrumentos de acompanhamento contínuo e o uso de
+devolutivas qualitativas ao longo do semestre.
+```
+
+### A caixa rosa de destaque
+
+Para o resultado ou o encaminhamento mais importante:
+
+```markdown
+::: {.destaque}
+Reuniões quinzenais agendadas para o restante do semestre.
+:::
+```
+
+### As evidências
+
+```markdown
+## Evidências
+
+::: {layout-ncol=2}
+![**Roda de conversa** Docentes reunidos no auditório.](/fotos/roda-de-conversa-agosto.jpg)
+
+![**Material de apoio** Instrumentos apresentados no encontro.](/fotos/material-roda-agosto.jpg)
+:::
+```
+
+- `layout-ncol=2` põe **duas** fotos lado a lado. Troque para `3` se forem três.
+- Para **uma foto só**, apague as linhas `:::` e deixe só o `![...](...)`.
+- O que está entre `**` vira o título da legenda; o resto, o texto menor.
+- Clicar na foto já abre em tela cheia. Você não precisa fazer nada para isso.
+
+### Negrito e itálico
+
+```markdown
+**negrito**   *itálico*
+```
+
+---
+
+## 8. Salvar e publicar
+
+No GitHub, salvar já publica. Ao clicar em **`Commit changes`**, escreva uma
+descrição curta do que mudou (ex.: `acrescenta a roda de conversa de agosto`)
+e confirme.
+
+Em uns 3 minutos o site está atualizado.
+
+### Como saber se deu certo
+
+Na página do repositório, abra a aba **`Actions`**. A publicação mais
+recente aparece no topo:
+
+- **✅ verde** — publicado. Abra o site e confira.
+- **🟡 amarelo** — ainda rodando. Espere.
+- **❌ vermelho** — algo no arquivo está errado. Clique nele para ler a
+  explicação. Ver a seção 9.
+
+---
+
+## 9. Quando dá errado
+
+::: {.destaque}
+Antes de publicar, o site **confere** cada ação. Se achar um problema, ele
+interrompe a publicação e explica o que houve, em português.
+
+O site que está no ar **não quebra** — ele continua mostrando a versão
+anterior até você corrigir.
+:::
+
+A mensagem aparece na aba `Actions`, e é assim:
+
+```
+  ┌──────────────────────────────────────────────────────────────┐
+  │  A publicação foi interrompida                               │
+  └──────────────────────────────────────────────────────────────┘
+
+  Há 1 problema para corrigir:
+
+   · 2026-08-roda-de-conversa.qmd
+     A etiqueta de mês está escrita "agosto".
+     O certo é "Agosto" — a comparação é por texto exato.
+
+  O site continua no ar com a versão anterior — nada foi quebrado.
+```
+
+Corrija o arquivo, salve de novo, e pronto.
+
+### O que ele confere
+
+| Confere | Se estiver errado |
+|---|---|
+| A etiqueta de mês existe e está escrita certo | **Interrompe** e diz qual é a forma correta |
+| A foto do `image:` existe mesmo na pasta | **Interrompe** e diz qual arquivo não achou |
+| As fotos do texto existem | **Interrompe** |
+| O cabeçalho tem `title:`, `date:` e `categories:` | **Interrompe** |
+| A data é válida | **Interrompe** |
+| `participantes:` e `horas:` são números | **Interrompe** |
+| O nome do arquivo começa com ano e mês | **Interrompe** |
+| O eixo está na lista conhecida | Só **avisa** — pode ser um eixo novo de propósito |
+| A ação tem mais de dois eixos | Só **avisa** |
+
+### Problemas comuns
+
+| Sintoma | Causa quase certa |
+|---|---|
+| A ação não aparece na página do mês | Etiqueta de mês diferente da lista da [seção 5](#etiquetas) |
+| O cartão aparece sem foto | O nome da foto no `image:` está diferente do arquivo em `fotos/` |
+| ❌ vermelho logo depois de salvar | Aspa ou dois-pontos faltando no cabeçalho. Compare com o `_modelo.qmd` |
+| A foto some no meio do texto | Faltou o `/` no começo de `/fotos/` |
+
+---
+
+## 10. Receitas rápidas
+
+### Corrigir uma ação já publicada
+
+Abra o arquivo em `acoes/`, clique no **lápis**, edite e salve. Nada mais.
+
+### Tirar uma ação do ar
+
+Apague o arquivo em `acoes/`. Ela some da vitrine, da página do mês e do
+Painel de uma vez só.
+
+### Começar um mês novo
+
+Nada a fazer. Basta etiquetar a ação com o mês novo — a página daquele mês
+é criada sozinha e entra na página [Meses](meses.qmd).
+
+### Mudar a ordem das ações dentro de um mês
+
+Ponha `ordem: 1`, `ordem: 2`… no cabeçalho de cada uma.
+
+### Trocar um item do menu
+
+Aí sim é preciso editar o `_quarto.yml`, na raiz do projeto. É a única
+coisa que ainda pede isso — e não acontece ao publicar ações.
+
+---
+
+## 11. Ver o site antes de publicar (opcional)
+
+Só se você tiver o [Quarto](https://quarto.org/docs/get-started/) instalado
+no computador:
+
+```bash
+quarto preview
+```
+
+Abre o site no navegador e atualiza sozinho a cada vez que você salva. A
+mesma conferência da seção 9 roda aqui, então você vê os erros antes de
+qualquer coisa ir para o ar.
+
+---
+
+## 12. Onde fica cada coisa
+
+```
+portfolionaped2026/
+├─ acoes/               UMA AÇÃO POR ARQUIVO  ← é aqui que você trabalha
+│  └─ _modelo.qmd       o molde para copiar
+├─ fotos/               as imagens
+├─ meses/               as páginas de mês (criadas sozinhas)
+├─ paginas/             Equipe, MOVE, Mentoria, Preceptoria, Comprovações, SDD
+├─ index.qmd            a vitrine
+├─ dashboard.qmd        o Painel
+├─ manual.qmd           este manual
+├─ _quarto.yml          menu, cores e publicação — mexer é raro
+└─ styles.scss          a aparência
+```
+
+---
+
+::: {.callout-note}
+## Este manual faz parte do site
+
+Ele é gerado junto com o resto e mora numa página fixa — não é um arquivo
+solto que envelhece numa pasta. Guarde o endereço nos favoritos.
+
+Para ter em papel ou PDF: **Ctrl + P** (ou **⌘ + P**) → *Salvar como PDF*.
+A página já está formatada para impressão.
+:::

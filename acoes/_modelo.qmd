@@ -1,0 +1,82 @@
+---
+# ┌────────────────────────────────────────────────────────────────────────┐
+# │  MODELO DE AÇÃO — copie este arquivo, não o edite.                     │
+# │  O nome começa com _ , então ele não vira página do site.              │
+# │                                                                        │
+# │  Como usar: abra este arquivo, copie tudo, crie um arquivo novo em     │
+# │  acoes/ com o nome AAAA-MM-descricao-curta.qmd, cole e preencha.       │
+# │  Apague as linhas que começam com # — são só explicação.               │
+# └────────────────────────────────────────────────────────────────────────┘
+
+# ---- OBRIGATÓRIO -------------------------------------------------------
+
+# O título da ação. Aparece no cartão e no topo da página.
+title: "Escreva aqui o título da ação"
+
+# A frase curta que aparece embaixo do título, no cartão.
+description: "Uma linha dizendo do que se trata"
+
+# A data em que a ação aconteceu. Formato ano-mês-dia, sem aspas.
+date: 2026-08-18
+
+# As etiquetas. A PRIMEIRA é sempre o mês, escrito exatamente assim:
+#   Janeiro Fevereiro Março Abril Maio Junho
+#   Julho Agosto Setembro Outubro Novembro Dezembro
+# Depois, até dois eixos:
+#   Formação Docente · ENAMED · Projeto MOVE · Mentoria
+#   Preceptoria · Produção Científica · Gestão e Planejamento · Acolhimento
+# Atenção: é texto exato. "março" com m minúsculo não funciona.
+categories: ["Agosto", "Formação Docente"]
+
+# A foto do cartão. Sempre começando com /fotos/ — sem ../ , sem pasta.
+image: /fotos/nome-da-foto.jpg
+
+# ---- OPCIONAL ----------------------------------------------------------
+
+# Subtítulo, se quiser um.
+subtitle: "Subtítulo da ação"
+
+# A posição da ação dentro do mês (1, 2, 3...). Serve para escolher a
+# ordem em que elas aparecem na página do mês. Se você não puser, a
+# ordenação é pela data.
+ordem: 1
+
+# ---- NÚMEROS (opcional, mas é o que alimenta o Painel) -----------------
+#
+# Estes campos não são obrigatórios: deixar vazio não quebra nada, a ação
+# só não entra nas contas. Mas é daqui que o Painel tira os totais de
+# pessoas alcançadas e horas de formação — ninguém digita isso lá.
+# Preencha o que souber, quando souber.
+
+participantes: 22          # quantas pessoas participaram (só o número)
+horas: 4                   # carga horária (só o número)
+publico: "Docentes"        # Docentes, Preceptores, Estudantes, Coordenadores...
+campus: "Campus Central"   # onde aconteceu
+cursos: ["Medicina"]       # cursos alcançados
+---
+
+Escreva aqui o texto da ação, normalmente. Uma linha em branco separa
+um parágrafo do outro.
+
+Este é o segundo parágrafo.
+
+::: {.destaque}
+Esta é a caixa rosa de destaque. Use para o resultado ou o encaminhamento
+mais importante da ação. Pode apagar se não precisar.
+:::
+
+## Evidências
+
+::: {layout-ncol=2}
+![**Título da legenda** O texto menor que explica a foto.](/fotos/primeira-foto.jpg)
+
+![**Título da legenda** O texto menor que explica a foto.](/fotos/segunda-foto.jpg)
+:::
+
+<!--
+  Sobre as fotos:
+  · layout-ncol=2 põe duas lado a lado. Troque para 3 se forem três.
+  · Se for uma foto só, apague as linhas ::: e deixe só o ![...](...)
+  · O caminho sempre começa com /fotos/
+  · Clicar na foto já abre em tela cheia — não precisa fazer nada.
+-->

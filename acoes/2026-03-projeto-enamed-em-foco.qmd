@@ -3,8 +3,9 @@ title: "Projeto ENAMED em Foco"
 subtitle: "Reunião com Alunos do Internato Fora de Sede & Oficina Test Wiseness"
 description: "Reunião com Alunos do Internato Fora de Sede & Oficina Test Wiseness"
 date: 2026-03-01
+ordem: 4
 categories: ["Março", "ENAMED", "Formação Docente"]
-image: ../fotos/reuniao-enamed-estudantes-internato.jpg
+image: /fotos/reuniao-enamed-estudantes-internato.jpg
 image-alt: "Projeto ENAMED em Foco"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -24,17 +25,17 @@ ENAMED em Foco, internato fora de sede, plano de ação acadêmico.
 ## Evidências
 
 ::: {layout-ncol=2}
-![Reunião ENAMED — Estudantes Internato](../fotos/reuniao-enamed-estudantes-internato.jpg)
+![Reunião ENAMED — Estudantes Internato](/fotos/reuniao-enamed-estudantes-internato.jpg)
 
-![O Processo ENAMED e ENARE 2026](../fotos/o-processo-enamed-e-enare-2026.jpg)
+![O Processo ENAMED e ENARE 2026](/fotos/o-processo-enamed-e-enare-2026.jpg)
 
-![Plano de Ação ENAMED — Afya São João del-Rei](../fotos/plano-de-acao-enamed-afya-sao-joao-del-rei.jpg)
+![Plano de Ação ENAMED — Afya São João del-Rei](/fotos/plano-de-acao-enamed-afya-sao-joao-del-rei.jpg)
 
-![Reunião ENAMED — Estudantes Internato](../fotos/reuniao-enamed-estudantes-internato-2.jpg)
+![Reunião ENAMED — Estudantes Internato](/fotos/reuniao-enamed-estudantes-internato-2.jpg)
 
-![Divulgação — Oficina Test Wiseness](../fotos/divulgacao-da-oficina-test-wiseness.jpg)
+![Divulgação — Oficina Test Wiseness](/fotos/divulgacao-da-oficina-test-wiseness.jpg)
 
-![Oficina Test Wiseness](../fotos/oficina-test-wiseness-em-andamento.jpg)
+![Oficina Test Wiseness](/fotos/oficina-test-wiseness-em-andamento.jpg)
 
-![Participação dos Estudantes](../fotos/estudantes-participando-da-oficina.jpg)
+![Participação dos Estudantes](/fotos/estudantes-participando-da-oficina.jpg)
 :::

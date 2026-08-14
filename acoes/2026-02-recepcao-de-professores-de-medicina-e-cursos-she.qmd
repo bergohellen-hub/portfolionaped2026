@@ -3,8 +3,9 @@ title: "Recepção de Professores de Medicina e Cursos SHE"
 subtitle: "Acolhimento Docente"
 description: "Acolhimento Docente"
 date: 2026-02-01
+ordem: 2
 categories: ["Fevereiro", "Acolhimento"]
-image: ../fotos/docentes-de-medicina-coordenacao-e-reitoria.jpg
+image: /fotos/docentes-de-medicina-coordenacao-e-reitoria.jpg
 image-alt: "Recepção de Professores de Medicina e Cursos SHE"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -22,11 +23,11 @@ Acolhimento docente, integração institucional, professores Medicina e SHE.
 ## Evidências
 
 ::: {layout-ncol=2}
-![Docentes de medicina, coordenação e reitoria](../fotos/docentes-de-medicina-coordenacao-e-reitoria.jpg)
+![Docentes de medicina, coordenação e reitoria](/fotos/docentes-de-medicina-coordenacao-e-reitoria.jpg)
 
-![Docentes de medicina, coordenação e reitoria](../fotos/docentes-de-medicina-coordenacao-e-reitoria-2.jpg)
+![Docentes de medicina, coordenação e reitoria](/fotos/docentes-de-medicina-coordenacao-e-reitoria-2.jpg)
 
-![Docentes de medicina, coordenação e reitoria](../fotos/docentes-de-medicina-coordenacao-e-reitoria-3.jpg)
+![Docentes de medicina, coordenação e reitoria](/fotos/docentes-de-medicina-coordenacao-e-reitoria-3.jpg)
 
-![Docentes de medicina, coordenação e reitoria](../fotos/docentes-de-medicina-coordenacao-e-reitoria-4.jpg)
+![Docentes de medicina, coordenação e reitoria](/fotos/docentes-de-medicina-coordenacao-e-reitoria-4.jpg)
 :::

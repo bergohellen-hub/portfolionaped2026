@@ -3,8 +3,9 @@ title: "Projeto ENAMED em Foco"
 subtitle: "Preparação Integrada para o ENAMED | Medicina"
 description: "Preparação Integrada para o ENAMED | Medicina"
 date: 2026-05-01
+ordem: 6
 categories: ["Maio", "ENAMED"]
-image: ../fotos/conversas-individuais-do-reitor-com-professores-da-medicina-2.jpg
+image: /fotos/conversas-individuais-do-reitor-com-professores-da-medicina-2.jpg
 image-alt: "Projeto ENAMED em Foco"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -19,20 +20,20 @@ O NAPED coordenou um conjunto articulado de ações voltadas à preparação dos
 
 ### Alinhamento Institucional
 
-![](../fotos/conversas-individuais-do-reitor-com-professores-da-medicina-2.jpg)
+![](/fotos/conversas-individuais-do-reitor-com-professores-da-medicina-2.jpg)
 
 ### Escuta e Engajamento Estudantil
 
 ::: {layout-ncol=2}
-![](../fotos/25-05-reuniao-com-lideres-de-turma-escuta-e-estabelecimento.jpg)
+![](/fotos/25-05-reuniao-com-lideres-de-turma-escuta-e-estabelecimento.jpg)
 
-![](../fotos/26-05-reuniao-com-monitores-do-internato-escuta-e-engajament.jpg)
+![](/fotos/26-05-reuniao-com-monitores-do-internato-escuta-e-engajament.jpg)
 :::
 
 ### Alinhamento Docente e Ações de Recuperação
 
 ::: {layout-ncol=2}
-![](../fotos/14-05-reuniao-com-professores-de-disciplinas-teoricas-organi.jpg)
+![](/fotos/14-05-reuniao-com-professores-de-disciplinas-teoricas-organi.jpg)
 
-![](../fotos/encontros-diarios-as-19h-enamed-em-foco-correcao-de-simulado.jpg)
+![](/fotos/encontros-diarios-as-19h-enamed-em-foco-correcao-de-simulado.jpg)
 :::

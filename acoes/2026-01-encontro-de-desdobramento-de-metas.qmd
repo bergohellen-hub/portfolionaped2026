@@ -3,8 +3,9 @@ title: "Encontro de Desdobramento de Metas"
 subtitle: "Planejamento Estratégico 2026"
 description: "Planejamento Estratégico 2026"
 date: 2026-01-01
+ordem: 2
 categories: ["Janeiro", "Gestão e Planejamento"]
-image: ../fotos/desdobramento-de-metas.jpg
+image: /fotos/desdobramento-de-metas.jpg
 image-alt: "Encontro de Desdobramento de Metas"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -22,9 +23,9 @@ Metas traçadas em conjunto com a Reitoria, colaboradores administrativos e coor
 ## Evidências
 
 ::: {layout-ncol=3}
-![Desdobramento de Metas](../fotos/desdobramento-de-metas.jpg)
+![Desdobramento de Metas](/fotos/desdobramento-de-metas.jpg)
 
-![Desdobramento de Metas](../fotos/desdobramento-de-metas-2.jpg)
+![Desdobramento de Metas](/fotos/desdobramento-de-metas-2.jpg)
 
-![Desdobramento de Metas](../fotos/desdobramento-de-metas-3.jpg)
+![Desdobramento de Metas](/fotos/desdobramento-de-metas-3.jpg)
 :::
