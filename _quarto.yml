@@ -32,7 +32,7 @@ website:
 
   navbar:
     logo: fotos/naped-afya.png
-    title: "Portfólio"
+    title: false
     left:
       - href: index.qmd
         text: Início

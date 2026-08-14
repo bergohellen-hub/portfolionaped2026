@@ -224,33 +224,27 @@ Projetos
 
 Reconhecimentos acadêmicos
 
-*Vozes da semana*
+## Vozes da Semana {.vozes-titulo}
 
-## O que disseram os participantes
+O que disseram os participantes da SDD 2026.2.
 
-“
-
+::: {.voz}
 Os momentos dedicados a cada curso proporcionaram o surgimento de muitas ideias e aprendizagens.
 
-Kelly Jackeline Oliveira Pereira Andrade
+**Kelly Jackeline Oliveira Pereira Andrade** · Docente · Afya SJDR
+:::
 
-Docente · Afya SJDR
-
-“
-
+::: {.voz}
 Usar a SDD para fazermos a reunião interna dos cursos e resolver demandas específicas foi muito proveitoso e extremamente aplicável. Poderiam manter nesse formato.
 
-Douglas Roberto Guimarães Silva
+**Douglas Roberto Guimarães Silva** · Docente · Afya SJDR
+:::
 
-Docente · Afya SJDR
-
-“
-
+::: {.voz}
 O encerramento, feito junto, foi muito legal. Minha sugestão é ter um momento de abertura com todos e, depois, cada curso seguindo a sua própria programação conforme a necessidade.
 
-Wagner Elias de Melo Moreira
-
-Docente · Afya SJDR
+**Wagner Elias de Melo Moreira** · Docente · Afya SJDR
+:::
 
 NAPED
 

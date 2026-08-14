@@ -127,6 +127,44 @@ h2 {
   font-size: .95rem;
 }
 
+// --- título em destaque (ex.: "Vozes da Semana") ---------------------------
+h2.vozes-titulo {
+  color: $naped-rosa;
+  border-bottom-color: $naped-rosa;
+}
+
+// --- depoimentos em caixa magenta ------------------------------------------
+.voz {
+  position: relative;
+  background: $naped-rosa;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px 24px 18px 46px;
+  margin: 18px 0;
+  font-style: italic;
+  font-size: .96rem;
+  line-height: 1.5;
+}
+.voz::before {
+  content: "\201C";
+  position: absolute;
+  top: 6px;
+  left: 16px;
+  font-family: $font-family-serif;
+  font-style: normal;
+  font-size: 2.2rem;
+  line-height: 1;
+  color: rgba(255, 255, 255, .55);
+}
+.voz strong {
+  display: block;
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: .85rem;
+  letter-spacing: .01em;
+}
+
 // --- etiquetas de curso ---------------------------------------------------
 .cursos { margin: 16px 0 22px; }
 .curso-tag {
