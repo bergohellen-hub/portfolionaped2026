@@ -1,0 +1,24 @@
+---
+title: "Podcast Ética Médica — Ep. 01"
+subtitle: "O que vem por aí?"
+description: "Primeiro episódio do podcast de Ética Médica, do Prof. Pedro Delabrida."
+date: 2026-08-14
+categories: ["Agosto", "Podcast Ética Médica"]
+image: ../fotos/pedro-delabrida.jpg
+image-alt: "Prof. Pedro Delabrida — Podcast Ética Médica"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+O NAPED apresenta o **Podcast Ética Médica**, uma iniciativa do **Prof. Pedro Delabrida**, médico e docente da Afya São João del-Rei, com **10 episódios** dedicados à ética médica na formação em Medicina. O projeto está disponível para divulgação e para que outras unidades também possam utilizá-lo.
+
+Para abrir a jornada, o Episódio 1 apresenta tudo o que vem por aí: os temas, as discussões e os assuntos que serão explorados ao longo dos próximos episódios.
+
+::: {.destaque}
+🎧 **EP. 01 — O que vem por aí?**
+
+[Ouça o episódio](https://1drv.ms/u/c/5a11a1dd21c91634/IQB4LF3uwQGtR5PAJYgmq0-8ATkiFcMf9kPZdFSoqDyECQk)
+:::

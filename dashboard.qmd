@@ -50,7 +50,7 @@ MESES <- c("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
            "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
 EIXOS <- c("Formação Docente", "ENAMED", "Projeto MOVE", "Mentoria",
            "Preceptoria", "Produção Científica", "Gestão e Planejamento",
-           "Acolhimento")
+           "Acolhimento", "Podcast Ética Médica")
 
 acoes <- acoes |>
   mutate(

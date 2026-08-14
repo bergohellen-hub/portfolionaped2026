@@ -38,6 +38,7 @@ portfólio por tema e alimenta os gráficos do Painel.
 | `Produção Científica` | Publicações, fóruns, congressos, premiações |
 | `Gestão e Planejamento` | Reuniões institucionais, metas, alinhamentos, visitas |
 | `Acolhimento` | Recepção de calouros e docentes, cerimônias, cuidado |
+| `Podcast Ética Médica` | Episódios do podcast de Ética Médica (Prof. Pedro Delabrida) |
 
 **Por que no máximo duas:** o cartão da ação na vitrine fica ilegível com
 muitas etiquetas. Se uma ação parece pedir três eixos, provavelmente são
@@ -51,9 +52,11 @@ um arquivo só. O `Projeto Mentoria ENAMED`, por exemplo, é
 
 ## 3. Precisa de um eixo novo?
 
-Acrescente a linha aqui **e** use a etiqueta na ação. Não há nenhuma lista
-para atualizar em outro lugar: os botões de filtro da vitrine e as barras do
-Painel se montam a partir do que existe nos arquivos.
+Acrescente a linha aqui **e** use a etiqueta na ação. Os botões de filtro da
+vitrine se montam sozinhos a partir do que existe nos arquivos — mas o
+gráfico "por eixo" do Painel usa uma lista própria (`EIXOS`, no início de
+`dashboard.qmd`): acrescente o eixo novo lá também, ou ele não entra nesse
+gráfico.
 
 Só evite criar um eixo para uma ação única — o valor da etiqueta está em
 juntar coisas parecidas.
