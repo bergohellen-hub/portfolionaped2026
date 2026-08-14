@@ -91,6 +91,10 @@ format:
     fig-align: center
 
 execute:
-  freeze: auto            # só o painel roda R; o resto é texto puro
+  # SEM freeze, de propósito. O Painel lê a pasta acoes/ em tempo de build.
+  # Com "freeze: auto" ele só recalcularia quando dashboard.qmd mudasse, e
+  # uma ação nova não apareceria no Painel — quebrando a regra de que criar
+  # um arquivo basta. Recalcular sempre custa segundos e nunca fica errado.
+  freeze: false
 
 lang: pt
