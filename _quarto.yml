@@ -32,7 +32,7 @@ website:
 
   navbar:
     logo: fotos/naped-afya.png
-    title: "Portfólio NAPED"
+    title: "Portfólio"
     left:
       - href: index.qmd
         text: Início
@@ -86,6 +86,8 @@ format:
     theme:
       - cosmo
       - styles.scss
+    # agrupa a barra de Categorias da vitrine em "Meses" e "Temas"
+    include-after-body: categorias-agrupadas.html
     toc: true
     toc-title: "Nesta página"
     toc-depth: 3

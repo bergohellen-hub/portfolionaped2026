@@ -1,7 +1,7 @@
 ---
 title: "Painel de Ações"
 subtitle: "O portfólio em números, calculado a partir dos próprios arquivos"
-description: "Volume por mês e por eixo, alcance, cursos e campi, e a tabela completa das ações."
+description: "Volume por mês e por eixo, cursos e campi, e a tabela completa das ações."
 toc: true
 page-layout: full
 execute:
@@ -136,52 +136,6 @@ exemplo, é ao mesmo tempo `Mentoria` e `ENAMED`. Ela aparece nos dois
 recortes, mas continua sendo **um único arquivo**.
 :::
 
-## Alcance: pessoas e horas
-
-```{r}
-#| label: alcance
-#| output: asis
-com_dados <- acoes |> filter(!is.na(participantes) | !is.na(horas))
-tot_pessoas <- sum(acoes$participantes, na.rm = TRUE)
-tot_horas   <- sum(acoes$horas, na.rm = TRUE)
-
-cat("::: {.numero-grid}\n")
-cat(cartao(ifelse(tot_pessoas > 0, tot_pessoas, "—"), "pessoas alcançadas"))
-cat(cartao(ifelse(tot_horas > 0, paste0(tot_horas, "h"), "—"), "horas de formação"))
-cat(cartao(sprintf("%d de %d", nrow(com_dados), n_acoes), "ações com números informados"))
-cat("\n:::\n")
-```
-
-```{r}
-#| label: alcance-detalhe
-#| output: asis
-if (nrow(com_dados) == 0) {
-  cat(
-    "::: {.callout-important}\n",
-    "## Estes números ainda estão por preencher\n\n",
-    "As páginas HTML antigas não registravam participantes e carga horária ",
-    "**por ação** — só totais do semestre, que estão em ",
-    "[O Semestre em Números](paginas/em-numeros.qmd). Preencher aqui a partir ",
-    "daqueles totais seria inventar uma atribuição que o registro original não faz.\n\n",
-    "Para o painel começar a somar, abra qualquer arquivo em `acoes/` e ",
-    "preencha os campos `participantes:` e `horas:` do cabeçalho. ",
-    "Cada ação preenchida entra no cálculo na publicação seguinte, ",
-    "sem mexer em nenhum outro arquivo.\n",
-    ":::\n", sep = ""
-  )
-} else {
-  por_mes_alc <- acoes |>
-    filter(!is.na(mes)) |>
-    group_by(mes) |>
-    summarise(pessoas = sum(participantes, na.rm = TRUE),
-              horas   = sum(horas, na.rm = TRUE), .groups = "drop") |>
-    mutate(mes = factor(mes, levels = MESES)) |>
-    arrange(mes)
-  print(knitr::kable(por_mes_alc,
-                     col.names = c("Mês", "Pessoas alcançadas", "Horas de formação")))
-}
-```
-
 ## Cursos e campi atingidos
 
 ```{r}
@@ -220,9 +174,7 @@ tabela <- acoes |>
     Mês    = mes,
     Ação   = titulo,
     Eixos  = purrr::map_chr(eixos, \(x) paste(x, collapse = ", ")),
-    Cursos = purrr::map_chr(cursos, \(x) if (length(x)) paste(x, collapse = ", ") else ""),
-    Pessoas = participantes,
-    Horas   = horas
+    Cursos = purrr::map_chr(cursos, \(x) if (length(x)) paste(x, collapse = ", ") else "")
   ) |>
   arrange(match(Mês, MESES), Ação)
 
@@ -244,12 +196,3 @@ DT::datatable(
   )
 )
 ```
-
-::: {.callout-tip}
-## Como este painel se mantém sozinho
-
-Não há nenhum número digitado nesta página. Cada gráfico e cada linha da
-tabela vem do cabeçalho dos arquivos em `acoes/`. Publicar uma ação nova
-recalcula tudo — os totais, os gráficos, a tabela e os filtros — sem que
-este arquivo precise ser tocado.
-:::
