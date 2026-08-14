@@ -1,0 +1,42 @@
+---
+title: "Projeto Mentoria ENAMED"
+subtitle: "Formação de Mentores e Acompanhamento dos Estudantes"
+description: "Formação de Mentores e Acompanhamento dos Estudantes"
+date: 2026-06-01
+categories: ["Junho", "Mentoria", "ENAMED"]
+image: ../fotos/a-metodologia-de-sucesso.jpg
+image-alt: "Projeto Mentoria ENAMED"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+O Projeto Mentoria ENAMED estruturou um programa de acompanhamento individualizado dos estudantes de Medicina, com encontros quinzenais de uma hora em grupos reduzidos de até 10 alunos. A metodologia, orientada pelo NAPED/NED, foi apresentada por Denny Almeida e capacitou mentores docentes para atuar com escuta ativa, acolhimento e acompanhamento das trajetórias acadêmicas e emocionais dos estudantes em preparação para o ENAMED.
+
+::: {.destaque}
+Mentoria, ENAMED, grupos reduzidos, escuta ativa, acompanhamento docente, NAPED/NED.
+:::
+
+## Evidências
+
+::: {layout-ncol=3}
+![A Metodologia de Sucesso](../fotos/a-metodologia-de-sucesso.jpg)
+
+![Dinâmica dos Encontros: Estratégias e Princípios](../fotos/dinamica-dos-encontros-estrategias-e-principios.jpg)
+
+![Encontro com Mentores](../fotos/encontro-com-mentores.jpg)
+
+![Encontro com Mentores](../fotos/encontro-com-mentores-2.jpg)
+
+![Reunião de Alinhamento](../fotos/reuniao-de-alinhamento.jpg)
+
+![Relatório de Presença](../fotos/relatorio-de-presenca.jpg)
+
+![Grupo Mentores Medicina 2026](../fotos/grupo-mentores-medicina-2026.jpg)
+
+![Grupo Mentores Medicina 2026](../fotos/grupo-mentores-medicina-2026-2.jpg)
+
+![Grupo Mentores Medicina 2026](../fotos/grupo-mentores-medicina-2026-3.jpg)
+:::

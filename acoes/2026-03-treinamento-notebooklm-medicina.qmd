@@ -1,0 +1,24 @@
+---
+title: "Treinamento NotebookLM — Medicina"
+subtitle: "Ferramentas Digitais de Apoio ao Estudo"
+description: "Ferramentas Digitais de Apoio ao Estudo"
+date: 2026-03-01
+categories: ["Março", "Formação Docente"]
+image: ../fotos/arte-de-divulgacao-treinamento-notebooklm.jpg
+image-alt: "Treinamento NotebookLM — Medicina"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+Treinamento oferecido pelo NAPED aos estudantes de Medicina na semana da N1, com cinco turmas em datas e horários distintos, realizado no Laboratório de Informática da instituição, com foco na utilização do NotebookLM como ferramenta de apoio à organização de materiais e otimização dos estudos.
+
+::: {.destaque}
+NotebookLM, Medicina, semana da N1, laboratório de informática.
+:::
+
+## Evidências
+
+![Arte de divulgação — Treinamento NotebookLM](../fotos/arte-de-divulgacao-treinamento-notebooklm.jpg)

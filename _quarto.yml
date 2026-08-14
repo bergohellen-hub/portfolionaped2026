@@ -1,0 +1,96 @@
+# ---------------------------------------------------------------------------
+# Configuração única do portfólio do NAPED.
+#
+# Este é o ÚNICO arquivo onde moram o menu, o tema e as regras de publicação.
+# Antes, o menu estava copiado dentro dos 14 arquivos .html — mudar um item
+# obrigava a editar todos. Agora é uma linha, aqui.
+#
+# Para publicar uma AÇÃO nova você NÃO precisa mexer neste arquivo.
+# Basta criar um arquivo em acoes/. Veja o COMO-ATUALIZAR.md.
+# ---------------------------------------------------------------------------
+
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "acoes/*.qmd"
+    - "meses/*.qmd"
+    - "paginas/*.qmd"
+    - "!README.md"
+
+website:
+  title: "Portfólio NAPED"
+  description: "Registro das ações do Núcleo de Apoio Pedagógico e Experiência Docente — Afya São João del-Rei"
+  site-url: "https://bergohellen-hub.github.io/portfolionaped2026/"
+  favicon: fotos/naped-afya.png
+
+  navbar:
+    logo: fotos/naped-afya.png
+    title: "Portfólio NAPED"
+    left:
+      - href: index.qmd
+        text: Início
+      - text: "Meses"
+        menu:
+          - href: meses/2026-01.qmd
+            text: Janeiro
+          - href: meses/2026-02.qmd
+            text: Fevereiro
+          - href: meses/2026-03.qmd
+            text: Março
+          - href: meses/2026-04.qmd
+            text: Abril
+          - href: meses/2026-05.qmd
+            text: Maio
+          - href: meses/2026-06.qmd
+            text: Junho
+          - href: paginas/sdd-julho.qmd
+            text: "Julho — SDD 2026.2"
+      - text: "Projetos"
+        menu:
+          - href: paginas/projeto-move.qmd
+            text: Projeto MOVE
+          - href: paginas/mentoria.qmd
+            text: Projeto Mentoria ENAMED
+          - href: paginas/preceptoria.qmd
+            text: Preceptoria
+      - href: paginas/equipe.qmd
+        text: Equipe
+      - href: dashboard.qmd
+        text: Painel
+      - href: paginas/em-numeros.qmd
+        text: "Em Números"
+      - href: paginas/comprovacoes.qmd
+        text: Comprovações
+    right:
+      - icon: github
+        href: https://github.com/bergohellen-hub/portfolionaped2026
+        aria-label: Repositório no GitHub
+
+  page-footer:
+    center: "Centro Universitário Afya · São João del-Rei · MG"
+    background: light
+
+  search:
+    location: navbar
+    type: overlay
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: true
+    toc-title: "Nesta página"
+    toc-depth: 3
+    anchor-sections: true
+    smooth-scroll: true
+    lightbox: auto        # clicar na foto abre em tela cheia, como no site antigo
+    link-external-newwindow: true
+    fig-align: center
+
+execute:
+  freeze: auto            # só o painel roda R; o resto é texto puro
+
+lang: pt

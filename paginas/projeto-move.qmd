@@ -1,0 +1,102 @@
+---
+title: "Projeto MOVE"
+subtitle: "Integração entre Educação Básica e Ensino Superior"
+description: "Encontros de formação entre a Afya e escolas da educação básica."
+toc: true
+aliases:
+  - /Portfolio_NAPED_Projeto_MOVE.html
+---
+
+*1º Encontro31 de julho de 2026*
+
+## 1º Encontro de Formação — Escola Caminho do Sol
+
+*Metodologias ativas e IA na prática*
+
+35
+
+professores da rede básica
+
+3h
+
+de formação
+
+::: {.destaque}
+APG (Aprendizagem em Pequenos Grupos) · Laboratório de IA (Perplexity e NotebookLM) · Avaliação por QR.
+:::
+
+### Registros do encontro
+
+## Abertura
+
+![](../fotos/projeto-move-02.jpg)
+
+## Simulação APG — Aprendizagem em Pequenos Grupos
+
+::: {layout-ncol=3}
+![](../fotos/projeto-move-03.jpg)
+
+![](../fotos/projeto-move-04.jpg)
+
+![](../fotos/projeto-move-05.jpg)
+
+![](../fotos/projeto-move-06.jpg)
+
+![](../fotos/projeto-move-07.jpg)
+
+![](../fotos/projeto-move-08.jpg)
+:::
+
+## Laboratório de IA — Perplexity e NotebookLM
+
+::: {layout-ncol=3}
+![](../fotos/projeto-move-09.jpg)
+
+![](../fotos/projeto-move-10.jpg)
+:::
+
+## Encerramento
+
+![](../fotos/projeto-move-11.jpg)
+
+### Avaliação dos participantes
+
+4,96
+
+/5
+
+★★★★★
+
+média de 24 avaliações · 13 comentários
+
+::: {.destaque}
+"Muito produtivo e eficaz. Parabéns!"
+:::
+
+::: {.destaque}
+"Boa didática, conteúdo relevante."
+:::
+
+::: {.destaque}
+"Aprendi novas ferramentas e metodologias a serem utilizadas em sala."
+:::
+
+::: {.destaque}
+"Muito bem ministrado, de uma forma bem atrativa e estimulante."
+:::
+
+::: {.destaque}
+"O treinamento nos mostrou uma nova maneira de interagir com os alunos."
+:::
+
+::: {.destaque}
+"Excelente formação continuada, com nota máxima de aproveitamento e qualidade!"
+:::
+
+## Pesquisa de satisfação (Microsoft Forms)
+
+::: {layout-ncol=3}
+![](../fotos/projeto-move-12.jpg)
+
+![](../fotos/projeto-move-13.jpg)
+:::

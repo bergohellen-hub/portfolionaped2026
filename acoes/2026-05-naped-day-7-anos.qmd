@@ -1,0 +1,50 @@
+---
+title: "NAPED Day — 7 Anos"
+subtitle: "Inteligência Artificial e Docência Sustentável"
+description: "Inteligência Artificial e Docência Sustentável"
+date: 2026-05-18
+categories: ["Maio", "Formação Docente"]
+image: ../fotos/equipe-naped-mobilizacao-para-inscricoes.jpg
+image-alt: "NAPED Day — 7 Anos"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+O NAPED Day celebrou sua **7ª edição** com o tema *"Inteligência Artificial e Docência Sustentável"*, reunindo docentes das **37 unidades da Afya** em um evento híbrido de formação e integração. A programação contemplou desde a mobilização prévia — com o **Dia D**, dedicado às inscrições e ao engajamento da equipe —, passando pelas **oficinas formativas** realizadas via Zoom Workplace, até o **encerramento comemorativo** transmitido ao vivo pela plataforma nacional da Afya. As oficinas abordaram temas como protagonismo discente, metodologias ativas e o papel do NAPED na trilha de aprendizagem, reforçando o compromisso institucional com a inovação pedagógica e o desenvolvimento docente contínuo em toda a rede.
+
+## Evidências
+
+### Dia D — Mobilização para Inscrições
+
+::: {layout-ncol=3}
+![](../fotos/equipe-naped-mobilizacao-para-inscricoes.jpg)
+
+![](../fotos/equipe-naped-mobilizacao-para-inscricoes-2.jpg)
+
+![](../fotos/engajamento-e-recepcao-dos-docentes.jpg)
+
+![](../fotos/ambiente-naped-day.jpg)
+
+![](../fotos/interacao-entre-docentes.jpg)
+
+![](../fotos/integracao-da-equipe.jpg)
+:::
+
+### Abertura do Evento
+
+![](../fotos/card-oficial-naped-day-7-anos-18-05-2026.jpg)
+
+### Oficinas Formativas
+
+::: {layout-ncol=2}
+![](../fotos/oficina-o-aluno-como-protagonista.jpg)
+
+![](../fotos/oficina-trilha-de-aprendizagem-e-o-papel-do-naped.jpg)
+:::
+
+### Encerramento
+
+![](../fotos/encerramento-transmissao-ao-vivo-pela-plataforma-nacional-af.jpg)

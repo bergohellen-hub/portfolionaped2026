@@ -1,0 +1,32 @@
+---
+title: "Portfólio de Ações NAPED"
+subtitle: "Afya São João del-Rei · 2026"
+description: "Registro das iniciativas desenvolvidas pelo Núcleo de Apoio Pedagógico e Experiência Docente."
+toc: false
+listing:
+  id: vitrine
+  contents: acoes/*.qmd     # <- o curinga: pega TUDO que existir na pasta
+  type: grid
+  grid-columns: 3
+  fields: [image, title, description, categories, date]
+  sort: "date desc"
+  date-format: "MMMM [de] YYYY"
+  filter-ui: true           # barra de busca
+  categories: true          # botões de filtro por mês e por eixo
+  page-size: 30
+  image-height: "172px"
+---
+
+Cada cartão abaixo é uma ação registrada. Use a busca ou os filtros ao lado
+para encontrar por mês, por eixo de atuação ou por palavra do título.
+
+::: {#vitrine}
+:::
+
+## Como este portfólio se mantém
+
+Esta página não tem lista de ações escrita à mão. Ela varre a pasta
+`acoes/` a cada publicação e monta os cartões sozinha. Para acrescentar
+uma ação nova, cria-se **um único arquivo** — nenhum outro arquivo do
+projeto precisa ser editado. O passo a passo está no
+[COMO-ATUALIZAR.md](https://github.com/bergohellen-hub/portfolionaped2026/blob/main/COMO-ATUALIZAR.md).

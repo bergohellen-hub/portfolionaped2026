@@ -1,0 +1,28 @@
+---
+title: "Produção Científica e Engajamento Docente no XII Fórum Internacional de Inovação Acadêmica"
+subtitle: "Produção Científica · Internacionalização"
+description: "Produção Científica · Internacionalização"
+date: 2026-02-01
+categories: ["Fevereiro", "Produção Científica"]
+image: ../fotos/contagem-regressiva.jpg
+image-alt: "Produção Científica e Engajamento Docente no XII Fórum Internacional de Inovação Acadêmica"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+Ação institucional de mobilização acadêmica voltada ao fortalecimento da produção científica e à participação de docentes e estudantes no XII Fórum Internacional de Inovação Acadêmica. A iniciativa utilizou comunicação estratégica em formato de contagem regressiva para reforçar prazos de submissão, ampliar o engajamento da comunidade acadêmica e estimular a divulgação de pesquisas, projetos e experiências exitosas desenvolvidas na instituição.
+
+::: {.destaque}
+Produção científica, engajamento acadêmico, internacionalização.
+:::
+
+## Evidências
+
+::: {layout-ncol=2}
+![Contagem regressiva](../fotos/contagem-regressiva.jpg)
+
+![XII Fórum STHEM 2026](../fotos/xii-forum-sthem-2026.jpg)
+:::

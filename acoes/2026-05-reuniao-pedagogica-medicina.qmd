@@ -1,0 +1,26 @@
+---
+title: "Reunião Pedagógica | Medicina"
+subtitle: "Alinhamento Estratégico entre NAPED, Coordenação e Especialistas de Eixo"
+description: "Alinhamento Estratégico entre NAPED, Coordenação e Especialistas de Eixo"
+date: 2026-05-01
+categories: ["Maio", "Gestão e Planejamento"]
+image: ../fotos/reuniao-remota-naped-coordenacao-de-medicina-e-especialistas.jpg
+image-alt: "Reunião Pedagógica | Medicina"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+O NAPED promoveu reunião de alinhamento pedagógico com a coordenação do curso de Medicina e os especialistas de eixo, com foco no desenvolvimento de estratégias para o ciclo básico e o internato. O encontro, realizado de forma remota, teve como eixo central a discussão sobre metodologias de ensino, estrutura de avaliações e trilhas de aprendizagem, incluindo a análise do modelo de **Avaliação do Internato** — que contempla o Teste de Progresso Institucional (TPI), o Mini-Cex adaptado e instrumentos de avaliação de habilidades e atitudes. A iniciativa reforça a atuação do NAPED como articulador entre as dimensões pedagógica e clínica na formação médica.
+
+## Evidências
+
+::: {layout-ncol=2}
+![](../fotos/reuniao-remota-naped-coordenacao-de-medicina-e-especialistas.jpg)
+
+![](../fotos/discussao-sobre-estrategias-pedagogicas-no-ciclo-basico-e-in.jpg)
+
+![](../fotos/apresentacao-modelo-de-avaliacao-do-internato-tpi-mini-cex-e.jpg)
+:::

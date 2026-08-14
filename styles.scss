@@ -1,0 +1,290 @@
+/*-- scss:defaults --*/
+
+// ---------------------------------------------------------------------------
+// Paleta do NAPED — extraída do CSS que estava embutido nas páginas HTML
+// originais. As cores e as fontes são as mesmas; o que mudou foi o lugar
+// onde elas moram: aqui, uma vez só, em vez de repetidas em 14 arquivos.
+// ---------------------------------------------------------------------------
+
+$naped-rosa:         #E5007E;   // cor da marca, títulos e bordas
+$naped-rosa-claro:   #fce4f0;   // fundo das caixas de destaque e do cabeçalho
+$naped-rosa-escuro:  #a8005c;   // texto dentro das caixas de destaque
+$naped-rosa-fumaca:  #D31C5B;   // tom dos blobs do fundo orgânico
+$naped-cinza-verde:  #8E9794;   // segundo tom dos blobs
+$naped-verde:        #2A8C4A;   // marcador de "disponível"
+
+$naped-fundo:        #fafafa;
+$naped-texto:        #2d2d2d;
+$naped-texto-suave:  #444;
+$naped-titulo:       #1a1a1a;
+$naped-borda:        #eee;
+
+// Bootstrap / Quarto
+$primary:            $naped-rosa;
+$body-bg:            $naped-fundo;
+$body-color:         $naped-texto;
+$link-color:         $naped-rosa;
+$link-hover-color:   $naped-rosa-escuro;
+$border-color:       $naped-borda;
+
+// Tipografia — Georgia nos títulos, sans no corpo, como no site original
+$font-family-serif:  Georgia, 'Times New Roman', serif;
+$font-family-sans-serif: Helvetica, Arial, -apple-system, BlinkMacSystemFont, sans-serif;
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 700;
+$headings-color:     $naped-titulo;
+$font-size-root:     16px;
+
+$navbar-bg:          #ffffff;
+$navbar-fg:          $naped-rosa;
+$navbar-hl:          $naped-rosa;
+
+$code-color:         $naped-rosa-escuro;
+$toc-color:          $naped-rosa;
+
+
+/*-- scss:rules --*/
+
+// --- fundo orgânico -------------------------------------------------------
+// O SVG dos "blobs" que ficava embutido no CSS virou fotos/fundo-organico.svg
+body {
+  background-image: url('fotos/fundo-organico.svg');
+  background-repeat: repeat;
+  background-position: 0 0;
+}
+
+// --- barra de navegação ---------------------------------------------------
+.navbar {
+  border-bottom: 3px solid $naped-rosa;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+}
+.navbar-brand {
+  font-family: $font-family-serif;
+  font-weight: 700;
+  color: $naped-rosa !important;
+}
+.navbar .nav-link {
+  font-family: $font-family-sans-serif;
+  font-weight: 600;
+  font-size: .92rem;
+}
+.navbar .nav-link:hover,
+.navbar .dropdown-item:hover {
+  background: $naped-rosa-claro;
+  color: $naped-rosa !important;
+}
+
+// --- título das páginas ---------------------------------------------------
+#title-block-header {
+  background: linear-gradient(135deg, $naped-rosa-claro 0%, #ffffff 100%);
+  border-bottom: 3px solid $naped-rosa;
+  border-radius: 14px 14px 0 0;
+  padding: 38px 34px 30px;
+  margin-bottom: 34px;
+}
+#title-block-header .title {
+  font-family: $font-family-serif;
+  color: $naped-rosa;
+  font-size: 2.35rem;
+  line-height: 1.12;
+}
+#title-block-header .subtitle {
+  color: $naped-rosa-escuro;
+  font-weight: 600;
+  font-size: 1.02rem;
+  margin-top: .4rem;
+}
+#title-block-header .quarto-categories .quarto-category {
+  background: $naped-rosa;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  opacity: 1;
+}
+
+h2, h3 { font-family: $font-family-serif; }
+h2 {
+  border-bottom: 1px solid $naped-borda;
+  padding-bottom: .3rem;
+  margin-top: 2.3rem;
+}
+
+// --- caixa de destaque ----------------------------------------------------
+// Equivalente ao .highlight-box do HTML antigo.
+.destaque {
+  background: $naped-rosa-claro;
+  border-left: 4px solid $naped-rosa;
+  border-radius: 0 8px 8px 0;
+  padding: 14px 18px;
+  margin: 20px 0;
+  font-style: italic;
+  color: $naped-rosa-escuro;
+  font-size: .95rem;
+}
+
+// --- etiquetas de curso ---------------------------------------------------
+.cursos { margin: 16px 0 22px; }
+.curso-tag {
+  display: inline-block;
+  background: $naped-rosa;
+  color: #fff;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  padding: 4px 14px;
+  border-radius: 14px;
+  margin-right: 6px;
+}
+
+// --- galeria de evidências ------------------------------------------------
+// Reproduz o visual dos .media-card: cartão branco, foto recortada, legenda.
+figure.figure, .quarto-layout-cell figure {
+  background: #fff;
+  border: 1px solid $naped-borda;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .06);
+  transition: transform .2s, box-shadow .2s;
+  margin-bottom: 0;
+}
+figure.figure:hover, .quarto-layout-cell figure:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+}
+figure.figure > p > img,
+figure.figure > img,
+.quarto-layout-cell figure img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+}
+figcaption, .figure-caption {
+  padding: 12px 14px !important;
+  font-size: .76rem !important;
+  color: #888 !important;
+  line-height: 1.45;
+  text-align: left !important;
+}
+figcaption strong, .figure-caption strong {
+  display: block;
+  color: $naped-titulo;
+  text-transform: uppercase;
+  font-size: .72rem;
+  letter-spacing: .02em;
+  margin-bottom: 3px;
+}
+.quarto-layout-row { gap: 16px; }
+
+video {
+  width: 100%;
+  display: block;
+  border-radius: 10px 10px 0 0;
+  background: #000;
+}
+
+// --- vitrine (listing em grade) -------------------------------------------
+.quarto-grid-item {
+  border: 1px solid $naped-borda;
+  border-radius: 14px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+  transition: transform .2s, box-shadow .2s, border-color .2s;
+  overflow: hidden;
+  background: #fff;
+}
+.quarto-grid-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(229, 0, 126, .15);
+  border-color: $naped-rosa;
+}
+.quarto-grid-item .card-img-top,
+.quarto-grid-item img.thumbnail-image {
+  height: 172px;
+  object-fit: cover;
+}
+.quarto-grid-item .card-title {
+  font-family: $font-family-serif;
+  color: $naped-rosa;
+  font-size: 1.06rem;
+  line-height: 1.25;
+}
+.quarto-grid-item .card-text {
+  font-size: .82rem;
+  color: #777;
+}
+.quarto-grid-item .listing-categories .listing-category {
+  background: $naped-rosa-claro;
+  color: $naped-rosa;
+  border: none;
+  border-radius: 12px;
+  font-size: .64rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  opacity: 1;
+}
+
+// botões de filtro por categoria, na lateral da vitrine
+.quarto-listing-category .category {
+  font-family: $font-family-sans-serif;
+  font-size: .84rem;
+  padding: 3px 0;
+}
+.quarto-listing-category .category.active {
+  color: $naped-rosa;
+  font-weight: 700;
+  border-bottom: 2px solid $naped-rosa;
+}
+
+// --- números do dashboard -------------------------------------------------
+.numero-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 18px;
+  margin: 28px 0 36px;
+}
+.numero {
+  background: #fff;
+  border: 1px solid $naped-borda;
+  border-top: 4px solid $naped-rosa;
+  border-radius: 12px;
+  padding: 20px 18px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+}
+.numero b {
+  display: block;
+  font-family: $font-family-serif;
+  font-size: 2.1rem;
+  color: $naped-rosa;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+.numero span {
+  font-size: .76rem;
+  color: #888;
+  letter-spacing: .02em;
+}
+
+// --- rodapé ---------------------------------------------------------------
+.nav-footer {
+  border-top: 3px solid $naped-rosa;
+  background: #fff;
+  font-size: .8rem;
+  color: #aaa;
+}
+
+@media (max-width: 700px) {
+  #title-block-header { padding: 26px 20px 22px; }
+  #title-block-header .title { font-size: 1.75rem; }
+  figure.figure > p > img,
+  figure.figure > img,
+  .quarto-layout-cell figure img { height: 190px; }
+}

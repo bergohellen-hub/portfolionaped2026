@@ -1,0 +1,40 @@
+---
+title: "Projeto ENAMED em Foco"
+subtitle: "Reunião com Alunos do Internato Fora de Sede & Oficina Test Wiseness"
+description: "Reunião com Alunos do Internato Fora de Sede & Oficina Test Wiseness"
+date: 2026-03-01
+categories: ["Março", "ENAMED", "Formação Docente"]
+image: ../fotos/reuniao-enamed-estudantes-internato.jpg
+image-alt: "Projeto ENAMED em Foco"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+Reunião institucional realizada com os estudantes do internato fora de sede para apresentação do projeto "ENAMED em Foco", abordando o caráter obrigatório do exame, sua relação com a colação de grau e expedição de diploma, além do plano de ação do semestre: aulões diários de discussão de questões, aulas teóricas com casos clínicos e questões de revalida, feedback individual dos simulados pela equipe NED e cronograma de atividades da Jornada ENAMED.
+
+Como desdobramento do projeto, foi realizada no dia 12 de março, às 17h, no Auditório da Afya São João del-Rei, a Oficina Test Wiseness, conduzida pelo Prof. Dr. Daniel Riani Gotardelo. O encontro ofereceu aos estudantes mais uma oportunidade de revisar estratégias de resolução de questões e fortalecer sua preparação para o ENAMED.
+
+::: {.destaque}
+ENAMED em Foco, internato fora de sede, plano de ação acadêmico.
+:::
+
+## Evidências
+
+::: {layout-ncol=2}
+![Reunião ENAMED — Estudantes Internato](../fotos/reuniao-enamed-estudantes-internato.jpg)
+
+![O Processo ENAMED e ENARE 2026](../fotos/o-processo-enamed-e-enare-2026.jpg)
+
+![Plano de Ação ENAMED — Afya São João del-Rei](../fotos/plano-de-acao-enamed-afya-sao-joao-del-rei.jpg)
+
+![Reunião ENAMED — Estudantes Internato](../fotos/reuniao-enamed-estudantes-internato-2.jpg)
+
+![Divulgação — Oficina Test Wiseness](../fotos/divulgacao-da-oficina-test-wiseness.jpg)
+
+![Oficina Test Wiseness](../fotos/oficina-test-wiseness-em-andamento.jpg)
+
+![Participação dos Estudantes](../fotos/estudantes-participando-da-oficina.jpg)
+:::

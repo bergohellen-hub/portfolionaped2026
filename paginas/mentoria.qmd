@@ -1,0 +1,82 @@
+---
+title: "Projeto Mentoria ENAMED"
+subtitle: "2026"
+description: "Formação de mentores e acompanhamento dos estudantes."
+toc: true
+aliases:
+  - /Portfolio_NAPED_Mentoria.html
+---
+
+Iniciativa da Afya Nacional que estrutura o acompanhamento individualizado dos estudantes de Medicina
+ na preparação para o ENAMED, por meio de mentores docentes capacitados pelo NAPED para atuar com
+ escuta ativa, acolhimento e acompanhamento das trajetórias acadêmicas e emocionais dos estudantes.
+
+::: {layout-ncol=3}
+![Mapa da Jornada — 4 Blocos da Mentoria](../fotos/mapa-da-jornada-4-blocos-da-mentoria.jpg)
+
+![Treinamento dos mentores — encontro online](../fotos/treinamento-dos-mentores-encontro-online.jpg)
+
+![Dinâmica dos Encontros — estratégias e princípios](../fotos/dinamica-dos-encontros-estrategias-e-principios-2.jpg)
+
+![Metodologia de Sucesso](../fotos/metodologia-de-sucesso.jpg)
+:::
+
+::: {.numero-grid}
+<div class='numero'><b>35</b><span>alunos presentes nos encontros até julho</span></div>
+<div class='numero'><b>9</b><span>grupos de mentoria · ≤10 alunos cada</span></div>
+<div class='numero'><b>Quinzenal</b><span>cadência dos encontros com estudantes</span></div>
+:::
+
+### Treinamento de Mentores — Medicina  
+*Maio de 2026*
+
+O NAPED conduziu o treinamento dos docentes-mentores da Afya São João del Rei, transpondo a
+ metodologia nacional do projeto para o contexto local. Os mentores foram capacitados a conduzir
+ os encontros com segurança, intencionalidade pedagógica e vínculo com os estudantes.
+
+### Formação de Mentores e Acompanhamento dos Estudantes  
+*Junho de 2026*
+
+O programa foi estruturado com encontros quinzenais de uma hora, em grupos reduzidos de até 10
+ alunos, orientados pelo NAPED/NED. A metodologia — apresentada por Denny Almeida — capacita os
+ mentores a atuar com escuta inicial, identificação de necessidades, definição de metas,
+ acompanhamento contínuo e devolutiva, acolhendo as trajetórias acadêmicas e emocionais dos
+ estudantes rumo ao ENAMED.
+
+*Comunicação e Engajamento*
+
+Grupo Mentores Medicina 2026
+
+A equipe de mentores mantém comunicação contínua para alinhamento metodológico, compartilhamento de
+ materiais e apoio recíproco na condução dos encontros.
+
+::: {layout-ncol=3}
+![Comunicação entre mentores — metodologia](../fotos/comunicacao-entre-mentores-metodologia.jpg)
+
+![Comunicação entre mentores — orientações](../fotos/comunicacao-entre-mentores-orientacoes.jpg)
+:::
+
+*Material Didático*
+
+"Mentoria Enamed" — MP 1.370/2026
+
+Material produzido pelo mentor
+
+Pedro Delabrida
+
+para explicar aos alunos os impactos
+ da Medida Provisória 1.370/2026 sobre o ENAMED, o CRM e o acesso à Residência Médica.
+
+::: {layout-ncol=3}
+![Slide — Mentoria Enamed, capa](../fotos/slide-mentoria-enamed-capa.jpg)
+
+![Slide — o dia em que as regras mudaram](../fotos/slide-o-dia-em-que-as-regras-mudaram.jpg)
+
+![Slide — Matriz de Paradigma](../fotos/slide-matriz-de-paradigma.jpg)
+:::
+
+Apresentação completa (9 slides) disponível na página de
+
+Comprovações
+
+.

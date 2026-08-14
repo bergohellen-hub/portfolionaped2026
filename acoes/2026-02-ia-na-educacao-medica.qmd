@@ -1,0 +1,24 @@
+---
+title: "IA na Educação Médica"
+subtitle: "Acolhimento aos Calouros 2026.1"
+description: "Acolhimento aos Calouros 2026.1"
+date: 2026-02-01
+categories: ["Fevereiro", "Acolhimento", "Formação Docente"]
+image: ../fotos/calouros-de-medicina-2026-1.jpg
+image-alt: "IA na Educação Médica"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+Ação de acolhimento aos estudantes ingressantes do curso de Medicina, realizada com foco na integração acadêmica e apresentação de ferramentas digitais de apoio ao estudo. Durante o encontro, os calouros participaram de treinamento introdutório sobre a plataforma NotebookLM, com orientações práticas para organização de materiais, leitura dirigida e otimização da aprendizagem.
+
+::: {.destaque}
+Calouros Medicina, NotebookLM, acolhimento acadêmico.
+:::
+
+## Evidências
+
+![Calouros de medicina 2026.1](../fotos/calouros-de-medicina-2026-1.jpg)

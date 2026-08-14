@@ -1,0 +1,33 @@
+---
+title: "Cerimônia do Jaleco de Medicina"
+subtitle: "Acolhimento dos Calouros 2026.1"
+description: "Acolhimento dos Calouros 2026.1"
+date: 2026-01-01
+categories: ["Janeiro", "Acolhimento"]
+cursos: ["Medicina"]
+image: ../fotos/cerimonia-do-jaleco-da-medicina.jpg
+image-alt: "Cerimônia do Jaleco de Medicina"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+Cerimônia do jaleco do curso de Medicina para os calouros da turma 2026.1, marcando simbolicamente o início da trajetória acadêmica na formação médica.
+
+::: {.destaque}
+Momento simbólico de acolhimento e compromisso com a formação médica.
+:::
+
+::: {.cursos}
+[Medicina]{.curso-tag}
+:::
+
+## Evidências
+
+::: {layout-ncol=2}
+![Cerimônia do Jaleco da Medicina](../fotos/cerimonia-do-jaleco-da-medicina.jpg)
+
+![Turma 2026.1](../fotos/turma-2026-1.jpg)
+:::

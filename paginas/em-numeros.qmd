@@ -1,0 +1,71 @@
+---
+title: "O Semestre em Números"
+subtitle: "2026.1"
+description: "Panorama quantitativo das ações do NAPED no semestre."
+toc: true
+aliases:
+  - /Portfolio_NAPED_Overview.html
+---
+
+::: {.numero-grid}
+<div class='numero'><b>81h</b><span>de formação docente no semestre</span></div>
+<div class='numero'><b>113</b><span>docentes na SDD 2026</span></div>
+<div class='numero'><b>57</b><span>participações em capacitação contínua</span></div>
+<div class='numero'><b>10</b><span>cursos alcançados (Medicina + 9 SHE)</span></div>
+:::
+
+Janeiro não teve capacitação docente (mês de preparação e acolhimento).
+
+## Capacitação Contínua
+
+*Oficinas e treinamentos ao longo dos meses · fevereiro a junho de 2026*
+
+| Mês | Medicina | SHE | Docentes | Colab. adm. | Carga horária |
+|---|---|---|---|---|---|
+| Fevereiro | 14 | 5 | 19 | — | 16 h |
+| Março | 2 | 5 | 7 | 45 | 3 h |
+| Abril | 4 | 5 | 9 | — | 4 h |
+| Maio | 5 | 7 | 12 | — | 5 h |
+| Junho | a confirmar | a confirmar | 10 | — | 3 h |
+| **Total** | **25+** | **22+** | **57** | **45** | **31 h** |
+
+## Semana de Desenvolvimento Docente — SDD 2026
+
+*06 a 09 de julho de 2026 · tema "Docência Sustentável & Inteligência Artificial" · 50h de formação*
+
+### Participação
+| | |
+|---|---|
+| Participantes únicos | **113** |
+| Com frequência ≥ 50% | **79** |
+| Medicina | 28 participantes · 12 com ≥50% |
+| SHE | 83 participantes · 67 com ≥50% |
+
+### Presença por sessão
+| | |
+|---|---|
+| Seg · 06/07 · 19h | **79** |
+| Ter · 07/07 · 8h (SOI) | **9** |
+| Ter · 07/07 · 19h | **72** |
+| Qua · 08/07 · 19h | **75** |
+
+## Comunidade Externa
+
+*Projeto MOVE · integração com a educação básica*
+
+### Projeto MOVE — 1º Encontro de Formação
+| | |
+|---|---|
+| Professores da rede básica formados | **35** |
+| Carga horária | **3h** |
+| Escola parceira | Caminho do Sol · 31/07 |
+
+### Sobre o projeto
+
+Iniciativa da Afya que aproxima os professores da educação básica do ensino superior, por meio de metodologias ativas e ferramentas de IA.
+
+**Notas metodológicas.**
+- As contagens mensais representam **participações**: uma mesma pessoa pode ter participado em mais de um mês, portanto os meses não devem ser somados como pessoas distintas.
+- Na SDD, os **113** são participantes únicos da semana; os **79** reúnem quem esteve em ao menos duas das quatro sessões gerais (≥50%). Os momentos direcionados de 21h (coordenadores de curso e treinamento com o NED) são registrados à parte.
+- A carga horária total do semestre (**81h**) soma a capacitação contínua (31h) e a SDD (50h).
+- A quebra por curso de junho ainda será confirmada; o total de 10 docentes já está contabilizado.

@@ -1,0 +1,56 @@
+---
+title: "Capacitação Cultura Afya e Atendimento ao Público"
+subtitle: "Cultura Institucional e Atendimento Humanizado"
+description: "Cultura Institucional e Atendimento Humanizado"
+date: 2026-03-01
+categories: ["Março", "Formação Docente"]
+image: ../fotos/capacitacao-colaboradores-administrativos.jpg
+image-alt: "Capacitação Cultura Afya e Atendimento ao Público"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+Atividade formativa voltada ao alinhamento da equipe aos valores, diretrizes e práticas institucionais da Afya, com foco no fortalecimento da cultura organizacional e na qualificação do atendimento ao público.
+
+::: {.destaque}
+Cultura institucional. Atendimento humanizado. Comunicação assertiva.
+:::
+
+## Evidências
+
+::: {layout-ncol=3}
+![Capacitação — Colaboradores Administrativos](../fotos/capacitacao-colaboradores-administrativos.jpg)
+
+![Capacitação — Colaboradores Administrativos](../fotos/capacitacao-colaboradores-administrativos-2.jpg)
+
+![Capacitação — Colaboradores Administrativos](../fotos/capacitacao-colaboradores-administrativos-3.jpg)
+
+![Capacitação — Colaboradores Administrativos](../fotos/capacitacao-colaboradores-administrativos-4.jpg)
+
+![Capacitação — Colaboradores Administrativos](../fotos/capacitacao-colaboradores-administrativos-5.jpg)
+
+![Capacitação — Colaboradores Administrativos](../fotos/capacitacao-colaboradores-administrativos-6.jpg)
+
+![Capacitação — Colaboradores Administrativos](../fotos/capacitacao-colaboradores-administrativos-7.jpg)
+
+![Capacitação — Colaboradores Administrativos](../fotos/capacitacao-colaboradores-administrativos-8.jpg)
+
+![Capacitação — Colaboradores Administrativos](../fotos/capacitacao-colaboradores-administrativos-9.jpg)
+
+![Capacitação — Colaboradores Administrativos](../fotos/capacitacao-colaboradores-administrativos-10.jpg)
+
+![Capacitação — Colaboradores Administrativos](../fotos/capacitacao-colaboradores-administrativos-11.jpg)
+
+![Capacitação — Funcionários Terceirizados](../fotos/capacitacao-funcionarios-terceirizados.jpg)
+
+![Capacitação — Funcionários Terceirizados](../fotos/capacitacao-funcionarios-terceirizados-2.jpg)
+
+![Capacitação — Funcionários Terceirizados](../fotos/capacitacao-funcionarios-terceirizados-3.jpg)
+
+![Capacitação — Funcionários Terceirizados](../fotos/capacitacao-funcionarios-terceirizados-4.jpg)
+
+![Capacitação — Funcionários Terceirizados](../fotos/capacitacao-funcionarios-terceirizados-5.jpg)
+:::

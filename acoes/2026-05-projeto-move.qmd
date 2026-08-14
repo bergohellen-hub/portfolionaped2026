@@ -1,0 +1,20 @@
+---
+title: "Projeto MOVE"
+subtitle: "Integração entre Educação Básica e Ensino Superior"
+description: "Integração entre Educação Básica e Ensino Superior"
+date: 2026-05-01
+categories: ["Maio", "Projeto MOVE"]
+image: ../fotos/visita-a-escola-nossa-senhora-das-dores-convite-para-partici.jpg
+image-alt: "Projeto MOVE"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+O NAPED participou de visita à **Escola Nossa Senhora das Dores** como parte do **Projeto MOVE**, iniciativa institucional da Afya que aproxima professores da educação básica do universo do ensino superior. Por meio de vivências práticas com metodologias ativas, ferramentas digitais e ambientes acadêmicos inovadores, o projeto abre um espaço genuíno de troca, formação e parceria entre os dois níveis de ensino. A visita teve como objetivo convidar a escola a integrar o projeto, fortalecendo os laços entre a Afya São João del Rei e a comunidade educacional local.
+
+## Evidências
+
+![](../fotos/visita-a-escola-nossa-senhora-das-dores-convite-para-partici.jpg)
