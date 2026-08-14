@@ -46,16 +46,19 @@ acoes <- lapply(arquivos, function(f) {
 }) |> bind_rows()
 
 # A lista fechada de etiquetas (a mesma do CONVENCOES.md) separa mês de eixo.
+# Os meses são a única lista fixa daqui — são doze e não mudam. Os eixos NÃO
+# são listados: tudo que não é mês conta como eixo, então a lista de eixos
+# vive só no CONVENCOES.md e nos próprios arquivos.
 MESES <- c("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
            "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
-EIXOS <- c("Formação Docente", "ENAMED", "Projeto MOVE", "Mentoria",
-           "Preceptoria", "Produção Científica", "Gestão e Planejamento",
-           "Acolhimento")
 
 acoes <- acoes |>
   mutate(
     mes   = purrr::map_chr(categorias, \(x) { m <- x[x %in% MESES]; if (length(m)) m[1] else NA_character_ }),
-    eixos = purrr::map(categorias, \(x) x[x %in% EIXOS])
+    # Eixo é "toda etiqueta que não é mês" — de propósito, em vez de conferir
+    # contra a lista EIXOS. Assim, criar um eixo novo no CONVENCOES.md e usá-lo
+    # numa ação já o faz aparecer aqui, sem editar este arquivo.
+    eixos = purrr::map(categorias, \(x) x[!x %in% MESES])
   )
 
 rosa <- "#E5007E"; rosa_claro <- "#fce4f0"; cinza <- "#888888"
