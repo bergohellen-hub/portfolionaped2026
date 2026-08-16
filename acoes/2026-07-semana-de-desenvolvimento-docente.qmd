@@ -4,7 +4,7 @@ subtitle: "Julho de 2026 · Afya São João del-Rei"
 description: "Quatro dias de formação docente e IA na educação, reunindo Medicina e cursos SHE."
 date: 2026-07-06
 categories: ["Julho", "Formação Docente"]
-image: ../fotos/sdd-2026-palestra-ia-na-docencia.jpg
+image: /fotos/sdd-2026-palestra-ia-na-docencia.jpg
 image-alt: "Semana de Desenvolvimento Docente 2026.2"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: 113
