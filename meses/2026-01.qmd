@@ -7,13 +7,14 @@ aliases:
   - /Portfolio_NAPED_Janeiro_2026.html
 listing:
   id: mes
-  contents: ../acoes/*.qmd
-  include:
-    categories: "Janeiro"      # <- só o que estiver etiquetado assim
+  # O nome do arquivo de cada ação começa com ano-mês, então este
+  # curinga pega exatamente as ações deste mês DESTE ano — e continua
+  # certo quando 2027 chegar.
+  contents: "../acoes/2026-01-*.qmd"
   type: grid
   grid-columns: 3
   fields: [image, title, description, categories]
-  sort: "date asc"
+  sort: ["ordem asc", "date asc"]
   page-size: 30
   image-height: "172px"
 ---

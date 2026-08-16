@@ -3,8 +3,9 @@ title: "Reunião Pedagógica | Medicina"
 subtitle: "Alinhamento Estratégico entre NAPED, Coordenação e Especialistas de Eixo"
 description: "Alinhamento Estratégico entre NAPED, Coordenação e Especialistas de Eixo"
 date: 2026-05-01
+ordem: 3
 categories: ["Maio", "Gestão e Planejamento"]
-image: ../fotos/reuniao-remota-naped-coordenacao-de-medicina-e-especialistas.jpg
+image: /fotos/reuniao-remota-naped-coordenacao-de-medicina-e-especialistas.jpg
 image-alt: "Reunião Pedagógica | Medicina"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -18,9 +19,9 @@ O NAPED promoveu reunião de alinhamento pedagógico com a coordenação do curs
 ## Evidências
 
 ::: {layout-ncol=2}
-![](../fotos/reuniao-remota-naped-coordenacao-de-medicina-e-especialistas.jpg)
+![](/fotos/reuniao-remota-naped-coordenacao-de-medicina-e-especialistas.jpg)
 
-![](../fotos/discussao-sobre-estrategias-pedagogicas-no-ciclo-basico-e-in.jpg)
+![](/fotos/discussao-sobre-estrategias-pedagogicas-no-ciclo-basico-e-in.jpg)
 
-![](../fotos/apresentacao-modelo-de-avaliacao-do-internato-tpi-mini-cex-e.jpg)
+![](/fotos/apresentacao-modelo-de-avaliacao-do-internato-tpi-mini-cex-e.jpg)
 :::

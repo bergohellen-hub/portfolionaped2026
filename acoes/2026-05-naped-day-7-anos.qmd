@@ -3,8 +3,9 @@ title: "NAPED Day — 7 Anos"
 subtitle: "Inteligência Artificial e Docência Sustentável"
 description: "Inteligência Artificial e Docência Sustentável"
 date: 2026-05-18
+ordem: 2
 categories: ["Maio", "Formação Docente"]
-image: ../fotos/equipe-naped-mobilizacao-para-inscricoes.jpg
+image: /fotos/equipe-naped-mobilizacao-para-inscricoes.jpg
 image-alt: "NAPED Day — 7 Anos"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -20,31 +21,31 @@ O NAPED Day celebrou sua **7ª edição** com o tema *"Inteligência Artificial 
 ### Dia D — Mobilização para Inscrições
 
 ::: {layout-ncol=3}
-![](../fotos/equipe-naped-mobilizacao-para-inscricoes.jpg)
+![](/fotos/equipe-naped-mobilizacao-para-inscricoes.jpg)
 
-![](../fotos/equipe-naped-mobilizacao-para-inscricoes-2.jpg)
+![](/fotos/equipe-naped-mobilizacao-para-inscricoes-2.jpg)
 
-![](../fotos/engajamento-e-recepcao-dos-docentes.jpg)
+![](/fotos/engajamento-e-recepcao-dos-docentes.jpg)
 
-![](../fotos/ambiente-naped-day.jpg)
+![](/fotos/ambiente-naped-day.jpg)
 
-![](../fotos/interacao-entre-docentes.jpg)
+![](/fotos/interacao-entre-docentes.jpg)
 
-![](../fotos/integracao-da-equipe.jpg)
+![](/fotos/integracao-da-equipe.jpg)
 :::
 
 ### Abertura do Evento
 
-![](../fotos/card-oficial-naped-day-7-anos-18-05-2026.jpg)
+![](/fotos/card-oficial-naped-day-7-anos-18-05-2026.jpg)
 
 ### Oficinas Formativas
 
 ::: {layout-ncol=2}
-![](../fotos/oficina-o-aluno-como-protagonista.jpg)
+![](/fotos/oficina-o-aluno-como-protagonista.jpg)
 
-![](../fotos/oficina-trilha-de-aprendizagem-e-o-papel-do-naped.jpg)
+![](/fotos/oficina-trilha-de-aprendizagem-e-o-papel-do-naped.jpg)
 :::
 
 ### Encerramento
 
-![](../fotos/encerramento-transmissao-ao-vivo-pela-plataforma-nacional-af.jpg)
+![](/fotos/encerramento-transmissao-ao-vivo-pela-plataforma-nacional-af.jpg)

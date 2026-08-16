@@ -9,7 +9,7 @@ listing:
   type: grid
   grid-columns: 3
   fields: [image, title, description, categories, date]
-  sort: "date desc"
+  sort: ["date desc", "ordem asc"]
   date-format: "MMMM [de] YYYY"
   filter-ui: true           # barra de busca
   categories: true          # botões de filtro por mês e por eixo
@@ -18,13 +18,13 @@ listing:
 ---
 
 ::: {layout-ncol=4 .mosaico}
-![](fotos/sdd-2026-plateia.jpg){alt="SDD 2026 — plateia"}
+![](/fotos/sdd-2026-plateia.jpg){alt="SDD 2026 — plateia"}
 
-![](fotos/sdd-2026-palestra-ia-na-docencia.jpg){alt="SDD 2026 — palestra IA na docência"}
+![](/fotos/sdd-2026-palestra-ia-na-docencia.jpg){alt="SDD 2026 — palestra IA na docência"}
 
-![](fotos/projeto-move-encontro-na-afya.jpg){alt="Projeto MOVE — encontro na Afya"}
+![](/fotos/projeto-move-encontro-na-afya.jpg){alt="Projeto MOVE — encontro na Afya"}
 
-![](fotos/projeto-move-dinamica-em-grupo.jpg){alt="Projeto MOVE — dinâmica em grupo"}
+![](/fotos/projeto-move-dinamica-em-grupo.jpg){alt="Projeto MOVE — dinâmica em grupo"}
 :::
 
 ::: {.numero-grid}

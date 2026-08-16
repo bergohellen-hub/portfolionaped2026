@@ -3,8 +3,9 @@ title: "Projeto Mentoria ENAMED"
 subtitle: "Treinamento de Mentores | Medicina"
 description: "Treinamento de Mentores | Medicina"
 date: 2026-05-01
+ordem: 4
 categories: ["Maio", "Mentoria", "ENAMED"]
-image: ../fotos/o-mapa-da-jornada-os-4-blocos-da-mentoria.jpg
+image: /fotos/o-mapa-da-jornada-os-4-blocos-da-mentoria.jpg
 image-alt: "Projeto Mentoria ENAMED"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -20,25 +21,25 @@ O NAPED articulou e conduziu o treinamento dos docentes-mentores da Afya São Jo
 ### Treinamento Nacional — Metodologia e Blocos da Mentoria
 
 ::: {layout-ncol=2}
-![](../fotos/o-mapa-da-jornada-os-4-blocos-da-mentoria.jpg)
+![](/fotos/o-mapa-da-jornada-os-4-blocos-da-mentoria.jpg)
 
-![](../fotos/bloco-1-trajetoria-pertencimento-e-sentido-da-preparacao.jpg)
+![](/fotos/bloco-1-trajetoria-pertencimento-e-sentido-da-preparacao.jpg)
 :::
 
 ### Treinamento Local — Mentores Afya São João del Rei
 
 ::: {layout-ncol=2}
-![](../fotos/encontro-de-treinamento-com-os-mentores-da-unidade.jpg)
+![](/fotos/encontro-de-treinamento-com-os-mentores-da-unidade.jpg)
 
-![](../fotos/lista-de-presenca-treinamento-de-mentores.jpg)
+![](/fotos/lista-de-presenca-treinamento-de-mentores.jpg)
 :::
 
 ### Comunicação e Engajamento dos Mentores
 
 ::: {layout-ncol=3}
-![](../fotos/grupo-mentores-medicina-2026-orientacoes-e-materiais.jpg)
+![](/fotos/grupo-mentores-medicina-2026-orientacoes-e-materiais.jpg)
 
-![](../fotos/interacao-no-grupo-duvidas-e-engajamento-dos-mentores.jpg)
+![](/fotos/interacao-no-grupo-duvidas-e-engajamento-dos-mentores.jpg)
 
-![](../fotos/compartilhamento-de-materiais-e-recursos-no-grupo.jpg)
+![](/fotos/compartilhamento-de-materiais-e-recursos-no-grupo.jpg)
 :::

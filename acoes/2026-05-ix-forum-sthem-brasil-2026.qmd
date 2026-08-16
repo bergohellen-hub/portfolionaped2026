@@ -3,8 +3,9 @@ title: "IX Fórum STHEM Brasil 2026"
 subtitle: "Premiação e Participação Institucional no Consórcio de Inovação Acadêmica"
 description: "Premiação e Participação Institucional no Consórcio de Inovação Acadêmica"
 date: 2026-05-01
+ordem: 7
 categories: ["Maio", "Produção Científica"]
-image: ../fotos/docente-americo-trabalho-premiado-ix-forum-sthem-brasil-2026.jpg
+image: /fotos/docente-americo-trabalho-premiado-ix-forum-sthem-brasil-2026.jpg
 image-alt: "IX Fórum STHEM Brasil 2026"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -20,19 +21,19 @@ A Afya São João del Rei conquistou destaque expressivo no **IX Fórum STHEM Br
 ### Docentes Premiados — Trabalho Premiado 2026
 
 ::: {layout-ncol=3}
-![](../fotos/docente-americo-trabalho-premiado-ix-forum-sthem-brasil-2026.jpg)
+![](/fotos/docente-americo-trabalho-premiado-ix-forum-sthem-brasil-2026.jpg)
 
-![](../fotos/docente-marcela-trabalho-premiado-ix-forum-sthem-brasil-2026.jpg)
+![](/fotos/docente-marcela-trabalho-premiado-ix-forum-sthem-brasil-2026.jpg)
 
-![](../fotos/docente-eduarda-trabalho-premiado-ix-forum-sthem-brasil-2026.jpg)
+![](/fotos/docente-eduarda-trabalho-premiado-ix-forum-sthem-brasil-2026.jpg)
 :::
 
 ### Participação no Fórum
 
 ::: {layout-ncol=3}
-![](../fotos/bussola-da-avaliacao-consciente.jpg)
+![](/fotos/bussola-da-avaliacao-consciente.jpg)
 
-![](../fotos/professores-em-apresentacao-no-ix-forum-sthem.jpg)
+![](/fotos/professores-em-apresentacao-no-ix-forum-sthem.jpg)
 
-![](../fotos/xii-forum-sthem-2026-numeros-da-participacao.jpg)
+![](/fotos/xii-forum-sthem-2026-numeros-da-participacao.jpg)
 :::

@@ -12,6 +12,9 @@
 project:
   type: website
   output-dir: _site
+  # Confere as ações e cria a página do mês que faltar. Se algo estiver
+  # errado, a publicação para aqui com uma explicação em português.
+  pre-render: scripts/preparar.R
   render:
     - "*.qmd"
     - "acoes/*.qmd"
@@ -36,24 +39,10 @@ website:
     left:
       - href: index.qmd
         text: Início
-      - text: "Meses"
-        menu:
-          - href: meses/2026-01.qmd
-            text: Janeiro
-          - href: meses/2026-02.qmd
-            text: Fevereiro
-          - href: meses/2026-03.qmd
-            text: Março
-          - href: meses/2026-04.qmd
-            text: Abril
-          - href: meses/2026-05.qmd
-            text: Maio
-          - href: meses/2026-06.qmd
-            text: Junho
-          - href: paginas/sdd-julho.qmd
-            text: "Julho — SDD 2026.2"
-          - href: meses/2026-08.qmd
-            text: Agosto
+      # Uma entrada só, de propósito: a página lista os meses que existem.
+      # Assim, começar um mês novo não pede editar este arquivo.
+      - href: meses.qmd
+        text: Meses
       - text: "Projetos"
         menu:
           - href: paginas/projeto-move.qmd
@@ -62,6 +51,8 @@ website:
             text: Projeto Mentoria ENAMED
           - href: paginas/preceptoria.qmd
             text: Preceptoria
+          - href: paginas/sdd-julho.qmd
+            text: "SDD 2026.2 — Julho"
       - href: paginas/equipe.qmd
         text: Equipe
       - href: dashboard.qmd
@@ -71,6 +62,8 @@ website:
       - href: paginas/comprovacoes.qmd
         text: Comprovações
     right:
+      - href: manual.qmd
+        text: Manual
       - icon: github
         href: https://github.com/bergohellen-hub/portfolionaped2026
         aria-label: Repositório no GitHub

@@ -29,35 +29,35 @@ APG (Aprendizagem em Pequenos Grupos) · Laboratório de IA (Perplexity e Notebo
 
 ## Abertura
 
-![](../fotos/projeto-move-02.jpg)
+![](/fotos/projeto-move-02.jpg)
 
 ## Simulação APG — Aprendizagem em Pequenos Grupos
 
 ::: {layout-ncol=3}
-![](../fotos/projeto-move-03.jpg)
+![](/fotos/projeto-move-03.jpg)
 
-![](../fotos/projeto-move-04.jpg)
+![](/fotos/projeto-move-04.jpg)
 
-![](../fotos/projeto-move-05.jpg)
+![](/fotos/projeto-move-05.jpg)
 
-![](../fotos/projeto-move-06.jpg)
+![](/fotos/projeto-move-06.jpg)
 
-![](../fotos/projeto-move-07.jpg)
+![](/fotos/projeto-move-07.jpg)
 
-![](../fotos/projeto-move-08.jpg)
+![](/fotos/projeto-move-08.jpg)
 :::
 
 ## Laboratório de IA — Perplexity e NotebookLM
 
 ::: {layout-ncol=3}
-![](../fotos/projeto-move-09.jpg)
+![](/fotos/projeto-move-09.jpg)
 
-![](../fotos/projeto-move-10.jpg)
+![](/fotos/projeto-move-10.jpg)
 :::
 
 ## Encerramento
 
-![](../fotos/projeto-move-11.jpg)
+![](/fotos/projeto-move-11.jpg)
 
 ### Avaliação dos participantes
 
@@ -96,7 +96,7 @@ média de 24 avaliações · 13 comentários
 ## Pesquisa de satisfação (Microsoft Forms)
 
 ::: {layout-ncol=3}
-![](../fotos/projeto-move-12.jpg)
+![](/fotos/projeto-move-12.jpg)
 
-![](../fotos/projeto-move-13.jpg)
+![](/fotos/projeto-move-13.jpg)
 :::

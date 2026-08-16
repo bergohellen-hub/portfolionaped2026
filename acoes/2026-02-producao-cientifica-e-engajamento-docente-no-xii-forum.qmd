@@ -3,8 +3,9 @@ title: "Produção Científica e Engajamento Docente no XII Fórum Internacional
 subtitle: "Produção Científica · Internacionalização"
 description: "Produção Científica · Internacionalização"
 date: 2026-02-01
+ordem: 5
 categories: ["Fevereiro", "Produção Científica"]
-image: ../fotos/contagem-regressiva.jpg
+image: /fotos/contagem-regressiva.jpg
 image-alt: "Produção Científica e Engajamento Docente no XII Fórum Internacional de Inovação Acadêmica"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: ~
@@ -22,7 +23,7 @@ Produção científica, engajamento acadêmico, internacionalização.
 ## Evidências
 
 ::: {layout-ncol=2}
-![Contagem regressiva](../fotos/contagem-regressiva.jpg)
+![Contagem regressiva](/fotos/contagem-regressiva.jpg)
 
-![XII Fórum STHEM 2026](../fotos/xii-forum-sthem-2026.jpg)
+![XII Fórum STHEM 2026](/fotos/xii-forum-sthem-2026.jpg)
 :::
