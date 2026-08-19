@@ -1,0 +1,22 @@
+---
+title: "Podcast Ética Médica — Ep. 02"
+subtitle: "Os quatro princípios da Bioética"
+description: "Segundo episódio do podcast de Ética Médica, do Prof. Pedro Delabrida: o modelo de Beauchamp e Childress."
+date: 2026-08-16
+categories: ["Agosto", "Podcast Ética Médica"]
+image: /fotos/pedro-delabrida.jpg
+image-alt: "Prof. Pedro Delabrida — Podcast Ética Médica"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+Continuando o **Podcast Ética Médica**, do **Prof. Pedro Delabrida**, o Episódio 2 discute os quatro princípios da bioética — autonomia, beneficência, não maleficência e justiça — a partir do modelo de Beauchamp e Childress, e como ponderá-los diante de situações clínicas reais em que eles apontam para caminhos diferentes.
+
+::: {.destaque}
+🎧 **EP. 02 — Os quatro princípios da Bioética**
+
+[Ouça o episódio](https://1drv.ms/u/c/5a11a1dd21c91634/IQAS8_KrJ3yeRqgkrZEPStYBAWm-ACx7lZmyICZUYhtB64c)
+:::
