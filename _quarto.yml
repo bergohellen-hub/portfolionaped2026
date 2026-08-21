@@ -53,6 +53,8 @@ website:
             text: Preceptoria
           - href: paginas/sdd-julho.qmd
             text: "SDD 2026.2 — Julho"
+          - href: paginas/podcast-etica-medica.qmd
+            text: "Podcast Ética Médica"
       - href: paginas/equipe.qmd
         text: Equipe
       - href: dashboard.qmd

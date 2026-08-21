@@ -1,0 +1,30 @@
+---
+title: "Podcast Ética Médica"
+subtitle: "2026"
+description: "Série de 10 episódios sobre ética médica, do Prof. Pedro Delabrida."
+toc: true
+---
+
+![Prof. Pedro Delabrida](/fotos/pedro-delabrida.jpg){width="180"}
+
+O **Podcast Ética Médica** é uma iniciativa do **Prof. Pedro Delabrida**, médico e docente da Afya São João del-Rei, com **10 episódios** dedicados à ética médica na formação em Medicina. O projeto está disponível para divulgação e para que outras unidades também possam utilizá-lo.
+
+Novos episódios são adicionados à lista abaixo conforme são lançados.
+
+## Episódios
+
+::: {.destaque}
+🎧 **EP. 01 — O que vem por aí?**
+
+Para abrir a jornada, o episódio 1 apresenta tudo o que vem por aí: os temas, as discussões e os assuntos que serão explorados ao longo dos próximos episódios.
+
+[Ouça o episódio](https://1drv.ms/u/c/5a11a1dd21c91634/IQB4LF3uwQGtR5PAJYgmq0-8ATkiFcMf9kPZdFSoqDyECQk)
+:::
+
+::: {.destaque}
+🎧 **EP. 02 — Os quatro princípios da Bioética**
+
+Autonomia, beneficência, não maleficência e justiça: o episódio 2 discute o modelo de Beauchamp e Childress e como ponderar os quatro princípios diante de uma situação clínica real.
+
+[Ouça o episódio](https://1drv.ms/u/c/5a11a1dd21c91634/IQAS8_KrJ3yeRqgkrZEPStYBAWm-ACx7lZmyICZUYhtB64c)
+:::
