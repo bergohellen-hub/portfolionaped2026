@@ -47,6 +47,8 @@ Acesso restrito à rede institucional Afya · OneDrive
   Treinamento disponível no Canvas
 - **Registro de acessos (3)** 🔒 · `XLSX`  
   Treinamento disponível no Canvas
+- **Registro de acessos — Agosto** 🔒 · `CSV`  
+  17 docentes · Curso NAPED no Canvas
 
 ## Reunião com Especialistas de Eixo
 

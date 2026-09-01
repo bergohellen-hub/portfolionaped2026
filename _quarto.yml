@@ -59,8 +59,12 @@ website:
         text: Equipe
       - href: dashboard.qmd
         text: Painel
-      - href: paginas/em-numeros.qmd
-        text: "Em Números"
+      - text: "Em Números"
+        menu:
+          - href: paginas/em-numeros.qmd
+            text: "2026.1"
+          - href: paginas/em-numeros-2026-2.qmd
+            text: "2026.2"
       - href: paginas/comprovacoes.qmd
         text: Comprovações
     right:

@@ -1,0 +1,18 @@
+---
+title: "Correção Estratégica — 10º Simulado ENAMED"
+subtitle: "Não basta fazer o simulado, é hora de aprender com os erros"
+description: "Discussão das questões do 10º Simulado ENAMED, via Teams, com professores de Cirurgia, Saúde Coletiva e Pediatria."
+date: 2026-08-31
+categories: ["Agosto", "ENAMED"]
+image: /fotos/correcao-estrategica-10-simulado-enamed.jpg
+image-alt: "Correção Estratégica — 10º Simulado ENAMED"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+O NAPED promoveu a **Correção Estratégica do 10º Simulado ENAMED**, via Teams, com a discussão das questões conduzida pelos professores Carlos André Dilascio (Cirurgia), Pedro Delabrida (Saúde Coletiva) e Tainá Rodrigues (Pediatria) — reforçando que corrigir é aprender, aprender é evoluir, e evoluir é ser enamedista.
+
+![Correção Estratégica — 10º Simulado ENAMED](/fotos/correcao-estrategica-10-simulado-enamed.jpg)

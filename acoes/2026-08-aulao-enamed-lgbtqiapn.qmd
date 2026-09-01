@@ -1,0 +1,18 @@
+---
+title: "Aulão ENAMED — Saúde da População LGBTQIAPN+"
+subtitle: "Conhecimento também é uma forma de acolher"
+description: "Aulão sobre atenção à saúde da população LGBTQIAPN+, tema essencial para a prática médica e para o ENAMED."
+date: 2026-08-26
+categories: ["Agosto", "ENAMED", "Acolhimento"]
+image: /fotos/aulao-enamed-saude-lgbtqiapn.jpg
+image-alt: "Aulão ENAMED — Atenção à Saúde da População LGBTQIAPN+"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+O NAPED promoveu o **Aulão ENAMED — Atenção à Saúde da População LGBTQIAPN+**, no Auditório, reforçando um tema essencial tanto para a prática médica quanto para a prova do ENAMED: mais empatia em cada consulta, mais inclusão na formação médica e mais qualidade no cuidado.
+
+![Aulão ENAMED — Atenção à Saúde da População LGBTQIAPN+](/fotos/aulao-enamed-saude-lgbtqiapn.jpg)

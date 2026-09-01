@@ -1,0 +1,18 @@
+---
+title: "Reunião sobre Doação de Órgãos"
+subtitle: "A informação transforma uma decisão em uma nova vida"
+description: "Encontro sobre doação de órgãos, dúvidas e mitos, e a importância de conversar sobre o tema em família."
+date: 2026-08-19
+categories: ["Agosto", "Formação Docente"]
+image: /fotos/reuniao-doacao-de-orgaos.jpg
+image-alt: "Reunião sobre Doação de Órgãos"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+O NAPED promoveu uma reunião sobre **doação de órgãos**, discutindo como dúvidas e mitos ainda predominam sobre o tema, e como muitas famílias nunca tocaram no assunto — reforçando que a decisão precisa ser conhecida em vida, e que a informação transforma uma decisão em uma nova vida.
+
+![Reunião sobre Doação de Órgãos](/fotos/reuniao-doacao-de-orgaos.jpg)

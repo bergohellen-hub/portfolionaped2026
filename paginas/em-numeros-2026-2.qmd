@@ -1,0 +1,22 @@
+---
+title: "O Semestre em Números"
+subtitle: "2026.2"
+description: "Panorama quantitativo das ações do NAPED no semestre."
+toc: true
+---
+
+::: {.numero-grid}
+<div class='numero'><b>17</b><span>docentes com acesso ao Canvas em agosto</span></div>
+:::
+
+## Capacitação Contínua
+
+*Registro de acessos e participação · agosto a dezembro de 2026*
+
+| Mês | Docentes | Carga horária |
+|---|---|---|
+| Agosto | 17 | a confirmar |
+
+**Notas metodológicas.**
+- As contagens mensais representam **acessos únicos** ao curso "NAPED - Afya São João del-Rei" no Canvas — uma mesma pessoa pode ter acessado mais de uma vez, mas conta uma só vez no total do mês.
+- Setembro a dezembro serão preenchidos conforme o semestre avança.

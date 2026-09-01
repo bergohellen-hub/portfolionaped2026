@@ -1,0 +1,18 @@
+---
+title: "Reunião de Alinhamento — IESC VI ao VIII"
+subtitle: "Interação Ensino-Serviço-Comunidade"
+description: "Alinhamento entre NAPED e especialistas de eixo sobre os módulos de IESC VI ao VIII."
+date: 2026-08-12
+categories: ["Agosto", "Gestão e Planejamento"]
+image: /fotos/reuniao-alinhamento-iesc.jpg
+image-alt: "Reunião de Alinhamento — IESC VI ao VIII"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+O NAPED conduziu a reunião de alinhamento dos módulos de **IESC VI ao VIII** (Interação Ensino-Serviço-Comunidade), com a participação de especialistas de eixo, garantindo a sintonia entre os módulos ao longo da matriz de Medicina.
+
+![Reunião de Alinhamento — IESC VI ao VIII](/fotos/reuniao-alinhamento-iesc.jpg)
