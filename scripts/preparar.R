@@ -20,7 +20,7 @@ MESES <- c("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
 # só gera um aviso, porque criar um eixo novo é uma decisão legítima.
 EIXOS <- c("Formação Docente", "ENAMED", "Projeto MOVE", "Mentoria",
            "Preceptoria", "Produção Científica", "Gestão e Planejamento",
-           "Acolhimento", "Podcast Ética Médica")
+           "Acolhimento", "Podcast Ética Médica", "STHEM")
 
 MANUAL <- "https://bergohellen-hub.github.io/portfolionaped2026/manual.html"
 

@@ -1,0 +1,24 @@
+---
+title: "Encontro Nacional de NAPEDs"
+subtitle: "25, 27 e 28 de agosto de 2026"
+description: "Encontro nacional dos NAPEDs da Afya, com premiação dos Melhores do Ano e apresentação de práticas exitosas."
+date: 2026-08-25
+categories: ["Agosto", "Gestão e Planejamento"]
+image: /fotos/encontro-nacional-naped.jpg
+image-alt: "Encontro Nacional de NAPEDs"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+A coordenadora do NAPED participou do **Encontro Nacional de NAPEDs**, reunindo os núcleos de apoio pedagógico das unidades Afya de todo o país — com oficina prática, premiação dos **Melhores do Ano 2025-2026**, e a apresentação da prática exitosa "O NAPED tem a ver com o NED?", sobre a integração entre os dois núcleos em São João del-Rei.
+
+::: {layout-ncol=3}
+![Melhores do Ano 2025-2026](/fotos/premiacao-melhores-do-ano-naped.jpg)
+
+![Oficina "mão na massa"](/fotos/naped-mao-na-massa.jpg)
+
+![Apresentação da prática exitosa NAPED × NED](/fotos/pratica-exitosa-naped-ned.jpg)
+:::

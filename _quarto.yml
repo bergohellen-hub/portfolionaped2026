@@ -55,6 +55,8 @@ website:
             text: "SDD 2026.2 — Julho"
           - href: paginas/podcast-etica-medica.qmd
             text: "Podcast Ética Médica"
+          - href: paginas/sthem.qmd
+            text: "STHEM Brasil"
       - href: paginas/equipe.qmd
         text: Equipe
       - href: dashboard.qmd

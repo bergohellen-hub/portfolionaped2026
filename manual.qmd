@@ -235,6 +235,7 @@ gráficos do Painel.
 | `Gestão e Planejamento` | Reuniões institucionais, metas, alinhamentos, visitas |
 | `Acolhimento` | Recepção de calouros e docentes, cerimônias, cuidado |
 | `Podcast Ética Médica` | Episódios do podcast de Ética Médica (Prof. Pedro Delabrida) |
+| `STHEM` | Consórcio STHEM Brasil: fóruns, submissões e o encontro nacional |
 
 **Por que no máximo duas:** o cartão fica ilegível com muitas etiquetas. Se
 uma ação parece pedir três eixos, quase sempre são duas ações diferentes.

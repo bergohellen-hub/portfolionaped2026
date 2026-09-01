@@ -4,7 +4,7 @@ subtitle: "Produção Científica · Internacionalização"
 description: "Produção Científica · Internacionalização"
 date: 2026-02-01
 ordem: 5
-categories: ["Fevereiro", "Produção Científica"]
+categories: ["Fevereiro", "Produção Científica", "STHEM"]
 image: /fotos/contagem-regressiva.jpg
 image-alt: "Produção Científica e Engajamento Docente no XII Fórum Internacional de Inovação Acadêmica"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido

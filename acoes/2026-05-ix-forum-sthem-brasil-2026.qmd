@@ -4,7 +4,7 @@ subtitle: "Premiação e Participação Institucional no Consórcio de Inovaçã
 description: "Premiação e Participação Institucional no Consórcio de Inovação Acadêmica"
 date: 2026-05-01
 ordem: 7
-categories: ["Maio", "Produção Científica"]
+categories: ["Maio", "Produção Científica", "STHEM"]
 image: /fotos/docente-americo-trabalho-premiado-ix-forum-sthem-brasil-2026.jpg
 image-alt: "IX Fórum STHEM Brasil 2026"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido

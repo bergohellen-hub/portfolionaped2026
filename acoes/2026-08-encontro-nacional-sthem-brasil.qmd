@@ -1,0 +1,22 @@
+---
+title: "Encontro Nacional do Consórcio STHEM Brasil"
+subtitle: "24 a 26 de agosto de 2026 · São Paulo"
+description: "Encontro nacional do Consórcio STHEM Brasil, em São Paulo, com a participação do NAPED Afya São João del-Rei."
+date: 2026-08-24
+categories: ["Agosto", "STHEM"]
+image: /fotos/naped-no-sthem-2026.jpg
+image-alt: "NAPED no Encontro Nacional do Consórcio STHEM Brasil"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+A coordenadora do NAPED participou, em São Paulo, do **Encontro Nacional do Consórcio STHEM Brasil**, reunindo instituições de ensino superior em torno da inovação acadêmica e da produção científica em metodologias ativas.
+
+::: {layout-ncol=2}
+![NAPED no Encontro Nacional do Consórcio STHEM Brasil](/fotos/naped-no-sthem-2026.jpg)
+
+![Encontro Nacional do Consórcio STHEM Brasil](/fotos/naped-no-sthem.jpg)
+:::
