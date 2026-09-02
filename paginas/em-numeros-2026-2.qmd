@@ -15,8 +15,9 @@ toc: true
 
 | Mês | Docentes | Carga horária |
 |---|---|---|
-| Agosto | 17 | a confirmar |
+| Agosto | 17 | 6,2h* |
 
 **Notas metodológicas.**
 - As contagens mensais representam **acessos únicos** ao curso "NAPED - Afya São João del-Rei" no Canvas — uma mesma pessoa pode ter acessado mais de uma vez, mas conta uma só vez no total do mês.
+- \* A carga horária de agosto ainda não foi apurada — o valor exibido é a **média histórica** de Fevereiro a Junho de 2026.1 (16h, 3h, 4h, 5h e 3h), usada como estimativa até o número real ser confirmado.
 - Setembro a dezembro serão preenchidos conforme o semestre avança.
