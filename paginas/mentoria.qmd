@@ -97,6 +97,8 @@ Encontro de mentoria por videochamada entre o mentor Fausto Moreira e o aluno Ga
 
 Recado em vídeo da especialista do eixo de CI, Denise, para a equipe de mentores.
 
-<video controls preload="metadata" src="/fotos/recado-denise-eixo-ci.mp4"></video>
+<video controls preload="metadata" poster="/fotos/recado-denise-eixo-ci-poster.png">
+<source src="/fotos/recado-denise-eixo-ci.mp4" type="video/mp4">
+</video>
 
 Vídeo · Recado da especialista do eixo de CI

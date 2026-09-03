@@ -27,6 +27,7 @@ project:
     - fotos/fundo-organico.svg
     - fotos/fundo-cabecalho.svg
     - fotos/*.mp4
+    - fotos/recado-denise-eixo-ci-poster.png
 
 website:
   title: "Portfólio NAPED"
