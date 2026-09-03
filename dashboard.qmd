@@ -16,48 +16,14 @@ execute:
 # Este painel NÃO tem dados digitados à mão. Ele lê o cabeçalho de cada
 # arquivo em acoes/ e calcula tudo na hora de gerar o site. Criar uma ação
 # nova faz o painel se atualizar sozinho — nenhuma linha aqui precisa mudar.
+# A leitura em si mora em scripts/leitura-acoes.R, compartilhada com a capa
+# (index.qmd), para que os dois nunca mostrem números diferentes.
 # ---------------------------------------------------------------------------
 library(dplyr)
 library(ggplot2)
+source("scripts/leitura-acoes.R")
 
-arquivos <- list.files("acoes", pattern = "\\.qmd$", full.names = TRUE)
-
-campo <- function(fm, nome, padrao = NA) {
-  v <- fm[[nome]]
-  if (is.null(v) || length(v) == 0) return(padrao)
-  v
-}
-
-acoes <- lapply(arquivos, function(f) {
-  fm <- rmarkdown::yaml_front_matter(f)
-  cats <- as.character(campo(fm, "categories", character(0)))
-  tibble::tibble(
-    arquivo      = basename(f),
-    titulo       = as.character(campo(fm, "title", "")),
-    subtitulo    = as.character(campo(fm, "subtitle", "")),
-    data         = as.Date(as.character(campo(fm, "date", NA))),
-    categorias   = list(cats),
-    participantes = suppressWarnings(as.numeric(campo(fm, "participantes"))),
-    horas        = suppressWarnings(as.numeric(campo(fm, "horas"))),
-    publico      = as.character(campo(fm, "publico", NA)),
-    campus       = as.character(campo(fm, "campus", NA)),
-    cursos       = list(as.character(campo(fm, "cursos", character(0))))
-  )
-}) |> bind_rows()
-
-# Os meses são a única lista fixa daqui — são doze e não mudam.
-MESES <- c("Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
-           "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro")
-
-acoes <- acoes |>
-  mutate(
-    mes   = purrr::map_chr(categorias, \(x) { m <- x[x %in% MESES]; if (length(m)) m[1] else NA_character_ }),
-    # Eixo é "toda etiqueta que não é mês". Antes havia aqui uma lista de
-    # eixos conferida à mão, e um eixo novo não entrava neste gráfico até
-    # alguém lembrar de acrescentá-lo — foi o que aconteceu com o
-    # "Podcast Ética Médica". Agora não há lista para manter.
-    eixos = purrr::map(categorias, \(x) x[!x %in% MESES])
-  )
+acoes <- ler_acoes()
 
 rosa <- "#E5007E"; rosa_claro <- "#fce4f0"; cinza <- "#888888"
 

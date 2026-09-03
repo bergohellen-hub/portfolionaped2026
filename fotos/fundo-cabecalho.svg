@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <!-- geometria decorativa do cabeçalho da capa: círculos concêntricos,
+       linhas diagonais e pontos, em branco translúcido sobre o gradiente -->
+  <circle cx="700" cy="46" r="90" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="1.2"/>
+  <circle cx="700" cy="46" r="122" fill="none" stroke="#fff" stroke-opacity=".10" stroke-width="1.2"/>
+  <circle cx="700" cy="46" r="154" fill="none" stroke="#fff" stroke-opacity=".06" stroke-width="1.2"/>
+
+  <g stroke="#fff" stroke-opacity=".24" stroke-width="1.6">
+    <line x1="120" y1="-20" x2="10" y2="140"/>
+    <line x1="180" y1="-20" x2="55" y2="185"/>
+    <line x1="230" y1="-10" x2="105" y2="210"/>
+    <line x1="640" y1="210" x2="770" y2="70"/>
+    <line x1="600" y1="270" x2="800" y2="30"/>
+  </g>
+
+  <g fill="#fff" fill-opacity=".55">
+    <circle cx="505" cy="235" r="2.6"/>
+    <circle cx="525" cy="215" r="2"/>
+    <circle cx="547" cy="252" r="1.7"/>
+    <circle cx="80" cy="65" r="2.2"/>
+    <circle cx="102" cy="95" r="1.7"/>
+    <circle cx="60" cy="245" r="2"/>
+    <circle cx="90" cy="260" r="1.5"/>
+  </g>
+</svg>

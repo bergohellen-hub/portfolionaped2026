@@ -12,6 +12,8 @@ $naped-rosa-escuro:  #a8005c;   // texto dentro das caixas de destaque
 $naped-rosa-fumaca:  #D31C5B;   // tom dos blobs do fundo orgânico
 $naped-cinza-verde:  #8E9794;   // segundo tom dos blobs
 $naped-verde:        #2A8C4A;   // marcador de "disponível"
+$naped-vinho:        #8a0055;   // gradiente do cabeçalho da capa
+$naped-vinho-escuro: #1a0015;   // ponta escura do mesmo gradiente
 
 $naped-fundo:        #fafafa;
 $naped-texto:        #2d2d2d;
@@ -113,6 +115,72 @@ body {
   opacity: 1;
 }
 
+// --- cabeçalho especial da capa --------------------------------------------
+// Só a página inicial usa isto — o #title-block-header padrão fica oculto
+// nela (ver index.qmd) e este bloco entra no lugar.
+.hero-capa {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  padding: 50px 42px 62px;
+  margin-bottom: 30px;
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  background-image:
+    url('fotos/fundo-cabecalho.svg'),
+    linear-gradient(128deg, $naped-rosa 0%, $naped-vinho 46%, $naped-vinho-escuro 100%);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  background-position: center, center;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, .22);
+}
+.hero-capa-conteudo { position: relative; z-index: 2; }
+.hero-capa-kicker {
+  font-family: $font-family-sans-serif;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, .85);
+  margin: 0 0 10px;
+}
+.hero-capa-titulo {
+  font-family: $font-family-serif;
+  color: #fff;
+  font-size: 4rem;
+  line-height: 1;
+  margin: 0 0 10px;
+  letter-spacing: -.01em;
+}
+.hero-capa-local {
+  font-family: $font-family-sans-serif;
+  color: rgba(255, 255, 255, .92);
+  font-weight: 600;
+  font-size: 1.02rem;
+  letter-spacing: .04em;
+  margin: 0;
+}
+.hero-capa-local::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 1px;
+  background: rgba(255, 255, 255, .6);
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.hero-capa-ano {
+  position: absolute;
+  right: 28px;
+  bottom: 20px;
+  z-index: 2;
+  font-family: $font-family-serif;
+  color: rgba(255, 255, 255, .75);
+  font-size: 1.3rem;
+  letter-spacing: .03em;
+}
+
 h2, h3 { font-family: $font-family-serif; }
 h2 {
   border-bottom: 1px solid $naped-borda;
@@ -204,7 +272,7 @@ figure.figure > p > img,
 figure.figure > img,
 .quarto-layout-cell figure img {
   width: 100%;
-  height: 320px;
+  height: 220px;
   object-fit: cover;
   display: block;
   margin: 0;
@@ -255,7 +323,7 @@ video {
 }
 .quarto-grid-item .card-img-top,
 .quarto-grid-item img.thumbnail-image {
-  height: 250px;
+  height: 172px;
   object-fit: cover;
   transition: transform .4s ease;
 }
@@ -359,28 +427,51 @@ video {
   #title-block-header .title { font-size: 1.75rem; }
   figure.figure > p > img,
   figure.figure > img,
-  .quarto-layout-cell figure img { height: 250px; }
+  .quarto-layout-cell figure img { height: 190px; }
 }
 
-// --- mosaico da capa ------------------------------------------------------
-// Reproduz o .mosaic do index.html antigo: fotos quadradas, borda branca.
-.mosaico { gap: 14px !important; margin-bottom: 30px; }
-.mosaico figure {
-  border: none; box-shadow: none; background: none;
-  border-radius: 16px; overflow: hidden;
+// --- mosaico da capa --------------------------------------------------------
+// Cada quadro (.slot) guarda várias fotos empilhadas, uma por cima da outra;
+// elas se alternam sozinhas via CSS puro (sem JavaScript) — ver index.qmd.
+.mosaico {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 30px;
 }
-.mosaico figure:hover { transform: none; box-shadow: none; }
-.mosaico img {
-  width: 100%;
+.mosaico .slot {
+  position: relative;
   aspect-ratio: 1;
-  height: auto !important;
-  object-fit: cover;
   border-radius: 16px;
+  overflow: hidden;
   border: 4px solid #fff;
   box-shadow: 0 12px 32px rgba(0, 0, 0, .16);
-  transition: transform .5s ease;
 }
-.mosaico img:hover { transform: scale(1.045); }
+.mosaico .slot img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  animation-name: mosaico-troca;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes mosaico-troca {
+  0%   { opacity: 0; }
+  3%   { opacity: 1; }
+  30%  { opacity: 1; }
+  36%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mosaico .slot img { animation: none; opacity: 0; }
+  .mosaico .slot img:first-child { opacity: 1; }
+}
+@media (max-width: 700px) {
+  .mosaico { grid-template-columns: repeat(2, 1fr); }
+}
 
 // --- descrição duplicada no cabeçalho -------------------------------------
 // Nas ações, `description:` e `subtitle:` carregam a mesma frase de propósito:
@@ -466,6 +557,19 @@ video {
     margin-bottom: 18pt;
   }
   #title-block-header .title { font-size: 22pt; }
+
+  .hero-capa {
+    background: none !important;
+    box-shadow: none !important;
+    border-bottom: 2px solid $naped-rosa;
+    border-radius: 0;
+    padding: 0 0 12pt;
+    min-height: 0;
+  }
+  .hero-capa-titulo, .hero-capa-local, .hero-capa-kicker, .hero-capa-ano { color: #000 !important; }
+  .hero-capa-ano { position: static; display: block; margin-top: 6pt; }
+  .mosaico .slot img { animation: none !important; opacity: 0 !important; }
+  .mosaico .slot img:first-child { opacity: 1 !important; position: static !important; }
 
   main { max-width: 100% !important; }
 

@@ -3,6 +3,10 @@ title: "Portfólio Pedagógico"
 subtitle: "2026"
 description: "Registro das iniciativas desenvolvidas pelo Núcleo de Apoio Pedagógico e Experiência Docente."
 toc: false
+execute:
+  echo: false
+  warning: false
+  message: false
 listing:
   id: vitrine
   contents: acoes/*.qmd     # <- o curinga: pega TUDO que existir na pasta
@@ -14,25 +18,76 @@ listing:
   filter-ui: true           # barra de busca
   categories: true          # botões de filtro por mês e por eixo
   page-size: 30
-  image-height: "250px"
+  image-height: "172px"
 ---
 
-::: {layout-ncol=2 .mosaico}
-![](/fotos/sdd-2026-plateia.jpg){alt="SDD 2026 — plateia"}
+<style>
+/* A capa tem um cabeçalho próprio, logo abaixo — o cabeçalho padrão do
+   Quarto (título/subtítulo automáticos) fica reservado para as outras
+   páginas do site. */
+#title-block-header { display: none; }
+</style>
 
-![](/fotos/sdd-2026-palestra-ia-na-docencia.jpg){alt="SDD 2026 — palestra IA na docência"}
+<div class="hero-capa">
+  <div class="hero-capa-conteudo">
+    <p class="hero-capa-kicker">Portfólio Pedagógico</p>
+    <h1 class="hero-capa-titulo">NAPED</h1>
+    <p class="hero-capa-local">São João del-Rei</p>
+  </div>
+  <div class="hero-capa-ano">2026</div>
+</div>
 
-![](/fotos/projeto-move-encontro-na-afya.jpg){alt="Projeto MOVE — encontro na Afya"}
+<!-- Cada quadro guarda 2 ou 3 fotos empilhadas, que se alternam sozinhas
+     (ver @keyframes mosaico-troca em styles.scss). Atrasos diferentes por
+     quadro e por foto evitam que todos troquem ao mesmo tempo. -->
+<div class="mosaico">
+  <div class="slot">
+    <img src="/fotos/sdd-2026-plateia.jpg" alt="SDD 2026 — plateia" style="animation-duration:12s; animation-delay:0s">
+    <img src="/fotos/naped-no-sthem-2026.jpg" alt="NAPED no Encontro Nacional do Consórcio STHEM Brasil" style="animation-duration:12s; animation-delay:4s">
+    <img src="/fotos/aulao-enamed-saude-lgbtqiapn.jpg" alt="Aulão ENAMED — Saúde LGBTQIAPN+" style="animation-duration:12s; animation-delay:8s">
+  </div>
+  <div class="slot">
+    <img src="/fotos/sdd-2026-palestra-ia-na-docencia.jpg" alt="SDD 2026 — palestra sobre IA na docência" style="animation-duration:12s; animation-delay:1.3s">
+    <img src="/fotos/encontro-nacional-naped.jpg" alt="Encontro Nacional de NAPEDs" style="animation-duration:12s; animation-delay:5.3s">
+    <img src="/fotos/correcao-estrategica-10-simulado-enamed.jpg" alt="Correção estratégica do 10º Simulado ENAMED" style="animation-duration:12s; animation-delay:9.3s">
+  </div>
+  <div class="slot">
+    <img src="/fotos/projeto-move-encontro-na-afya.jpg" alt="Projeto MOVE — encontro na Afya" style="animation-duration:8s; animation-delay:2.6s">
+    <img src="/fotos/cerimonia-do-jaleco-da-medicina.jpg" alt="Cerimônia do Jaleco da Medicina" style="animation-duration:8s; animation-delay:6.6s">
+  </div>
+  <div class="slot">
+    <img src="/fotos/projeto-move-dinamica-em-grupo.jpg" alt="Projeto MOVE — dinâmica em grupo" style="animation-duration:8s; animation-delay:3.9s">
+    <img src="/fotos/docentes-de-medicina-coordenacao-e-reitoria.jpg" alt="Docentes de Medicina com coordenação e reitoria" style="animation-duration:8s; animation-delay:7.9s">
+  </div>
+</div>
 
-![](/fotos/projeto-move-dinamica-em-grupo.jpg){alt="Projeto MOVE — dinâmica em grupo"}
-:::
+```{r}
+#| label: numeros-capa
+#| output: asis
+# ---------------------------------------------------------------------------
+# Estes 4 números são calculados a partir do cabeçalho das ações — a mesma
+# leitura que alimenta o Painel (scripts/leitura-acoes.R). Preencher
+# participantes/horas/cursos numa ação nova atualiza a capa sozinho, sem
+# editar este arquivo.
+# ---------------------------------------------------------------------------
+source("scripts/leitura-acoes.R")
+acoes <- ler_acoes()
 
-::: {.numero-grid}
-<div class='numero'><b>81h</b><span>de formação docente</span></div>
-<div class='numero'><b>113</b><span>docentes na SDD</span></div>
-<div class='numero'><b>57</b><span>em capacitação contínua</span></div>
-<div class='numero'><b>10</b><span>cursos alcançados</span></div>
-:::
+n_acoes     <- nrow(acoes)
+tot_horas   <- sum(acoes$horas, na.rm = TRUE)
+tot_pessoas <- sum(acoes$participantes, na.rm = TRUE)
+n_eixos     <- length(unique(unlist(acoes$eixos)))
+
+cartao <- function(valor, rotulo) {
+  sprintf("<div class='numero'><b>%s</b><span>%s</span></div>", valor, rotulo)
+}
+cat("::: {.numero-grid}\n")
+cat(cartao(n_acoes, "ações registradas"))
+cat(cartao(paste0(tot_horas, "h"), "de formação docente"))
+cat(cartao(tot_pessoas, "pessoas alcançadas"))
+cat(cartao(n_eixos, "eixos de atuação"))
+cat("\n:::\n")
+```
 
 Cada cartão abaixo é uma ação registrada. Use a busca ou os filtros ao lado
 para encontrar por mês, por eixo de atuação ou por palavra do título.

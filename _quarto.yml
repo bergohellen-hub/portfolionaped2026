@@ -25,6 +25,7 @@ project:
     # Arquivos que o Quarto não descobre sozinho: o fundo vem de uma regra
     # url() dentro do styles.scss, e o vídeo vem de uma tag <video> crua.
     - fotos/fundo-organico.svg
+    - fotos/fundo-cabecalho.svg
     - fotos/*.mp4
 
 website:
