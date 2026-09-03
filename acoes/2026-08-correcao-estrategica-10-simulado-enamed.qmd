@@ -3,7 +3,7 @@ title: "Correção Estratégica — 10º Simulado ENAMED"
 subtitle: "Não basta fazer o simulado, é hora de aprender com os erros"
 description: "Discussão das questões do 10º Simulado ENAMED, via Teams, com professores de Cirurgia, Saúde Coletiva e Pediatria."
 date: 2026-08-31
-categories: ["Agosto", "ENAMED"]
+categories: ["Agosto", "ENAMED", "Mentoria"]
 image: /fotos/correcao-estrategica-10-simulado-enamed.jpg
 image-alt: "Correção Estratégica — 10º Simulado ENAMED"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
