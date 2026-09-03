@@ -34,6 +34,17 @@ Acesso restrito à rede institucional Afya · OneDrive
 - **Material didático — MP 1.370/2026** 🔒 · `PPTX`  
   "Mentoria Enamed" · Pedro Delabrida
 
+## Treinamento Onboarding
+
+- **Lista de presença** 🔒 · `PDF`  
+  Onboarding · NAPED · 03/08/2026 · 1h
+
+*A partir desta lista, as listas de presença assinadas passam a trazer também a divisão por gênero, a pedido da coordenação nacional.*
+
+| Homens | Mulheres |
+|---|---|
+| 1 | 2 |
+
 ## Treinamento NotebookLM
 
 - **Lista de presença** 🔒 · `PDF`  
@@ -49,6 +60,10 @@ Acesso restrito à rede institucional Afya · OneDrive
   Treinamento disponível no Canvas
 - **Registro de acessos — Agosto** 🔒 · `CSV`  
   17 docentes · Curso NAPED no Canvas
+
+| Homens | Mulheres |
+|---|---|
+| 4 | 13 |
 
 ## Reunião com Especialistas de Eixo
 
