@@ -14,10 +14,10 @@ listing:
   filter-ui: true           # barra de busca
   categories: true          # botões de filtro por mês e por eixo
   page-size: 30
-  image-height: "172px"
+  image-height: "250px"
 ---
 
-::: {layout-ncol=4 .mosaico}
+::: {layout-ncol=2 .mosaico}
 ![](/fotos/sdd-2026-plateia.jpg){alt="SDD 2026 — plateia"}
 
 ![](/fotos/sdd-2026-palestra-ia-na-docencia.jpg){alt="SDD 2026 — palestra IA na docência"}

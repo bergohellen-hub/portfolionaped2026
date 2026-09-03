@@ -246,7 +246,7 @@ listing:
   fields: [image, title, description, categories]
   sort: ["ordem asc", "date asc"]
   page-size: 30
-  image-height: "172px"
+  image-height: "250px"
 ---
 
 ::: {#mes}

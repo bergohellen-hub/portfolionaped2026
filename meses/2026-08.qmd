@@ -14,7 +14,7 @@ listing:
   fields: [image, title, description, categories]
   sort: ["ordem asc", "date asc"]
   page-size: 30
-  image-height: "172px"
+  image-height: "250px"
 ---
 
 Registro das iniciativas desenvolvidas pelo Núcleo de Apoio Pedagógico e Experiência Docente.

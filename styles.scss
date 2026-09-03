@@ -46,11 +46,15 @@ $toc-color:          $naped-rosa;
 /*-- scss:rules --*/
 
 // --- fundo orgânico -------------------------------------------------------
-// O SVG dos "blobs" que ficava embutido no CSS virou fotos/fundo-organico.svg
+// O SVG dos "blobs" que ficava embutido no CSS virou fotos/fundo-organico.svg.
+// Uma camada extra de gradiente (rosa bem claro, no topo) dá profundidade
+// sem competir com o conteúdo — o padrão orgânico continua por trás de tudo.
 body {
-  background-image: url('fotos/fundo-organico.svg');
-  background-repeat: repeat;
-  background-position: 0 0;
+  background-image:
+    radial-gradient(ellipse 1100px 700px at 50% -5%, rgba(229, 0, 126, .07) 0%, rgba(229, 0, 126, 0) 65%),
+    url('fotos/fundo-organico.svg');
+  background-repeat: no-repeat, repeat;
+  background-position: top center, 0 0;
 }
 
 // --- barra de navegação ---------------------------------------------------
@@ -76,17 +80,19 @@ body {
 
 // --- título das páginas ---------------------------------------------------
 #title-block-header {
-  background: linear-gradient(135deg, $naped-rosa-claro 0%, #ffffff 100%);
+  background: linear-gradient(135deg, $naped-rosa-claro 0%, #fff7fb 55%, #ffffff 100%);
   border-bottom: 3px solid $naped-rosa;
   border-radius: 14px 14px 0 0;
-  padding: 38px 34px 30px;
+  padding: 44px 34px 34px;
   margin-bottom: 34px;
+  box-shadow: 0 10px 28px rgba(229, 0, 126, .08);
 }
 #title-block-header .title {
   font-family: $font-family-serif;
   color: $naped-rosa;
-  font-size: 2.35rem;
-  line-height: 1.12;
+  font-size: 2.6rem;
+  line-height: 1.1;
+  letter-spacing: -.01em;
 }
 #title-block-header .subtitle {
   color: $naped-rosa-escuro;
@@ -192,16 +198,22 @@ figure.figure, .quarto-layout-cell figure {
 }
 figure.figure:hover, .quarto-layout-cell figure:hover {
   transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, .14);
 }
 figure.figure > p > img,
 figure.figure > img,
 .quarto-layout-cell figure img {
   width: 100%;
-  height: 220px;
+  height: 320px;
   object-fit: cover;
   display: block;
   margin: 0;
+  transition: transform .4s ease;
+}
+figure.figure:hover > p > img,
+figure.figure:hover > img,
+.quarto-layout-cell figure:hover img {
+  transform: scale(1.06);
 }
 figcaption, .figure-caption {
   padding: 12px 14px !important;
@@ -231,25 +243,30 @@ video {
 .quarto-grid-item {
   border: 1px solid $naped-borda;
   border-radius: 14px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
-  transition: transform .2s, box-shadow .2s, border-color .2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .06);
+  transition: transform .25s, box-shadow .25s, border-color .25s;
   overflow: hidden;
   background: #fff;
 }
 .quarto-grid-item:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(229, 0, 126, .15);
+  transform: translateY(-6px);
+  box-shadow: 0 16px 32px rgba(229, 0, 126, .18);
   border-color: $naped-rosa;
 }
 .quarto-grid-item .card-img-top,
 .quarto-grid-item img.thumbnail-image {
-  height: 172px;
+  height: 250px;
   object-fit: cover;
+  transition: transform .4s ease;
+}
+.quarto-grid-item:hover .card-img-top,
+.quarto-grid-item:hover img.thumbnail-image {
+  transform: scale(1.06);
 }
 .quarto-grid-item .card-title {
   font-family: $font-family-serif;
   color: $naped-rosa;
-  font-size: 1.06rem;
+  font-size: 1.14rem;
   line-height: 1.25;
 }
 .quarto-grid-item .card-text {
@@ -306,14 +323,19 @@ video {
   border: 1px solid $naped-borda;
   border-top: 4px solid $naped-rosa;
   border-radius: 12px;
-  padding: 20px 18px;
+  padding: 24px 18px;
   text-align: center;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, .05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .06);
+  transition: transform .2s, box-shadow .2s;
+}
+.numero:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 22px rgba(229, 0, 126, .14);
 }
 .numero b {
   display: block;
   font-family: $font-family-serif;
-  font-size: 2.1rem;
+  font-size: 2.5rem;
   color: $naped-rosa;
   line-height: 1;
   margin-bottom: 6px;
@@ -337,22 +359,28 @@ video {
   #title-block-header .title { font-size: 1.75rem; }
   figure.figure > p > img,
   figure.figure > img,
-  .quarto-layout-cell figure img { height: 190px; }
+  .quarto-layout-cell figure img { height: 250px; }
 }
 
 // --- mosaico da capa ------------------------------------------------------
 // Reproduz o .mosaic do index.html antigo: fotos quadradas, borda branca.
-.mosaico figure { border: none; box-shadow: none; background: none; }
+.mosaico { gap: 14px !important; margin-bottom: 30px; }
+.mosaico figure {
+  border: none; box-shadow: none; background: none;
+  border-radius: 16px; overflow: hidden;
+}
 .mosaico figure:hover { transform: none; box-shadow: none; }
 .mosaico img {
   width: 100%;
   aspect-ratio: 1;
   height: auto !important;
   object-fit: cover;
-  border-radius: 14px;
-  border: 3px solid #fff;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, .12);
+  border-radius: 16px;
+  border: 4px solid #fff;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, .16);
+  transition: transform .5s ease;
 }
+.mosaico img:hover { transform: scale(1.045); }
 
 // --- descrição duplicada no cabeçalho -------------------------------------
 // Nas ações, `description:` e `subtitle:` carregam a mesma frase de propósito:
