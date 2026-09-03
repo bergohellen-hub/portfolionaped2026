@@ -81,31 +81,44 @@ body {
 }
 
 // --- título das páginas ---------------------------------------------------
+// Mesmo fundo em gradiente magenta + geometria decorativa do cabeçalho da
+// capa (.hero-capa), aplicado aqui a todas as outras páginas do site.
 #title-block-header {
-  background: linear-gradient(135deg, $naped-rosa-claro 0%, #fff7fb 55%, #ffffff 100%);
+  position: relative;
+  overflow: hidden;
+  background-image:
+    url('fotos/fundo-cabecalho.svg'),
+    linear-gradient(128deg, $naped-rosa 0%, $naped-vinho 46%, $naped-vinho-escuro 100%);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  background-position: center, center;
   border-bottom: 3px solid $naped-rosa;
   border-radius: 14px 14px 0 0;
   padding: 44px 34px 34px;
   margin-bottom: 34px;
-  box-shadow: 0 10px 28px rgba(229, 0, 126, .08);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, .18);
 }
 #title-block-header .title {
   font-family: $font-family-serif;
-  color: $naped-rosa;
+  color: #fff;
   font-size: 2.6rem;
   line-height: 1.1;
   letter-spacing: -.01em;
 }
 #title-block-header .subtitle {
-  color: $naped-rosa-escuro;
+  color: rgba(255, 255, 255, .9);
   font-weight: 600;
   font-size: 1.02rem;
   margin-top: .4rem;
 }
+#title-block-header .description {
+  color: rgba(255, 255, 255, .92);
+}
+#title-block-header a { color: #fff; text-decoration: underline; }
 #title-block-header .quarto-categories .quarto-category {
-  background: $naped-rosa;
+  background: rgba(255, 255, 255, .18);
   color: #fff;
-  border: none;
+  border: 1px solid rgba(255, 255, 255, .4);
   border-radius: 14px;
   font-size: .68rem;
   font-weight: 700;
@@ -557,6 +570,14 @@ video {
     margin-bottom: 18pt;
   }
   #title-block-header .title { font-size: 22pt; }
+  #title-block-header .title,
+  #title-block-header .subtitle,
+  #title-block-header .description { color: #000 !important; }
+  #title-block-header .quarto-categories .quarto-category {
+    background: $naped-rosa-claro !important;
+    color: $naped-rosa !important;
+    border: none !important;
+  }
 
   .hero-capa {
     background: none !important;
