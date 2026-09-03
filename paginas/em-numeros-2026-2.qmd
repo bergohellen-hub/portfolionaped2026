@@ -13,9 +13,9 @@ toc: true
 
 *Registro de acessos e participação · agosto a dezembro de 2026*
 
-| Mês | Docentes |
-|---|---|
-| Agosto | 17 |
+| Mês | Docentes | Homens | Mulheres |
+|---|---|---|---|
+| Agosto | 17 | 4 | 13 |
 
 **Notas metodológicas.**
 - As contagens mensais representam **acessos únicos** ao curso "NAPED - Afya São João del-Rei" no Canvas — uma mesma pessoa pode ter acessado mais de uma vez, mas conta uma só vez no total do mês.
