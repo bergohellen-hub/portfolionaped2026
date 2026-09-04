@@ -44,22 +44,26 @@ IMPORTANTE: nenhuma linha aqui pode começar com espaço — o Quarto trata
 linha indentada dentro de HTML cru como bloco de código, não como HTML. -->
 <div class="mosaico">
 <div class="slot">
-<img src="/fotos/sdd-2026-plateia.jpg" alt="SDD 2026 — plateia" style="animation-duration:12s; animation-delay:0s">
-<img src="/fotos/naped-no-sthem-2026.jpg" alt="NAPED no Encontro Nacional do Consórcio STHEM Brasil" style="animation-duration:12s; animation-delay:4s">
-<img src="/fotos/aulao-enamed-saude-lgbtqiapn.jpg" alt="Aulão ENAMED — Saúde LGBTQIAPN+" style="animation-duration:12s; animation-delay:8s">
+<img src="/fotos/sdd-2026-plateia.jpg" alt="SDD 2026 — plateia" style="animation-duration:16s; animation-delay:0s">
+<img src="/fotos/naped-no-sthem-2026.jpg" alt="NAPED no Encontro Nacional do Consórcio STHEM Brasil" style="animation-duration:16s; animation-delay:4s">
+<img src="/fotos/aulao-enamed-saude-lgbtqiapn.jpg" alt="Aulão ENAMED — Saúde LGBTQIAPN+" style="animation-duration:16s; animation-delay:8s">
+<img src="/fotos/premiacao-melhores-do-ano-naped.jpg" alt="Premiação Melhores do Ano — Encontro Nacional de NAPEDs" style="animation-duration:16s; animation-delay:12s">
 </div>
 <div class="slot">
-<img src="/fotos/sdd-2026-palestra-ia-na-docencia.jpg" alt="SDD 2026 — palestra sobre IA na docência" style="animation-duration:12s; animation-delay:1.3s">
-<img src="/fotos/encontro-nacional-naped.jpg" alt="Encontro Nacional de NAPEDs" style="animation-duration:12s; animation-delay:5.3s">
-<img src="/fotos/correcao-estrategica-10-simulado-enamed.jpg" alt="Correção estratégica do 10º Simulado ENAMED" style="animation-duration:12s; animation-delay:9.3s">
+<img src="/fotos/sdd-2026-palestra-ia-na-docencia.jpg" alt="SDD 2026 — palestra sobre IA na docência" style="animation-duration:16s; animation-delay:1.3s">
+<img src="/fotos/encontro-nacional-naped.jpg" alt="Encontro Nacional de NAPEDs" style="animation-duration:16s; animation-delay:5.3s">
+<img src="/fotos/correcao-estrategica-10-simulado-enamed.jpg" alt="Correção estratégica do 10º Simulado ENAMED" style="animation-duration:16s; animation-delay:9.3s">
+<img src="/fotos/naped-mao-na-massa.jpg" alt="Oficina mão na massa — Encontro Nacional de NAPEDs" style="animation-duration:16s; animation-delay:13.3s">
 </div>
 <div class="slot">
-<img src="/fotos/projeto-move-encontro-na-afya.jpg" alt="Projeto MOVE — encontro na Afya" style="animation-duration:8s; animation-delay:2.6s">
-<img src="/fotos/cerimonia-do-jaleco-da-medicina.jpg" alt="Cerimônia do Jaleco da Medicina" style="animation-duration:8s; animation-delay:6.6s">
+<img src="/fotos/projeto-move-encontro-na-afya.jpg" alt="Projeto MOVE — encontro na Afya" style="animation-duration:12s; animation-delay:2.6s">
+<img src="/fotos/cerimonia-do-jaleco-da-medicina.jpg" alt="Cerimônia do Jaleco da Medicina" style="animation-duration:12s; animation-delay:6.6s">
+<img src="/fotos/sthem-treinamento-formacao-memorias.jpg" alt="Programa de Formação STHEM Brasil" style="animation-duration:12s; animation-delay:10.6s">
 </div>
 <div class="slot">
-<img src="/fotos/projeto-move-dinamica-em-grupo.jpg" alt="Projeto MOVE — dinâmica em grupo" style="animation-duration:8s; animation-delay:3.9s">
-<img src="/fotos/docentes-de-medicina-coordenacao-e-reitoria.jpg" alt="Docentes de Medicina com coordenação e reitoria" style="animation-duration:8s; animation-delay:7.9s">
+<img src="/fotos/projeto-move-dinamica-em-grupo.jpg" alt="Projeto MOVE — dinâmica em grupo" style="animation-duration:12s; animation-delay:3.9s">
+<img src="/fotos/docentes-de-medicina-coordenacao-e-reitoria.jpg" alt="Docentes de Medicina com coordenação e reitoria" style="animation-duration:12s; animation-delay:7.9s">
+<img src="/fotos/reuniao-doacao-de-orgaos.jpg" alt="Reunião sobre Doação de Órgãos" style="animation-duration:12s; animation-delay:11.9s">
 </div>
 </div>
 
