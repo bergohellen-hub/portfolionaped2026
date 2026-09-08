@@ -8,13 +8,15 @@ aliases:
 ---
 
 ::: {.numero-grid}
-<div class='numero'><b>81h</b><span>de formação docente no semestre</span></div>
+<div class='numero'><b>78h</b><span>de formação docente no semestre</span></div>
 <div class='numero'><b>113</b><span>docentes na SDD 2026</span></div>
-<div class='numero'><b>57</b><span>participações em capacitação contínua</span></div>
+<div class='numero'><b>47</b><span>participações em capacitação contínua</span></div>
 <div class='numero'><b>10</b><span>cursos alcançados (Medicina + 9 SHE)</span></div>
 :::
 
-Janeiro não teve capacitação docente (mês de preparação e acolhimento).
+Janeiro não teve capacitação docente (mês de preparação e acolhimento). Em
+junho, a formação continuou por acesso remoto ao Canvas — 26 docentes, à
+parte da contagem acima (detalhes abaixo).
 
 ## Capacitação Contínua
 
@@ -26,8 +28,14 @@ Janeiro não teve capacitação docente (mês de preparação e acolhimento).
 | Março | 2 | 5 | 7 | 45 | 3 h |
 | Abril | 4 | 5 | 9 | — | 4 h |
 | Maio | 5 | 7 | 12 | — | 5 h |
-| Junho | a confirmar | a confirmar | 10 | — | 3 h |
-| **Total** | **25+** | **22+** | **57** | **45** | **31 h** |
+| **Total (fev.–mai.)** | **25** | **22** | **47** | **45** | **28 h** |
+
+**Junho** teve **26 docentes únicos** (10 homens, 16 mulheres) com acesso ao
+curso NAPED no Canvas — a mesma metodologia de acesso remoto usada a partir
+de agosto (ver [2026.2](em-numeros-2026-2.qmd)). Por ser uma contagem de
+acessos à plataforma, e não de participação em sessão síncrona, o mês entra
+à parte, sem curso nem carga horária associados, e fica fora da soma acima.
+O comprovante está em [Comprovações](comprovacoes.qmd#treinamentos-online-canvas).
 
 ## Semana de Desenvolvimento Docente — SDD 2026
 
@@ -67,5 +75,5 @@ Iniciativa da Afya que aproxima os professores da educação básica do ensino s
 **Notas metodológicas.**
 - As contagens mensais representam **participações**: uma mesma pessoa pode ter participado em mais de um mês, portanto os meses não devem ser somados como pessoas distintas.
 - Na SDD, os **113** são participantes únicos da semana; os **79** reúnem quem esteve em ao menos duas das quatro sessões gerais (≥50%). Os momentos direcionados de 21h (coordenadores de curso e treinamento com o NED) são registrados à parte.
-- A carga horária total do semestre (**81h**) soma a capacitação contínua (31h) e a SDD (50h).
-- A quebra por curso de junho ainda será confirmada; o total de 10 docentes já está contabilizado.
+- A carga horária total do semestre (**78h**) soma a capacitação contínua de fevereiro a maio (28h) e a SDD (50h). Junho não entra nessa soma: é acesso remoto ao Canvas, sem carga horária associada.
+- O total de **47 participações** em capacitação contínua cobre fevereiro a maio. Os 26 acessos de junho são uma métrica diferente (acesso à plataforma, não participação em sessão síncrona) e por isso são contados à parte.
