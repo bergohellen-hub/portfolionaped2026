@@ -74,6 +74,8 @@ website:
     right:
       - href: manual.qmd
         text: Manual
+      - href: receita.qmd
+        text: Receita
       - icon: github
         href: https://github.com/bergohellen-hub/portfolionaped2026
         aria-label: Repositório no GitHub

@@ -1,0 +1,533 @@
+---
+title: "A Receita do Portfólio"
+subtitle: "Ingredientes e modo de preparo para montar um portfólio do zero com Quarto"
+description: "Passo a passo para quem nunca usou Git, GitHub, Positron ou Quarto: como preparar o computador e montar, do zero, um site que cresce sozinho conforme você adiciona conteúdo."
+toc: true
+toc-depth: 3
+toc-title: "Nesta receita"
+lightbox: auto
+---
+
+Esta página ensina a montar, **do zero**, um portfólio em formato de site —
+parecido com este, mas seu. Ela não presume que você já saiba o que é Git,
+o que é um repositório, ou o que significa "renderizar" um site. Cada termo
+técnico é explicado na hora em que aparece, e há um glossário completo no
+fim.
+
+::: {.destaque}
+Pense nela como uma receita de cozinha: primeiro a lista de
+**ingredientes** (o que instalar e o que ter em mãos), depois o **modo de
+preparo** (a ordem dos passos). O prato final é o seu site, publicado na
+internet.
+:::
+
+---
+
+## 1. O que você vai construir {#o-que-voce-vai-construir}
+
+Ao final desta receita, você terá um site com:
+
+- **Páginas independentes**, uma por arquivo de texto — sem precisar de um
+  programa de design ou de conhecimento de programação para editar.
+- **Publicação gratuita** na internet, com endereço próprio
+  (algo como `nomedeusuario.github.io/portfolio`).
+- Uma técnica que faz o site **crescer sozinho**: adicionar um evento, um
+  projeto ou uma conquista nova é criar **um arquivo** — nada de editar
+  menu, página inicial ou configuração a cada novidade. A seção 7 explica
+  exatamente como isso funciona, e você vai construir essa parte com as
+  próprias mãos.
+
+---
+
+## 2. Os ingredientes {#ingredientes}
+
+Antes da lista de ingredientes, as duas peças que sustentam tudo o resto:
+**Git** e **GitHub**. Vale entender bem os dois, porque quase tudo depois
+depende deles.
+
+### O que é o Git, e por que ele existe
+
+Imagine editar um documento importante junto com outras pessoas, sem nenhum
+controle de versão. Cedo ou tarde aparece um arquivo chamado
+`relatorio_final_v2_NOVO(3).docx`, ninguém tem certeza de qual é a versão
+mais recente, e uma mudança errada pode apagar o trabalho de outra pessoa
+sem deixar rastro de como desfazer.
+
+O **Git** resolve exatamente esse problema. É um programa que fica
+**instalado no seu computador** e guarda, para uma pasta de projeto, um
+histórico completo de tudo que já mudou nela — quem mudou, quando, e o quê
+exatamente. Cada vez que você registra uma mudança (o que se chama de
+**commit**, explicado mais adiante), o Git tira uma "fotografia" completa do
+projeto naquele instante. Se algo der errado depois, é sempre possível
+voltar a uma fotografia anterior.
+
+Pense no Git como o "histórico de versões" que ferramentas como o Google
+Docs já oferecem — só que muito mais detalhado, e sob o seu controle: você
+decide exatamente quando uma nova "fotografia" é tirada, e escreve uma frase
+explicando o que mudou nela.
+
+Um detalhe importante: o Git funciona **inteiramente no seu computador**,
+sem precisar de internet. Ele guarda o histórico ali, na própria pasta do
+projeto (numa subpasta escondida chamada `.git`).
+
+### O que é o GitHub, e por que ele existe
+
+Se o Git guarda o histórico só no seu computador, surgem dois problemas: se
+o computador quebrar ou for perdido, o histórico some junto. E se duas
+pessoas quiserem trabalhar no mesmo projeto, não há como um Git "conversar"
+com o outro sozinho.
+
+O **GitHub** resolve os dois problemas. É um **site**, uma plataforma na
+internet, que guarda uma cópia completa do projeto — com todo o histórico do
+Git — em um servidor. A partir daí:
+
+- O projeto tem uma **cópia de segurança** fora do seu computador.
+- Várias pessoas podem trabalhar no mesmo projeto, cada uma enviando (`push`)
+  e recebendo (`pull`) as mudanças através do GitHub, que funciona como o
+  "ponto de encontro" entre todos os computadores envolvidos.
+- É o GitHub também que oferece o **GitHub Pages**, o serviço que pega o site
+  gerado pelo Quarto e o publica de verdade na internet, de graça.
+
+Resumindo a diferença entre os dois: o **Git** é o programa, instalado no
+computador, que registra o histórico. O **GitHub** é o site, na internet,
+que guarda uma cópia desse histórico e conecta várias pessoas ao mesmo
+projeto. Você pode usar o Git sozinho, offline, sem nunca ter ouvido falar
+de GitHub — mas para colaborar com outras pessoas e publicar um site, os
+dois juntos é que fazem sentido.
+
+Isto é tudo que você precisa ter, antes de começar a cozinhar:
+
+| Ingrediente | O que é, em uma frase | Onde conseguir |
+|---|---|---|
+| Uma conta no GitHub | Seu login na plataforma onde o projeto vai morar | [github.com](https://github.com) → *Sign up* |
+| Git instalado no computador | O programa que registra as versões do seu trabalho | [git-scm.com](https://git-scm.com/downloads) |
+| Positron instalado | O programa onde você vai abrir e editar os arquivos | [positron.posit.co/download.html](https://positron.posit.co/download.html) |
+| Quarto instalado | A ferramenta que transforma os arquivos de texto em páginas de site | [quarto.org/docs/get-started](https://quarto.org/docs/get-started/) |
+| (Opcional) um assistente de IA | Ajuda a escrever e revisar os arquivos, dentro do próprio Positron | Ex.: Codex (OpenAI), Claude Code (Anthropic) |
+
+### Por que Positron, e não outro editor?
+
+Positron é um programa da [Posit](https://posit.co) (a mesma empresa por
+trás do RStudio) pensado para quem trabalha com R, Python e Quarto. Ele já
+vem com um terminal embutido, uma área de controle de versões (o Git,
+visualmente) e suporte nativo ao Quarto, tudo no mesmo lugar. Você poderia
+usar outro editor de código (o VS Code, por exemplo, é primo do Positron e
+funciona de forma bem parecida), mas o Positron é o que recomendamos por já
+vir pronto para este tipo de projeto.
+
+### Por que Quarto?
+
+O [Quarto](https://quarto.org) é a ferramenta que lê os arquivos de texto do
+projeto e **gera o site** — as páginas HTML que o navegador mostra. Sem o
+Quarto, os arquivos `.qmd` são só texto; com ele, viram um site completo,
+com menu, busca, tema visual e tudo mais.
+
+---
+
+## 3. Verificar se cada ingrediente está pronto {#verificar}
+
+Depois de instalar tudo, abra o Positron e, dentro dele, abra o **terminal**
+(`Terminal` → `New Terminal`, no menu de cima). O terminal é aquela tela
+preta onde se digita comandos em vez de clicar em botões — não tenha medo
+dele, aqui vamos usar só duas ou três linhas.
+
+Digite, uma de cada vez, apertando Enter depois de cada uma:
+
+```bash
+git --version
+quarto --version
+```
+
+Se cada comando responder com um número de versão (por exemplo `git version
+2.44.0`), está tudo certo. Se aparecer uma mensagem de erro dizendo que o
+comando não foi encontrado, feche e abra o Positron de novo (às vezes ele
+precisa "descobrir" o programa recém-instalado) — se persistir, reinicie o
+computador.
+
+Na barra lateral esquerda do Positron, procure também o ícone de
+**Source Control** (um círculo ligado a outros dois círculos por linhas —
+o símbolo universal de controle de versões). Se ele abrir uma área normalmente,
+o Git está integrado corretamente ao programa.
+
+---
+
+## 4. Termos que vamos usar a partir daqui {#termos-essenciais}
+
+Antes do próximo passo, duas palavras que aparecem sem parar:
+
+::: {.callout-tip}
+## Repositório e pasta do projeto
+
+- **Repositório** (ou "repo"): a pasta do projeto, junto com todo o
+  histórico de alterações que o Git guarda dela. Pode existir só no GitHub
+  (online), só no seu computador (local), ou nos dois ao mesmo tempo — que é
+  o caso mais comum.
+- A pasta do projeto, no seu computador, vira uma pasta comum — só que com
+  uma "memória" extra (o Git) vigiando o que muda dentro dela.
+:::
+
+---
+
+## 5. Criar o seu projeto {#criar-projeto}
+
+1. No [GitHub](https://github.com), clique em **`New repository`**
+2. Escolha um nome (ex.: `meu-portfolio`), uma descrição, e marque
+   **`Public`** se quiser que o site seja visível para qualquer pessoa
+3. Clique em **`Create repository`**
+4. Na página do repositório recém-criado, clique no botão verde **`Code`** e
+   copie o endereço que aparece (algo como
+   `https://github.com/seu-usuario/meu-portfolio.git`)
+5. No Positron, aperte **`Ctrl+Shift+P`** — isso abre a "paleta de comandos",
+   uma busca rápida por qualquer ação do programa
+6. Digite `Git: Clone` e aperte Enter
+7. Cole o endereço copiado, e escolha uma pasta no seu computador para
+   guardar o projeto
+8. Quando o Positron perguntar, abra a pasta recém-clonada
+
+::: {.callout-tip}
+## Pasta inteira, não arquivo solto
+
+Sempre abra a **pasta inteira** do projeto no Positron (`File` → `Open
+Folder...`), nunca um arquivo isolado. É assim que o Git enxerga o projeto
+inteiro, e é assim que um assistente de IA consegue entender a estrutura e
+ajudar de verdade.
+:::
+
+O repositório vem vazio. Os próximos passos criam, dentro dele, os arquivos
+mínimos de um site em Quarto.
+
+---
+
+## 6. Os três blocos de um projeto Quarto {#tres-blocos}
+
+Todo projeto Quarto — inclusive o que você vai montar — é feito de três
+peças:
+
+```{=html}
+<div class="mes-grid" style="grid-template-columns: repeat(3, 1fr); margin: 20px 0;">
+<div class="mes-card" style="cursor: default;">
+<span class="mes-nome">.qmd</span>
+<span class="mes-conta">o conteúdo de uma página</span>
+</div>
+<div class="mes-card" style="cursor: default;">
+<span class="mes-nome">_quarto.yml</span>
+<span class="mes-conta">a configuração do site inteiro</span>
+</div>
+<div class="mes-card" style="cursor: default;">
+<span class="mes-nome">_site/</span>
+<span class="mes-conta">o site pronto, em HTML</span>
+</div>
+</div>
+```
+
+### O arquivo `.qmd`
+
+Um arquivo **`.qmd`** ("Quarto Markdown") é texto puro — dá para abrir em
+qualquer editor — que mistura duas coisas:
+
+1. Um **cabeçalho**, entre duas linhas de três hífens (`---`), escrito em um
+   formato chamado **YAML**. É onde ficam os *metadados*: título, data,
+   categoria — dados **sobre** a página, não o conteúdo dela.
+2. O **corpo**, escrito em **Markdown**: uma forma simplificada de formatar
+   texto, sem os botões de um editor como o Word. `**negrito**` vira
+   **negrito**, `# Título` vira um título grande, e assim por diante.
+
+```markdown
+---
+title: "Sobre mim"
+date: 2026-08-18
+---
+
+# Sobre mim
+
+Sou **jornalista** e educadora, com atuação em comunicação popular.
+```
+
+### O arquivo `_quarto.yml`
+
+Existe **um só** por projeto, na pasta principal. Ele controla o que é
+compartilhado por todas as páginas: o menu de navegação, o tema visual, o
+título do site, e — importante — **quais arquivos devem virar páginas**
+(mais sobre isso na próxima seção).
+
+O nome começa com `_` (sublinhado) por convenção do Quarto: arquivos e
+pastas que começam com `_` não viram páginas do site sozinhos — eles
+**configuram** o site, ou são ignorados.
+
+### A pasta `_site/`
+
+Quando você manda o Quarto **renderizar** — a palavra técnica para "gerar o
+site a partir dos arquivos `.qmd`" —, ele lê todos os `.qmd` e o
+`_quarto.yml`, e produz uma pasta `_site/` cheia de arquivos `.html`
+prontos, um por página. É **essa** pasta que vai parar na internet — nunca
+os arquivos `.qmd` originais.
+
+```bash
+quarto preview    # abre uma prévia ao vivo, atualizada a cada Ctrl+S
+quarto render     # gera a versão final na pasta _site/
+```
+
+---
+
+## 7. A técnica: crescer sem editar configuração a cada novidade {#a-tecnica}
+
+Esta é a parte mais importante da receita — o "tempero secreto" que faz um
+portfólio crescer sozinho.
+
+::: {.callout-important}
+## O problema que essa técnica resolve
+
+Em um site "comum", cada página nova precisa ser **registrada em algum
+lugar**: você adiciona um link no menu, uma entrada na página inicial... Se
+um evento aparece em vários lugares do site, você editaria vários arquivos
+diferentes toda vez — e mais cedo ou mais tarde, um deles ia ficar
+esquecido, desatualizado.
+
+O objetivo é o oposto: **publicar um evento novo = criar um arquivo. Só
+isso.** Nada mais precisa ser tocado.
+:::
+
+A técnica combina três recursos do próprio Quarto. Nenhuma mágica de
+verdade — só usar bem o que a ferramenta já oferece. Vamos construir isso
+juntos, com um exemplo completo.
+
+### Passo 1 — Uma pasta para o conteúdo, com um curinga no `_quarto.yml`
+
+Crie, dentro do projeto, uma pasta chamada `eventos/`. É ali que vai morar
+**um arquivo por evento**. Depois, no `_quarto.yml`, diga ao Quarto para
+renderizar **qualquer** arquivo que aparecer dentro dela:
+
+```yaml
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "eventos/*.qmd"     # <- o asterisco é o curinga
+
+website:
+  title: "Meu Portfólio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Início
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+lang: pt
+```
+
+O símbolo `*` (asterisco) aqui é chamado de **curinga**, ou *glob pattern*
+em inglês. Ele significa "qualquer nome de arquivo". Sempre que um `.qmd`
+novo aparecer dentro de `eventos/`, o Quarto já vai saber que precisa gerar
+uma página para ele — **sem que ninguém precise escrever o nome desse
+arquivo em lugar nenhum**.
+
+### Passo 2 — O cabeçalho de cada evento como banco de dados
+
+Dentro de `eventos/`, crie o primeiro arquivo,
+`eventos/2026-08-primeiro-evento.qmd`:
+
+```yaml
+---
+title: "Roda de conversa sobre avaliação formativa"
+description: "Encontro com 22 pessoas sobre instrumentos de avaliação"
+date: 2026-08-18
+categories: ["Agosto", "Formação"]
+image: /fotos/roda-de-conversa.jpg
+---
+
+No dia 18 de agosto reunimos um grupo para conversar sobre avaliação
+formativa e instrumentos de acompanhamento contínuo.
+```
+
+Pense nesse cabeçalho como **uma linha de planilha**, com o arquivo inteiro
+fazendo o papel de "banco de dados": cada evento tem seu título, sua data e
+suas **etiquetas** (o campo `categories:`). São essas etiquetas que vão
+permitir que o site organize e filtre os eventos — sem que exista uma lista
+separada, mantida à mão, dizendo "estes são os eventos de agosto".
+
+### Passo 3 — O `listing`, que faz a pergunta ao acervo
+
+Agora o `index.qmd`, a página inicial, **não vai ter nenhum card de evento
+escrito nela**. Em vez disso, vai ter isto no cabeçalho:
+
+```yaml
+---
+title: "Meu Portfólio"
+listing:
+  id: vitrine
+  contents: eventos/*.qmd     # <- de novo o curinga
+  type: grid
+  fields: [image, title, description, categories, date]
+  sort: "date desc"
+  categories: true            # gera os botões de filtro sozinho
+---
+
+::: {#vitrine}
+:::
+```
+
+O bloco `listing` é um recurso do próprio Quarto: ele diz "monte uma grade
+de cartões, um para cada arquivo que bater com este curinga, usando estes
+campos do cabeçalho de cada um". A marcação `::: {#vitrine} :::` no corpo da
+página é onde essa grade vai aparecer.
+
+### O resultado
+
+Com esses três passos, publicar o **segundo** evento é só isto: criar
+`eventos/2026-09-segundo-evento.qmd`, com o mesmo formato de cabeçalho. Ele
+aparece na vitrine sozinho, no filtro de categorias sozinho — sem tocar em
+`index.qmd` nem em `_quarto.yml` outra vez.
+
+```
+eventos/2026-09-segundo-evento.qmd  (arquivo novo)
+        │
+        │  o curinga em _quarto.yml já sabe renderizá-lo
+        │  o curinga no listing de index.qmd já sabe incluí-lo
+        ▼
+   aparece na vitrine da página inicial, com filtro por categoria,
+   sem editar nenhuma configuração
+```
+
+::: {.callout-note}
+## Se quiser ir além: páginas automáticas por mês, ou um painel de números
+
+O que você acabou de construir já resolve o problema central: nenhuma
+configuração se repete a cada evento novo. É possível ir mais longe — por
+exemplo, gerar sozinha uma página para cada mês que tiver ao menos um
+evento, ou montar um painel que soma participantes e horas a partir do
+cabeçalho de cada arquivo.
+
+Isso se faz com um script de **`pre-render`**: um programa (em R, Python,
+JavaScript — a linguagem não importa para o Quarto) que roda automaticamente
+um instante antes da renderização, configurado assim:
+
+```yaml
+project:
+  pre-render: scripts/preparar.R
+```
+
+Esse é o próximo nível da técnica, e vale a pena pedir ajuda ao seu
+assistente de IA quando chegar lá: descreva o que você quer ("crie uma
+página para cada mês que tiver eventos, e ainda não tenha uma página
+própria") e mostre este mesmo `_quarto.yml` como contexto.
+:::
+
+---
+
+## 8. O dia a dia: editar, salvar, publicar {#dia-a-dia}
+
+Com o projeto aberto no Positron, o ciclo de trabalho é sempre este:
+
+```
+editar o arquivo → conferir com "quarto preview" → salvar → commit → push
+```
+
+### Salvar não é o mesmo que registrar uma versão
+
+`Ctrl+S` salva o arquivo no seu computador — mas o Git ainda não sabe que
+algo mudou "oficialmente". Para isso existe o **commit**.
+
+::: {.callout-note}
+## Commit, push e pull — os três verbos do Git
+
+- **Commit**: registra um "ponto de salvamento" do projeto, com uma
+  mensagem curta descrevendo o que mudou (ex.: `Adiciona o evento de
+  setembro`). É local — ainda não saiu do seu computador.
+- **Push**: envia os commits do seu computador para o GitHub. É o "publicar"
+  de fato, do ponto de vista do Git.
+- **Pull**: o caminho contrário — traz para o seu computador as mudanças que
+  estão no GitHub (por exemplo, se outra pessoa também editou o projeto).
+
+Resumindo: commit registra, push envia, pull traz.
+:::
+
+No Positron, isso acontece na aba **Source Control** da barra lateral: os
+arquivos alterados aparecem listados, você escreve a mensagem do commit numa
+caixa de texto, clica no ✓ para confirmar o commit, e depois no botão de
+sincronizar (as setinhas) para fazer o push.
+
+### Como o site vai parar na internet
+
+A forma mais simples de publicar um site Quarto no GitHub Pages é um único
+comando, no terminal, dentro da pasta do projeto:
+
+```bash
+quarto publish gh-pages
+```
+
+Na primeira vez, ele pede para confirmar a conta do GitHub, cria
+automaticamente o lugar onde o site vai morar dentro do repositório, gera o
+site e o envia. Nas próximas vezes, é o mesmo comando de novo. Depois de
+alguns minutos, o site fica no ar em
+`https://seu-usuario.github.io/nome-do-repositorio/`.
+
+::: {.callout-tip}
+## Um passo além: publicar automaticamente a cada push
+
+Existe uma forma de fazer o site se publicar sozinho toda vez que você faz
+um `push`, sem precisar rodar `quarto publish` manualmente — usando o
+**GitHub Actions**, um serviço do GitHub que roda tarefas automáticas a
+cada mudança no repositório. É mais indicado para quando o projeto já está
+maduro e outras pessoas também publicam nele. A
+[documentação oficial do Quarto sobre GitHub Pages](https://quarto.org/docs/publishing/github-pages.html)
+explica as duas formas em detalhe.
+:::
+
+---
+
+## 9. Glossário completo {#glossario}
+
+| Termo | O que significa |
+|---|---|
+| **Git** | Programa instalado no computador que registra o histórico de versões de um projeto |
+| **GitHub** | Site que guarda repositórios na internet e permite colaborar com outras pessoas |
+| **Repositório** ("repo") | A pasta de um projeto, junto com todo o histórico de alterações |
+| **Clonar** | Copiar um repositório do GitHub para o computador, mantendo a ligação com o original |
+| **Commit** | Um "ponto de salvamento" oficial do projeto, com uma mensagem descrevendo a mudança |
+| **Push** | Enviar os commits do computador para o GitHub |
+| **Pull** | Trazer para o computador as mudanças que estão no GitHub |
+| **Branch** | Uma "linha do tempo" alternativa do projeto. Um projeto novo começa só com uma, chamada `main` |
+| **Positron** | O programa (IDE — *Integrated Development Environment*, "ambiente de desenvolvimento") onde se edita o projeto |
+| **Terminal** | A tela de texto onde se digitam comandos, em vez de clicar em botões |
+| **Quarto** | A ferramenta que transforma arquivos `.qmd` em páginas de site |
+| **`.qmd`** | Extensão de arquivo do Quarto Markdown — uma página do site, em texto |
+| **Markdown** | Uma forma simplificada de formatar texto (`**negrito**`, `# título`) sem editor visual |
+| **YAML** | O formato do cabeçalho entre `---`, usado para guardar metadados (título, data, etiquetas) |
+| **Front matter** | Nome técnico do cabeçalho YAML no topo de um arquivo `.qmd` |
+| **`_quarto.yml`** | O arquivo único de configuração de todo o site: menu, tema, o que vira página |
+| **Renderizar** | Gerar as páginas HTML finais a partir dos arquivos `.qmd` |
+| **`_site/`** | A pasta com o site já pronto em HTML, gerada pelo Quarto — é o que vai para a internet |
+| **`listing`** | Um recurso do Quarto que monta uma grade de cartões automaticamente, a partir de um grupo de arquivos |
+| **Curinga** (*glob pattern*) | Um símbolo como `*` que representa "qualquer nome de arquivo", usado para não ter que listar arquivo por arquivo |
+| **`pre-render`** | Um script opcional que roda automaticamente antes do Quarto gerar o site — usado para automações extras, como criar páginas por mês |
+| **GitHub Actions** | Serviço do GitHub que roda tarefas automáticas (por exemplo, publicar o site) a cada mudança no repositório |
+| **CI/CD** | Sigla para "integração e entrega contínuas" — o nome geral dado a esse tipo de automação |
+| **GitHub Pages** | Serviço do GitHub que hospeda e publica um site a partir de um repositório |
+| **IDE** | Sigla para "ambiente de desenvolvimento integrado" — um programa como o Positron, que reúne editor, terminal e Git no mesmo lugar |
+| **Assistente de IA** | Uma ferramenta como o Codex ou o Claude Code, que ajuda a escrever e revisar arquivos dentro do editor |
+
+---
+
+## 10. Onde continuar {#onde-continuar}
+
+- Para ver a documentação oficial de cada ferramenta:
+  [Quarto](https://quarto.org/docs/guide/),
+  [Positron](https://positron.posit.co/),
+  [Git](https://git-scm.com/doc).
+- Para publicar no GitHub Pages com mais detalhe (incluindo a opção de
+  publicação automática via GitHub Actions):
+  [quarto.org/docs/publishing/github-pages.html](https://quarto.org/docs/publishing/github-pages.html)
+
+::: {.callout-note}
+## Depois de publicado
+
+Guarde o endereço do seu site nos favoritos, e compartilhe com quem quiser.
+Sempre que tiver um evento, projeto ou conquista nova para registrar, volte
+à seção 7: um arquivo na pasta `eventos/`, com o cabeçalho preenchido, é
+tudo que se repete.
+:::
