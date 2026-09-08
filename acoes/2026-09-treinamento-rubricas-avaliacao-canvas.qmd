@@ -1,0 +1,26 @@
+---
+title: "Treinamento: Rubricas de Avaliação no Canvas"
+subtitle: "Formação para professores, com Hellen Bergo"
+description: "Treinamento online sobre como criar rubricas de avaliação na plataforma Canvas"
+date: 2026-09-11
+categories: ["Setembro", "Formação Docente"]
+image: /fotos/convite-treinamento-rubricas-avaliacao-canvas.png
+image-alt: "Convite do treinamento Rubricas de Avaliação no Canvas"
+publico: "Docentes"
+---
+
+No dia 11 de setembro, às 18h, o NAPED promove um treinamento para professores
+sobre como criar rubricas de avaliação diretamente na plataforma Canvas,
+conduzido por Hellen Bergo.
+
+O encontro acontece de forma online, pela plataforma Microsoft Teams, sem
+necessidade de inscrição prévia — basta acessar o link de adesão no horário.
+
+::: {.destaque}
+Rubricas de avaliação bem construídas tornam a correção mais objetiva e o
+retorno mais transparente para os estudantes.
+:::
+
+## Evidências
+
+![**Convite do treinamento** Arte de divulgação enviada aos professores, na identidade visual da Afya.](/fotos/convite-treinamento-rubricas-avaliacao-canvas.png)
