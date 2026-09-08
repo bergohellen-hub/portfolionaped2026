@@ -1,6 +1,6 @@
 ---
 title: "Comprovações e Anexos"
-subtitle: "2026.1"
+subtitle: "2026.1 · 2026.2"
 description: "Documentos e registros que comprovam as ações do portfólio."
 toc: true
 aliases:
