@@ -122,6 +122,51 @@ projeto e **gera o site** — as páginas HTML que o navegador mostra. Sem o
 Quarto, os arquivos `.qmd` são só texto; com ele, viram um site completo,
 com menu, busca, tema visual e tudo mais.
 
+### Como ligar um assistente de IA dentro do Positron (opcional)
+
+Você não precisa de um assistente de IA para seguir esta receita — dá para
+fazer tudo escrevendo os arquivos à mão. Mas ter um assistente dentro do
+próprio Positron ajuda bastante na hora de criar a estrutura inicial, tirar
+dúvidas de sintaxe, ou pedir a automação avançada da seção 7. Dois são
+comuns: o **Codex**, da OpenAI (a mesma empresa do ChatGPT), e o
+**Claude Code**, da Anthropic. Funcionam de um jeito parecido — escolha o
+que você já tiver uma conta paga ou acesso.
+
+::: {.callout-tip}
+## Instalar o Codex no Positron
+
+1. No Positron, abra a área de **Extensions** (o ícone de blocos empilhados,
+   na barra lateral esquerda)
+2. Pesquise por **Codex**
+3. Procure a extensão oficial da **OpenAI** e clique em **Install**
+4. Depois de instalada, abra o Codex (ele aparece como um ícone novo na
+   barra lateral, ou em `View` → `Codex`)
+5. Escolha a opção de entrar com a sua **conta do ChatGPT**
+6. Uma aba do navegador vai abrir para você confirmar o login — conclua a
+   autenticação ali e volte para o Positron
+
+Se a extensão não aparecer no catálogo do Positron, existe uma alternativa:
+o **Codex CLI**, que roda direto pelo terminal do próprio Positron, sem
+precisar de extensão. As instruções de instalação estão na
+[documentação oficial do Codex](https://developers.openai.com/codex/ide).
+:::
+
+::: {.callout-tip}
+## Instalar o Claude Code no Positron
+
+O caminho é o mesmo, trocando o nome: abra **Extensions**, pesquise por
+**Claude Code**, instale a extensão oficial da **Anthropic**, e entre com a
+sua conta quando pedido. Detalhes e instalação alternativa por terminal
+estão na
+[documentação oficial do Claude Code](https://code.claude.com/docs/en/overview).
+:::
+
+Depois de conectado — Codex ou Claude, tanto faz — é só conversar com ele
+dentro do Positron, pedindo para criar arquivos, revisar o que você
+escreveu, ou montar a técnica da seção 7. Ele enxerga a pasta do projeto
+inteira (por isso o aviso de sempre abrir a pasta completa, não um arquivo
+solto).
+
 ---
 
 ## 3. Verificar se cada ingrediente está pronto {#verificar}
