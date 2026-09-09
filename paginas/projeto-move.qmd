@@ -7,19 +7,14 @@ aliases:
   - /Portfolio_NAPED_Projeto_MOVE.html
 ---
 
-*1º Encontro31 de julho de 2026*
-
 ## 1º Encontro de Formação — Escola Caminho do Sol
 
-*Metodologias ativas e IA na prática*
+*31 de julho de 2026 · Metodologias ativas e IA na prática*
 
-35
-
-professores da rede básica
-
-3h
-
-de formação
+::: {.numero-grid}
+<div class='numero'><b>35</b><span>professores da rede básica</span></div>
+<div class='numero'><b>3h</b><span>de formação</span></div>
+:::
 
 ::: {.destaque}
 APG (Aprendizagem em Pequenos Grupos) · Laboratório de IA (Perplexity e NotebookLM) · Avaliação por QR.
@@ -61,13 +56,9 @@ APG (Aprendizagem em Pequenos Grupos) · Laboratório de IA (Perplexity e Notebo
 
 ### Avaliação dos participantes
 
-4,96
-
-/5
-
-★★★★★
-
-média de 24 avaliações · 13 comentários
+::: {.numero-grid}
+<div class='numero'><b>4,96/5</b><span>★★★★★ · média de 24 avaliações · 13 comentários</span></div>
+:::
 
 ::: {.destaque}
 "Muito produtivo e eficaz. Parabéns!"
