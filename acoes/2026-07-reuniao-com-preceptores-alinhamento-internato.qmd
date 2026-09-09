@@ -1,0 +1,27 @@
+---
+title: "Reunião com Preceptores — Alinhamento do Internato 2026.2"
+subtitle: "Acompanhamento de Campos de Prática"
+description: "Encontro on-line de alinhamento das diretrizes do Internato 2026.2 com preceptores e coordenação"
+date: 2026-07-16
+categories: ["Julho", "Preceptoria"]
+image: /fotos/reuniao-com-preceptores-16-07-2026.jpg
+image-alt: "Reunião com preceptores — alinhamento do Internato 2026.2"
+publico: "Preceptores"
+---
+
+Encontro on-line reunindo a equipe do NAPED, a coordenação e os preceptores
+para alinhar as diretrizes do Internato 2026.2, reforçando que "o internato
+não é apenas um aprendizado clínico, é o momento de aprender a ser médico".
+
+::: {.destaque}
+Alinhamento institucional com os preceptores dos campos de prática, na
+abertura do semestre do internato.
+:::
+
+## Evidências
+
+::: {layout-ncol=2}
+![Reunião com preceptores — 16/07/2026](/fotos/reuniao-com-preceptores-16-07-2026.jpg)
+
+![Apresentação Internato 2026.2](/fotos/apresentacao-internato-2026-2.jpg)
+:::
