@@ -1,0 +1,41 @@
+---
+title: "1º Encontro de Formação — Projeto MOVE"
+subtitle: "Escola Caminho do Sol"
+description: "Metodologias ativas e IA na prática, para professores da rede básica"
+date: 2026-07-31
+categories: ["Julho", "Projeto MOVE"]
+image: /fotos/projeto-move-02.jpg
+image-alt: "1º Encontro de Formação do Projeto MOVE — Escola Caminho do Sol"
+participantes: 35
+horas: 3
+publico: "Professores da rede básica"
+---
+
+O NAPED realizou o 1º Encontro de Formação do **Projeto MOVE** com professores
+da rede básica da Escola Caminho do Sol, reunindo 35 participantes em 3 horas
+de formação sobre metodologias ativas e Inteligência Artificial na prática
+docente.
+
+O encontro trabalhou APG (Aprendizagem em Pequenos Grupos), um laboratório de
+IA com Perplexity e NotebookLM, e encerrou com avaliação dos participantes
+por QR code.
+
+::: {.destaque}
+Avaliação média de **4,96/5** entre os participantes, com 24 avaliações e 13
+comentários — entre eles: "Excelente formação continuada, com nota máxima de
+aproveitamento e qualidade!"
+:::
+
+## Evidências
+
+::: {layout-ncol=3}
+![Abertura do encontro](/fotos/projeto-move-02.jpg)
+
+![Simulação APG — Aprendizagem em Pequenos Grupos](/fotos/projeto-move-05.jpg)
+
+![Laboratório de IA — Perplexity e NotebookLM](/fotos/projeto-move-09.jpg)
+:::
+
+O relato completo do encontro, com a galeria integral de fotos e os
+comentários dos participantes, está na página do
+[Projeto MOVE](/paginas/projeto-move.qmd).
