@@ -1,0 +1,28 @@
+---
+title: "IA no Cotidiano — Bloco 1: Chat GPT"
+subtitle: "Treinamento com Hellen Bergo e Denny Almeida"
+description: "Como a Inteligência Artificial pode facilitar a rotina e potencializar o trabalho"
+date: 2026-09-09
+categories: ["Setembro", "Formação Docente"]
+image: /fotos/convite-treinamento-ia-no-cotidiano-chatgpt.jpg
+image-alt: "Convite do treinamento IA no Cotidiano — Bloco 1: Chat GPT"
+publico: "Coordenadores"
+---
+
+No dia 9 de setembro, às 15h20, o NAPED realizou o primeiro bloco do
+treinamento **IA no Cotidiano**, dedicado ao Chat GPT, conduzido por Hellen
+Bergo e por Denny Almeida, gerente pedagógico nacional.
+
+O encontro, realizado pelo Microsoft Teams, foi dirigido aos coordenadores de
+NAPED e abordou como a Inteligência Artificial pode facilitar a rotina e
+potencializar o trabalho — da geração de ideias ao planejamento, passando por
+produtividade e soluções para o dia a dia.
+
+::: {.destaque}
+Primeiro de uma série de blocos sobre Inteligência Artificial aplicada ao
+cotidiano de trabalho.
+:::
+
+## Evidências
+
+![**Convite do treinamento** Arte de divulgação do Bloco 1, com os facilitadores Hellen Bergo e Denny Almeida.](/fotos/convite-treinamento-ia-no-cotidiano-chatgpt.jpg)
