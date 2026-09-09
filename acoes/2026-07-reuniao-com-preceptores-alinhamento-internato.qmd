@@ -7,6 +7,7 @@ categories: ["Julho", "Preceptoria"]
 image: /fotos/reuniao-com-preceptores-16-07-2026.jpg
 image-alt: "Reunião com preceptores — alinhamento do Internato 2026.2"
 publico: "Preceptores"
+participantes: 15
 ---
 
 Encontro on-line reunindo a equipe do NAPED, a coordenação e os preceptores
