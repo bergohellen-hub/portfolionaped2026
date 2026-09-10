@@ -21,4 +21,8 @@ A coordenadora do NAPED participou do **Encontro Nacional de NAPEDs**, reunindo 
 ![Oficina "mão na massa"](/fotos/naped-mao-na-massa.jpg)
 
 ![Apresentação da prática exitosa NAPED × NED](/fotos/pratica-exitosa-naped-ned.jpg)
+
+![**Receita Boa — NAPED e NED** Integração institucional: referências para fortalecer a articulação entre o NAPED e o NED.](/fotos/receita-boa-naped-e-ned.jpg)
 :::
+
+[{{< fa file-pdf >}} Baixar a apresentação "O que o NAPED tem a ver com o NED?" em PDF](/fotos/apresentacao-naped-e-ned.pdf){.btn .btn-outline-primary .btn-sm role="button"}
