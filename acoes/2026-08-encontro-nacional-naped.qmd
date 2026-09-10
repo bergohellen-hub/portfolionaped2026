@@ -13,7 +13,7 @@ publico: ~
 campus: ~
 ---
 
-A coordenadora do NAPED participou do **Encontro Nacional de NAPEDs**, reunindo os núcleos de apoio pedagógico das unidades Afya de todo o país — com oficina prática, premiação dos **Melhores do Ano 2025-2026**, e a apresentação da prática exitosa "O NAPED tem a ver com o NED?", sobre a integração entre os dois núcleos em São João del-Rei.
+A coordenadora do NAPED participou do **Encontro Nacional de NAPEDs**, reunindo os núcleos de apoio pedagógico das unidades Afya de todo o país — com oficina prática, premiação dos **Melhores do Ano 2025-2026**, e a apresentação da prática exitosa **"NAPED + NED"**, sobre a integração entre os dois núcleos em São João del-Rei.
 
 ::: {layout-ncol=3}
 ![Melhores do Ano 2025-2026](/fotos/premiacao-melhores-do-ano-naped.jpg)
@@ -25,4 +25,4 @@ A coordenadora do NAPED participou do **Encontro Nacional de NAPEDs**, reunindo 
 ![**Receita Boa — NAPED e NED** Integração institucional: referências para fortalecer a articulação entre o NAPED e o NED.](/fotos/receita-boa-naped-e-ned.jpg)
 :::
 
-[{{< fa file-pdf >}} Baixar a apresentação "O que o NAPED tem a ver com o NED?" em PDF](/fotos/apresentacao-naped-e-ned.pdf){.btn .btn-outline-primary .btn-sm role="button"}
+[{{< fa file-pdf >}} Baixar a apresentação "NAPED + NED" em PDF](/fotos/apresentacao-naped-e-ned.pdf){.btn .btn-outline-primary .btn-sm role="button"}
