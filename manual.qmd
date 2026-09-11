@@ -12,7 +12,7 @@ Este manual é para quem vai **alimentar** o portfólio — não para quem
 programa. Ele parte do princípio de que você não lembra de nada, e não
 precisa lembrar.
 
-[{{< fa file-pdf >}} Baixar em PDF](/manual.pdf){.btn .btn-outline-primary .btn-sm role="button"}
+[<i class="bi bi-file-earmark-pdf-fill"></i> Baixar em PDF](/manual.pdf){.recurso-download target="_blank" rel="noopener"}
 
 A regra que vale para tudo:
 
