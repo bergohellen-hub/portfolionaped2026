@@ -252,6 +252,31 @@ h2.vozes-titulo {
   letter-spacing: .01em;
 }
 
+// --- botão de download (PDF e outros anexos de uma ação) -------------------
+// Um pill sólido na cor da marca, com leve elevação no hover — para anexos
+// que merecem mais destaque do que um link de texto comum.
+a.recurso-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: $naped-rosa;
+  color: #fff !important;
+  border-radius: 999px;
+  padding: 10px 22px;
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: .92rem;
+  text-decoration: none !important;
+  box-shadow: 0 2px 6px rgba($naped-rosa, .25);
+  transition: background .15s ease, box-shadow .15s ease, transform .15s ease;
+}
+a.recurso-download:hover {
+  background: $naped-rosa-escuro;
+  box-shadow: 0 4px 10px rgba($naped-rosa, .35);
+  transform: translateY(-1px);
+  color: #fff !important;
+}
+
 // --- etiquetas de curso ---------------------------------------------------
 .cursos { margin: 16px 0 22px; }
 .curso-tag {

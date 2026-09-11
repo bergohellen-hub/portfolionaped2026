@@ -25,4 +25,4 @@ A coordenadora do NAPED participou do **Encontro Nacional de NAPEDs**, reunindo 
 ![**Receita Boa — NAPED e NED** Integração institucional: referências para fortalecer a articulação entre o NAPED e o NED.](/fotos/receita-boa-naped-e-ned.jpg)
 :::
 
-[{{< fa file-pdf >}} Baixar a apresentação "NAPED + NED" em PDF](/fotos/apresentacao-naped-e-ned.pdf){.btn .btn-outline-primary .btn-sm role="button"}
+[<i class="bi bi-file-earmark-pdf-fill"></i> Baixar a apresentação completa — "NAPED + NED" (PDF)](/fotos/apresentacao-naped-e-ned.pdf){.recurso-download target="_blank" rel="noopener"}
