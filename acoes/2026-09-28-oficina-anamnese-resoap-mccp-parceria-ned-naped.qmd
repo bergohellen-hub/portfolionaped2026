@@ -4,8 +4,8 @@ subtitle: "Parceria NED e NAPED, com revisão do SOAP assistida por IA"
 description: "Entrevista clínica ao vivo com atriz, integrando anamnese, MCCP e registro em SOAP/ReSOAP, com demonstração de revisão assistida por IA"
 date: 2026-09-28
 categories: ["Setembro", "Formação Docente"]
-image: /fotos/oficina-anamnese-resoap-mccp-entrevista-ao-vivo.jpg
-image-alt: "Professor conduzindo a entrevista clínica com a turma do 6º período"
+image: /fotos/oficina-anamnese-resoap-mccp-turma-6-periodo.jpg
+image-alt: "Turma do 6º período acompanhando a oficina"
 publico: "Estudantes"
 campus: "Campus Central"
 cursos: ["Medicina"]
