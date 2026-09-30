@@ -9,7 +9,7 @@ image-alt: "Turma do 6º período acompanhando a oficina"
 publico: "Estudantes"
 campus: "Campus Central"
 cursos: ["Medicina"]
-participantes: 42
+participantes: 37
 horas: 2
 ---
 
