@@ -1,0 +1,32 @@
+---
+title: "Dia do ENAMED 2026 — O Enamed é Nosso"
+subtitle: "Equipe presente no dia da prova para apoiar os concluintes"
+description: "No dia do exame, a equipe da unidade foi até o local da prova vestindo a camisa \"O Enamed é Nosso\" para torcer pelos concluintes"
+date: 2026-09-29
+categories: ["Setembro", "ENAMED", "Acolhimento"]
+image: /fotos/dia-do-enamed-2026-portao-afya.jpg
+image-alt: "Equipe da unidade reunida no dia do Enamed 2026, em São João del-Rei"
+publico: "Estudantes"
+campus: "Campus Central"
+cursos: ["Medicina"]
+---
+
+Depois de semanas de preparação — a Semana de Descompressão e o encontro
+"Quinta-feira é dia de pizza" —, chegou o dia da prova. Em **29 de setembro**,
+a equipe da unidade foi até o local do exame vestindo a camisa **"O Enamed é
+Nosso"**, para acolher e torcer pelos concluintes de Medicina no Enamed 2026.
+
+::: {.destaque}
+O Enamed é nosso: um exame dos estudantes, mas também da equipe que os
+formou.
+:::
+
+## Evidências
+
+::: {layout-ncol=3}
+![**A equipe reunida** Professores e coordenação juntos no dia do exame, em frente ao centro histórico de São João del-Rei.](/fotos/dia-do-enamed-2026-equipe-o-enamed-e-nosso.jpg)
+
+![**No portão da Afya** Equipe reunida no acesso ao Centro Universitário Afya, com a camisa da campanha "O Enamed é Nosso".](/fotos/dia-do-enamed-2026-portao-afya.jpg)
+
+![**Sob o arco inflável** Grupo reunido junto à estrutura montada para o dia do Enamed 2026.](/fotos/dia-do-enamed-2026-arco-inflavel-afya.jpg)
+:::
