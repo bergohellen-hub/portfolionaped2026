@@ -1,0 +1,18 @@
+---
+title: "Setembro de 2026"
+subtitle: "Ações do NAPED"
+description: "Registro das iniciativas desenvolvidas pelo NAPED em Setembro de 2026."
+toc: false
+listing:
+  id: mes
+  contents: "../acoes/2026-09-*.qmd"
+  type: grid
+  grid-columns: 3
+  fields: [image, title, description, categories]
+  sort: ["ordem asc", "date asc"]
+  page-size: 30
+  image-height: "172px"
+---
+
+::: {#mes}
+:::

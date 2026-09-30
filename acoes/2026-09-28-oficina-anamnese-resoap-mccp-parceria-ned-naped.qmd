@@ -1,0 +1,52 @@
+---
+title: "Oficina de Entrevista Clínica — Anamnese, ReSOAP e MCCP"
+subtitle: "Parceria NED e NAPED, com revisão do SOAP assistida por IA"
+description: "Entrevista clínica ao vivo com atriz, integrando anamnese, MCCP e registro em SOAP/ReSOAP, com demonstração de revisão assistida por IA"
+date: 2026-09-28
+categories: ["Setembro", "Formação Docente"]
+image: /fotos/oficina-anamnese-resoap-mccp-entrevista-ao-vivo.jpg
+image-alt: "Professor conduzindo a entrevista clínica com a turma do 6º período"
+publico: "Estudantes"
+campus: "Campus Central"
+cursos: ["Medicina"]
+participantes: 42
+horas: 2
+---
+
+Numa parceria entre o **NED** — responsável por organizar a presença dos
+estudantes — e o **NAPED**, que convidou o professor **Pedro Delabrida** para
+ministrar a oficina, a turma do 6º período de Medicina viveu uma entrevista
+clínica ao vivo com atriz, acompanhada por duas professoras médicas
+convidadas, **Denise** e **Cláudia**.
+
+Numa única sequência prática de 2 horas, a oficina integrou três eixos que
+costumam ser trabalhados separadamente — técnica de entrevista/anamnese,
+**Método Clínico Centrado na Pessoa (MCCP)** e registro em **SOAP/ReSOAP** —,
+e fechou com uma demonstração de revisão do SOAP assistida por Inteligência
+Artificial, sob supervisão crítica do professor.
+
+A oficina seguiu uma estrutura de 6 etapas: entrevista ao vivo (o professor
+como médico, a atriz como paciente simulado), rodada de perguntas dirigida,
+preenchimento coletivo da anamnese completa, teoria do SOAP, aplicação do
+SOAP ao caso e, por fim, a revisão assistida por IA — com regras claras de
+uso (a IA sugere clareza e organização do registro, mas nunca altera dado
+clínico nem decide em lugar do médico), em conformidade com a **Resolução
+CFM nº 2.454/2026**.
+
+::: {.destaque}
+Estrutura replicável por outros docentes: a mesma sequência de 6 etapas pode
+receber qualquer caso clínico simulado, bastando ajustar o roteiro e a
+fundamentação teórica ao eixo temático escolhido.
+:::
+
+## Evidências
+
+::: {layout-ncol=3}
+![**Entrevista clínica ao vivo** O professor conduz a entrevista como médico; a atriz interpreta o paciente simulado.](/fotos/oficina-anamnese-resoap-mccp-entrevista-ao-vivo.jpg)
+
+![**Turma do 6º período** Toda a turma acompanhou como plateia ativa, com perguntas dirigidas e discussão.](/fotos/oficina-anamnese-resoap-mccp-turma-6-periodo.jpg)
+
+![**Revisão do SOAP com apoio de IA** Demonstração da revisão assistida por IA, projetada para toda a turma, com discussão crítica dos limites de uso.](/fotos/oficina-anamnese-resoap-mccp-revisao-com-ia.jpg)
+:::
+
+![**Preenchimento da anamnese** Um estudante registra a anamnese completa durante a entrevista.](/fotos/oficina-anamnese-resoap-mccp-preenchimento-anamnese.jpg)
