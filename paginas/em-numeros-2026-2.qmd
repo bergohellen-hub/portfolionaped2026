@@ -7,6 +7,7 @@ toc: true
 
 ::: {.numero-grid}
 <div class='numero'><b>17</b><span>docentes com acesso ao Canvas em agosto</span></div>
+<div class='numero'><b>37</b><span>estudantes na oficina de habilidades clínicas (setembro)</span></div>
 :::
 
 ## Capacitação Contínua
@@ -21,3 +22,22 @@ toc: true
 - As contagens mensais representam **acessos únicos** ao curso "NAPED - Afya São João del-Rei" no Canvas — uma mesma pessoa pode ter acessado mais de uma vez, mas conta uma só vez no total do mês.
 - Este semestre não traz a coluna "Carga horária": o relatório de acesso ao Canvas registra apenas visualizações, sem tempo de sessão, então não há uma carga horária real por trás desse número — diferente do 2026.1, cujos valores vinham da duração oficial dos treinamentos.
 - Setembro a dezembro serão preenchidos conforme o semestre avança.
+
+## Formação Prática — Estudantes
+
+*Oficinas de habilidades clínicas com estudantes de Medicina*
+
+### Oficina Anamnese, ReSOAP e MCCP — 28/09
+| | |
+|---|---|
+| Estudantes presentes (lista de chamada) | **37** |
+| Homens | 15 |
+| Mulheres | 22 |
+| Carga horária | 2h |
+| Parceria | NED + NAPED |
+
+O comprovante está em [Comprovações](comprovacoes.qmd).
+
+**Nota.** A ação foi registrada com 42 participantes estimados; a lista de
+chamada assinada, conferida posteriormente, contabiliza 37 pessoas. O número
+desta página segue a lista de chamada, por ser o registro documental.
