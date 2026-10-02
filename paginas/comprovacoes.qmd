@@ -65,12 +65,19 @@ Acesso restrito à rede institucional Afya · OneDrive
 |---|---|
 | 10 | 16 |
 
-- **Registro de acessos — Agosto** 🔒 · `CSV`  
+- **Registro de acessos — Agosto** 🔒 · `CSV`
   17 docentes · Curso NAPED no Canvas
 
 | Homens | Mulheres |
 |---|---|
 | 4 | 13 |
+
+- **Registro de acessos — Setembro** 🔒 · `XLS`
+  4 docentes · Curso NAPED no Canvas
+
+| Homens | Mulheres |
+|---|---|
+| 0 | 4 |
 
 ## Reunião com Especialistas de Eixo
 
