@@ -102,3 +102,22 @@ Recado em vídeo da especialista do eixo de CI, Denise, para a equipe de mentore
 </video>
 
 Vídeo · Recado da especialista do eixo de CI
+
+### Reestruturação do Projeto Mentoria/Alavancando — 11º Período
+*Outubro de 2026*
+
+Ação de Gap de Aprendizagem voltada à turma do 11º período (2027.1), reorganizada por cenário de
+ prática: 45 estudantes distribuídos em 4 cidades (Bom Despacho, Lafaiete, Oliveira e São João
+ del-Rei), acompanhados por 6 mentores.
+
+![Reestruturação do Projeto Mentoria/Alavancando — 11º período](/fotos/reestruturacao-projeto-mentoria-alavancando-11-periodo.jpg)
+
+Como parte da mesma frente, o NAPED e o NED conduziram encontros individuais com estudantes
+ classificados como potenciais proficientes no ENAMED, além de feedbacks individuais a estudantes
+ do 11º período, em ação conjunta de sensibilização discente.
+
+::: {layout-ncol=2}
+![Encontros individuais — potenciais proficientes](/fotos/encontros-individuais-potenciais-proficientes.jpg)
+
+![Feedbacks individuais — estudantes do 11º período](/fotos/feedbacks-individuais-estudantes-11-periodo.jpg)
+:::
