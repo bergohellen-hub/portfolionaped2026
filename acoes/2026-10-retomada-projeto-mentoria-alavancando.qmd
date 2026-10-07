@@ -1,0 +1,38 @@
+---
+title: "Retomada do Projeto Mentoria — Nossa Versão do Alavancando"
+subtitle: "Reestruturação para a turma do 11º período (2027.1)"
+description: "Retomada do Projeto Mentoria com a versão local do Alavancando, reorganizada por cenário de prática para o 11º período."
+date: 2026-10-06
+categories: ["Outubro", "Mentoria", "ENAMED"]
+image: /fotos/reestruturacao-projeto-mentoria-alavancando-11-periodo.jpg
+image-alt: "Reestruturação do Projeto Mentoria/Alavancando — 11º período"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: 45
+horas: ~
+publico: "Estudantes"
+campus: ~
+---
+
+O NAPED retomou o Projeto Mentoria com uma ação de Gap de Aprendizagem voltada à turma do 11º
+período (2027.1): a versão local do **Projeto Alavancando**, reorganizada por cenário de prática.
+São 45 estudantes distribuídos em 4 cidades — Bom Despacho, Lafaiete, Oliveira e São João del-Rei —
+acompanhados por 6 mentores docentes.
+
+Como parte da mesma frente, o NAPED e o NED conduziram encontros individuais com estudantes
+classificados como potenciais proficientes no ENAMED, além de feedbacks individuais a estudantes
+do 11º período, em ação conjunta de sensibilização discente.
+
+::: {.destaque}
+Retomada do Projeto Mentoria, versão local do Alavancando, 45 estudantes em 4 cenários, 6 mentores
+docentes, encontros individuais de sensibilização discente.
+:::
+
+## Evidências
+
+::: {layout-ncol=3}
+![Reestruturação do Projeto Mentoria/Alavancando — 11º período](/fotos/reestruturacao-projeto-mentoria-alavancando-11-periodo.jpg)
+
+![Encontros individuais — potenciais proficientes](/fotos/encontros-individuais-potenciais-proficientes.jpg)
+
+![Feedbacks individuais — estudantes do 11º período](/fotos/feedbacks-individuais-estudantes-11-periodo.jpg)
+:::
