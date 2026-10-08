@@ -1,0 +1,98 @@
+---
+title: "Open Day — Mostra de Profissões"
+subtitle: "Quase 900 estudantes de escolas públicas e privadas na IES"
+description: "Evento institucional de apresentação dos cursos a quase 900 estudantes visitantes, com apresentação oficial da coordenação do NAPED no palco."
+date: 2026-10-06
+categories: ["Outubro", "Divulgação Institucional"]
+image: /fotos/open-day-apresentacao-palco.jpg
+image-alt: "Apresentação no palco do Open Day"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: 900
+horas: ~
+publico: "Estudantes de escolas públicas e privadas"
+campus: ~
+---
+
+O Centro Universitário Afya São João del-Rei recebeu o **Open Day**, mostra de profissões que apresentou os cursos da instituição a quase 900 estudantes de escolas públicas e privadas da região. A coordenadora do NAPED, Helen Sueli Bergo, foi a apresentadora oficial do evento, conduzindo as atividades no palco ao longo do dia.
+
+::: {.destaque}
+900 estudantes visitantes, dezenas de cursos em exposição e apresentação oficial no palco pela coordenação do NAPED.
+:::
+
+## Cursos em exposição
+
+::: {layout-ncol=3}
+![**Administração** Dinâmica de resolução de problemas.](/fotos/open-day-administracao-resolucao-problemas.jpg)
+
+![**Administração** Dinâmica de reflexão sobre a trajetória escolar.](/fotos/open-day-administracao-reflexao-trajetoria-escolar.jpg)
+
+![**Administração** Encontro com futuros administradores.](/fotos/open-day-administracao-futuros-administradores.jpg)
+
+![**Enfermagem** Oficina de suporte básico de vida.](/fotos/open-day-enfermagem-suporte-basico-vida.jpg)
+
+![**Nutrição** Demonstração de higienização das mãos com luz UV.](/fotos/open-day-nutricao-higienizacao-maos.jpg)
+
+![**Odontologia** Bastidores do consultório-modelo.](/fotos/open-day-odontologia-consultorio-modelo.jpg)
+
+![**Odontologia** Demonstração de procedimentos no consultório-modelo.](/fotos/open-day-odontologia-demonstracao-procedimentos.jpg)
+
+![**Biomedicina** Coleta e anatomia em bancada demonstrativa.](/fotos/open-day-biomedicina-coleta-anatomia.jpg)
+
+![**Direito** Apresentação do curso aos visitantes.](/fotos/open-day-direito-apresentacao-curso.jpg)
+
+![**Fisioterapia** Atividade interativa de apresentação dos professores.](/fotos/open-day-fisioterapia-conheca-professores.jpg)
+
+![**Biomedicina** Aula prática em laboratório, com microscopia.](/fotos/open-day-aula-pratica-laboratorio.jpg)
+
+![**Terapia Ocupacional** Recursos sensoriais apresentados aos visitantes.](/fotos/open-day-terapia-ocupacional-recursos-sensoriais.jpg)
+
+![**Orientação vocacional** Teste vocacional em sala de informática.](/fotos/open-day-teste-vocacional-sala-informatica.jpg)
+
+![**Medicina Veterinária** Contato com animais de grande porte.](/fotos/open-day-veterinaria-contato-animais-porte.jpg)
+
+![**Psicologia** Bate-papo sobre a profissão.](/fotos/open-day-psicologia-bate-papo-profissao.jpg)
+
+![**Psicologia** Dinâmica sobre autonomia e liberdade.](/fotos/open-day-psicologia-dinamica-autonomia-liberdade.jpg)
+:::
+
+## Equipe e apresentação
+
+::: {layout-ncol=3}
+![**Equipe Afya** reunida no Open Day.](/fotos/open-day-equipe-afya.jpg)
+
+![**Equipe NAPED** no estande do evento.](/fotos/open-day-equipe-naped-estande.jpg)
+
+![**Apresentação no palco** Conduzida pela coordenação do NAPED.](/fotos/open-day-apresentacao-palco.jpg)
+:::
+
+## Vídeos
+
+Apresentação no palco.
+
+<video controls preload="metadata">
+<source src="/fotos/open-day-apresentacao-palco.mp4" type="video/mp4">
+</video>
+
+Equipe Afya no Open Day.
+
+<video controls preload="metadata">
+<source src="/fotos/open-day-equipe-afya.mp4" type="video/mp4">
+</video>
+
+Terapia Ocupacional — recursos sensoriais.
+
+<video controls preload="metadata">
+<source src="/fotos/open-day-terapia-ocupacional.mp4" type="video/mp4">
+</video>
+
+Chegada de Leo — Medicina Veterinária.
+
+<video controls preload="metadata">
+<source src="/fotos/open-day-chegada-leo-veterinaria.mp4" type="video/mp4">
+</video>
+
+Fit dance — momento de descontração.
+
+<video controls preload="metadata">
+<source src="/fotos/open-day-fit-dance.mp4" type="video/mp4">
+</video>
