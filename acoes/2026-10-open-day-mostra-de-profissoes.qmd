@@ -13,7 +13,7 @@ publico: "Estudantes de escolas públicas e privadas"
 campus: ~
 ---
 
-O Centro Universitário Afya São João del-Rei recebeu o **Open Day**, mostra de profissões que apresentou os cursos da instituição a quase 900 estudantes de escolas públicas e privadas da região. A coordenadora do NAPED, Helen Sueli Bergo, foi a apresentadora oficial do evento, conduzindo as atividades no palco ao longo do dia.
+O Centro Universitário Afya São João del-Rei recebeu o **Open Day**, mostra de profissões que apresentou os cursos da instituição a quase 900 estudantes de escolas públicas e privadas da região. A coordenadora do NAPED, Hellen Sueli Bergo, foi a apresentadora oficial do evento, conduzindo as atividades no palco ao longo do dia.
 
 ::: {.destaque}
 900 estudantes visitantes, dezenas de cursos em exposição e apresentação oficial no palco pela coordenação do NAPED.
