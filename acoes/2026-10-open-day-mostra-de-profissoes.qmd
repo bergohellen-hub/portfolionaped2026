@@ -7,7 +7,7 @@ categories: ["Outubro", "Divulgação Institucional"]
 image: /fotos/open-day-equipe-afya.jpg
 image-alt: "Equipe Afya reunida no Open Day"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
-participantes: 900
+participantes: ~
 horas: ~
 publico: "Estudantes de escolas públicas e privadas"
 campus: ~
