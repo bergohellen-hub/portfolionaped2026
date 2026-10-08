@@ -4,8 +4,8 @@ subtitle: "Quase 900 estudantes de escolas públicas e privadas na IES"
 description: "Evento institucional de apresentação dos cursos a quase 900 estudantes visitantes, com apresentação oficial da coordenação do NAPED no palco."
 date: 2026-10-06
 categories: ["Outubro", "Divulgação Institucional"]
-image: /fotos/open-day-apresentacao-palco.jpg
-image-alt: "Apresentação no palco do Open Day"
+image: /fotos/open-day-equipe-afya.jpg
+image-alt: "Equipe Afya reunida no Open Day"
 # alcance (opcional) — o Painel soma sozinho o que for preenchido
 participantes: 900
 horas: ~
@@ -66,12 +66,6 @@ O Centro Universitário Afya São João del-Rei recebeu o **Open Day**, mostra d
 :::
 
 ## Vídeos
-
-Apresentação no palco.
-
-<video controls preload="metadata">
-<source src="/fotos/open-day-apresentacao-palco.mp4" type="video/mp4">
-</video>
 
 Equipe Afya no Open Day.
 
