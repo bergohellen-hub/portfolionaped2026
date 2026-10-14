@@ -1,0 +1,24 @@
+---
+title: "Projeto MOVE"
+subtitle: "Integração entre Educação Básica e Ensino Superior"
+description: "Visita à Escola Estadual de Mercês de Água Limpa para apresentar o Projeto MOVE"
+date: 2026-10-14
+categories: ["Outubro", "Projeto MOVE"]
+image: /fotos/visita-escola-estadual-merces-agua-limpa-projeto-move.jpg
+image-alt: "Equipe do NAPED e da Escola Estadual de Mercês de Água Limpa reunida para apresentação do Projeto MOVE"
+# alcance (opcional) — o Painel soma sozinho o que for preenchido
+participantes: ~
+horas: ~
+publico: ~
+campus: ~
+---
+
+A coordenadora do NAPED, Hellen Sueli Bergo, acompanhou José Luiz, representante comercial da Afya São João del Rei, em visita à **Escola Estadual de Mercês de Água Limpa**, distrito rural conhecido por seus pés de café. O encontro teve como objetivo apresentar o **Projeto MOVE** à equipe pedagógica da escola, ampliando o alcance da iniciativa para além do perímetro urbano e abrindo caminho para novas parcerias entre a educação básica e o ensino superior na região.
+
+::: {.destaque}
+Levar o Projeto MOVE à estrada é reconhecer que a formação de qualidade não tem fronteira entre a cidade e o campo.
+:::
+
+## Evidências
+
+![**Reunião na Escola Estadual de Mercês de Água Limpa** Hellen Bergo, José Luiz e a equipe pedagógica da escola, durante a apresentação do Projeto MOVE.](/fotos/visita-escola-estadual-merces-agua-limpa-projeto-move.jpg)
