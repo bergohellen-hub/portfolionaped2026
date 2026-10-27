@@ -1,6 +1,6 @@
 ---
 title: "2º Encontro do Projeto MOVE"
-subtitle: "Professores apresentam o que já estão criando"
+subtitle: "Professores tiraram dúvidas e apresentam o que já estão criando"
 description: "Momento para tirar dúvidas e compartilhar experiências de sala de aula com IA e metodologias ativas"
 date: 2026-10-21
 categories: ["Outubro", "Projeto MOVE"]
