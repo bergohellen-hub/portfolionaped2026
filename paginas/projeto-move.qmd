@@ -9,10 +9,10 @@ aliases:
 
 ## 2º Encontro — Professores apresentam o que já estão criando
 
-*21 de outubro de 2026 · Momento para tirar dúvidas*
+*21 de outubro de 2026 · Escola Caminho do Sol · Momento para tirar dúvidas*
 
 ::: {.numero-grid}
-<div class='numero'><b>24</b><span>professores presentes</span></div>
+<div class='numero'><b>24</b><span>professores da Escola Caminho do Sol</span></div>
 <div class='numero'><b>1h</b><span>de encontro</span></div>
 :::
 

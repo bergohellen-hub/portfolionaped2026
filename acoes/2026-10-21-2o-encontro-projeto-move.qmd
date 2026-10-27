@@ -8,11 +8,11 @@ image: /fotos/projeto-move-2o-encontro-grupo.jpg
 image-alt: "Professores do 2º Encontro do Projeto MOVE reunidos para foto em grupo"
 participantes: 24
 horas: 1
-publico: "Professores da rede básica"
+publico: "Professores da Escola Caminho do Sol"
 ---
 
 O NAPED realizou o 2º Encontro do **Projeto MOVE**, reunindo 24 professores
-da rede básica em um momento dedicado a tirar dúvidas e compartilhar os
+da Escola Caminho do Sol em um momento dedicado a tirar dúvidas e compartilhar os
 primeiros resultados da aplicação das metodologias e ferramentas de IA
 trabalhadas no 1º encontro. Em uma hora, Hellen Bergo acompanhou o que os
 professores já estão criando, sugeriu novos encaminhamentos e já solicitou
