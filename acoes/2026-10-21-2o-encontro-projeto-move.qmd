@@ -1,0 +1,60 @@
+---
+title: "2º Encontro do Projeto MOVE"
+subtitle: "Professores apresentam o que já estão criando"
+description: "Momento para tirar dúvidas e compartilhar experiências de sala de aula com IA e metodologias ativas"
+date: 2026-10-21
+categories: ["Outubro", "Projeto MOVE"]
+image: /fotos/projeto-move-2o-encontro-grupo.jpg
+image-alt: "Professores do 2º Encontro do Projeto MOVE reunidos para foto em grupo"
+participantes: 24
+horas: 1
+publico: "Professores da rede básica"
+---
+
+O NAPED realizou o 2º Encontro do **Projeto MOVE**, reunindo 24 professores
+da rede básica em um momento dedicado a tirar dúvidas e compartilhar os
+primeiros resultados da aplicação das metodologias e ferramentas de IA
+trabalhadas no 1º encontro. Em uma hora, Hellen Bergo acompanhou o que os
+professores já estão criando, sugeriu novos encaminhamentos e já solicitou
+que cada um prepare uma apresentação para o encontro de encerramento, em
+novembro.
+
+Quatro experiências se destacaram:
+
+**Anderson** já incorporou o NotebookLM à sua rotina, usando a ferramenta
+para gerar resumos em áudio e cards de estudo, e já está oferecendo o
+recurso a outros professores. Também trouxe infográficos com imagens e
+destacou os benefícios do formato em áudio para os alunos.
+
+**Paula** produziu vídeos para o 5º ano e aproveitou o material para criar
+também uma versão para impressão.
+
+**Nayara e Darlene**, da Educação Infantil, desenvolveram um projeto de
+educação financeira em torno do escambo: as crianças pesquisaram em casa
+com a família, participaram de uma roda de debate e assistiram a um vídeo
+produzido pelas próprias professoras. Depois, desenharam o que aprenderam,
+representando-se como donos de fazenda — um dos momentos mais marcantes foi
+quando um aluno "cortou" o próprio dinheiro desenhado.
+
+**Barbara Cristina**, que já trabalhava educação financeira e participa da
+Olimpíada de Educação Financeira, foi além de apenas fornecer material:
+criou podcasts e questões de pergunta-resposta, organizou uma sala de aula
+invertida e promoveu uma competição em grupos com gamificação — atingindo
+um número maior de alunos do que em edições anteriores.
+
+::: {.destaque}
+Quatro professores já aplicando o que aprenderam em sala — de resumos em
+áudio a gamificação em educação financeira. A apresentação final de cada
+experiência acontece no encontro de encerramento, em novembro.
+:::
+
+## Evidências
+
+::: {layout-ncol=2}
+![**Professores do 2º Encontro do Projeto MOVE** Equipe reunida após o momento de troca de experiências.](/fotos/projeto-move-2o-encontro-grupo.jpg)
+
+![**Hellen Bergo com uma das professoras participantes**](/fotos/projeto-move-2o-encontro-dupla.jpg)
+:::
+
+O relato completo do Projeto MOVE, com a galeria integral de fotos, está na
+página do [Projeto MOVE](/paginas/projeto-move.qmd).

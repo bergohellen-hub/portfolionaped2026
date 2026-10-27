@@ -7,6 +7,48 @@ aliases:
   - /Portfolio_NAPED_Projeto_MOVE.html
 ---
 
+## 2º Encontro — Professores apresentam o que já estão criando
+
+*21 de outubro de 2026 · Momento para tirar dúvidas*
+
+::: {.numero-grid}
+<div class='numero'><b>24</b><span>professores presentes</span></div>
+<div class='numero'><b>1h</b><span>de encontro</span></div>
+:::
+
+::: {.destaque}
+Quatro experiências já em sala de aula: resumos em áudio e cards com
+NotebookLM, vídeos para o 5º ano, educação financeira com escambo na
+Educação Infantil, e gamificação com sala de aula invertida. A
+apresentação final de cada uma acontece no encontro de encerramento, em
+novembro.
+:::
+
+**Anderson** já incorpora o NotebookLM à rotina — resumos em áudio, cards
+de estudo e infográficos — e está oferecendo o recurso a outros
+professores.
+
+**Paula** produziu vídeos para o 5º ano e criou também uma versão para
+impressão do material.
+
+**Nayara e Darlene**, da Educação Infantil, trabalharam educação financeira
+com escambo: pesquisa em família, roda de debate, vídeo produzido pelas
+próprias professoras e desenhos em que as crianças se representaram como
+donos de fazenda.
+
+**Barbara Cristina** foi além de fornecer material de educação financeira:
+criou podcasts, questões de pergunta-resposta, sala de aula invertida e uma
+competição em grupos com gamificação, atingindo mais alunos que em edições
+anteriores.
+
+### Registros do encontro
+
+::: {layout-ncol=2}
+![](/fotos/projeto-move-2o-encontro-grupo.jpg)
+
+![](/fotos/projeto-move-2o-encontro-dupla.jpg)
+:::
+
 ## Expansão 2027.1 — NAPED na estrada
 
 *14 de outubro de 2026 · Escola Estadual de Mercês de Água Limpa*
