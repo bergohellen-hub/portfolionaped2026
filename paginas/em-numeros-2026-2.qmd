@@ -43,3 +43,21 @@ O comprovante está em [Comprovações](comprovacoes.qmd).
 **Nota.** A ação foi registrada com 42 participantes estimados; a lista de
 chamada assinada, conferida posteriormente, contabiliza 37 pessoas. O número
 desta página segue a lista de chamada, por ser o registro documental.
+
+## Comunidade Externa
+
+*Projeto MOVE · integração com a educação básica*
+
+### Projeto MOVE — 2º Encontro
+| | |
+|---|---|
+| Professores da Escola Caminho do Sol | **24** |
+| Carga horária | **1h** |
+| Data | 21/10 |
+
+### Sobre o encontro
+
+Momento para tirar dúvidas e compartilhar experiências de aplicação das
+metodologias e ferramentas de IA trabalhadas no 1º encontro (ver
+[2026.1](em-numeros.qmd#comunidade-externa)). A apresentação final de cada
+experiência acontece no encontro de encerramento, em novembro.
