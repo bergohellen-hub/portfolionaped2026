@@ -8,6 +8,7 @@ toc: true
 ::: {.numero-grid}
 <div class='numero'><b>17</b><span>docentes com acesso ao Canvas em agosto</span></div>
 <div class='numero'><b>4</b><span>docentes com acesso ao Canvas em setembro</span></div>
+<div class='numero'><b>8</b><span>docentes capacitados em outubro</span></div>
 <div class='numero'><b>37</b><span>estudantes na oficina de habilidades clínicas (setembro)</span></div>
 :::
 
@@ -19,11 +20,13 @@ toc: true
 |---|---|---|---|
 | Agosto | 17 | 4 | 13 |
 | Setembro | 4 | 0 | 4 |
+| Outubro | 8 | 1 | 7 |
 
 **Notas metodológicas.**
 - As contagens mensais representam **acessos únicos** ao curso "NAPED - Afya São João del-Rei" no Canvas — uma mesma pessoa pode ter acessado mais de uma vez, mas conta uma só vez no total do mês.
 - Este semestre não traz a coluna "Carga horária": o relatório de acesso ao Canvas registra apenas visualizações, sem tempo de sessão, então não há uma carga horária real por trás desse número — diferente do 2026.1, cujos valores vinham da duração oficial dos treinamentos.
-- Outubro a dezembro serão preenchidos conforme o semestre avança.
+- **Outubro foge um pouco ao método dos meses anteriores**: o número (8) soma os 2 docentes com acesso ao Canvas no mês com os 6 professores mentores do Projeto Mentoria/Alavancando (Cláudia Santos, Pedro Delabrida, Luana Oliveira, Fernanda, Flávia Duarte e Cássia), que não necessariamente acessaram o Canvas. A divisão por gênero segue a mesma composição.
+- Novembro e dezembro serão preenchidos conforme o semestre avança.
 
 ## Formação Prática — Estudantes
 
