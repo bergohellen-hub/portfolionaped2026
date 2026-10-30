@@ -51,6 +51,13 @@ desta página segue a lista de chamada, por ser o registro documental.
 
 *Projeto MOVE · integração com a educação básica*
 
+### Projeto MOVE — 1º Encontro de Formação
+| | |
+|---|---|
+| Professores da rede básica formados | **35** |
+| Carga horária | **3h** |
+| Escola parceira | Caminho do Sol · 31/07 |
+
 ### Projeto MOVE — 2º Encontro
 | | |
 |---|---|
@@ -58,9 +65,10 @@ desta página segue a lista de chamada, por ser o registro documental.
 | Carga horária | **1h** |
 | Data | 21/10 |
 
-### Sobre o encontro
+### Sobre os encontros
 
-Momento para tirar dúvidas e compartilhar experiências de aplicação das
-metodologias e ferramentas de IA trabalhadas no 1º encontro (ver
-[2026.1](em-numeros.qmd#comunidade-externa)). A apresentação final de cada
-experiência acontece no encontro de encerramento, em novembro.
+O 1º encontro (31/07, registrado em [2026.1](em-numeros.qmd#comunidade-externa))
+formou os professores da rede básica em metodologias ativas e ferramentas de
+IA. O 2º encontro (21/10) foi o momento de tirar dúvidas e compartilhar
+experiências de aplicação do que foi trabalhado no primeiro. A apresentação
+final de cada experiência acontece no encontro de encerramento, em novembro.
